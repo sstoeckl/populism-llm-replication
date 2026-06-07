@@ -1,0 +1,29 @@
+# R artefacts
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Secrets
+.Renviron
+~/.Renviron
+
+# Local data (large; obtain from HuggingFace if needed)
+data/
+*.parquet
+*.RData
+
+# Logs
+logs/
+*.log
+
+# Output
+output/
+*.pdf
+*.tex.bak
+
+# OS
+.DS_Store
+Thumbs.db

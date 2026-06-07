@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this code or the companion dataset, please cite both works."
+type: software
+title: "Populism-LLM: replication code"
+authors:
+  - given-names: Martin
+    family-names: Rode
+    affiliation: "Universidad de Navarra, Department of Economics"
+    email: martinrode@unav.es
+  - given-names: Sebastian
+    family-names: Stöckl
+    affiliation: "University of Liechtenstein, Liechtenstein Business School"
+    email: sebastian.stoeckl@uni.li
+    website: "http://www.sebastianstoeckl.com"
+repository-code: "https://github.com/sstoeckl/populism-llm-replication"
+url: "https://sstoeckl.github.io/populism-llm/"
+abstract: >
+  Replication code for "The Milei question, or: How liberal are right-wing
+  populist parties? A measurement approach using large language models." The
+  pipeline scores European party manifestos on populism and liberalism
+  dimensions using three independent LLM families (Claude Sonnet 4.6,
+  GPT-4.1-mini, Gemini Flash) and computes a specification-curve robustness
+  analysis across the full grid of defensible analytic choices.
+keywords:
+  - populism
+  - liberalism
+  - large language models
+  - party manifestos
+  - specification curve
+  - non-standard errors
+  - cross-validation
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-07"
+preferred-citation:
+  type: article
+  title: "The Milei question, or: How liberal are right-wing populist parties? A measurement approach using large language models"
+  authors:
+    - given-names: Martin
+      family-names: Rode
+    - given-names: Sebastian
+      family-names: Stöckl
+  year: 2026
+  notes: "Working paper. Dataset DOI: tba."

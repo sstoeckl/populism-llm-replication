@@ -1,0 +1,19 @@
+# Copy to ~/.Renviron or to the project root .Renviron and fill in.
+# NEVER commit a real .Renviron — it's in .gitignore.
+
+# Manifesto Project (CMP / WZB) API — free with academic registration.
+# Register at https://manifesto-project.wzb.eu/
+MANIFESTO_KEY=your-cmp-api-key
+
+# OpenAI — needed by R/14 (gpt-4o-mini), R/16 (gpt-4.1-mini), and the
+# LLM-as-judge step in R/12.
+# Get at https://platform.openai.com/api-keys
+OPENAI_API_KEY=sk-...
+
+# Anthropic — needed by R/15b (Claude Sonnet 4.6).
+# Get at https://console.anthropic.com/
+ANTHROPIC_API_KEY=sk-ant-...
+
+# Google AI Studio — needed by R/18 (Gemini Flash).
+# Get at https://aistudio.google.com/app/apikey
+GEMINI_API_KEY=AIza...

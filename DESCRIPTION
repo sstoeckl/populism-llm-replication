@@ -1,0 +1,36 @@
+Package: populismLLM
+Title: Cross-Validated LLM Annotation of European Party Manifestos
+Version: 1.0.0
+Authors@R: c(
+    person("Martin", "Rode", email = "martinrode@unav.es",
+           role = c("aut")),
+    person("Sebastian", "Stöckl", email = "sebastian.stoeckl@uni.li",
+           role = c("aut", "cre"),
+           comment = c(URL = "http://www.sebastianstoeckl.com")))
+Description: Pipeline and replication code for scoring European party
+    manifestos on populism and liberalism dimensions using three independent
+    large language models (Claude Sonnet 4.6, GPT-4.1-mini, Gemini Flash),
+    with a 8,100-cell specification-curve robustness analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.4.0)
+Imports:
+    tidyverse,
+    arrow,
+    httr,
+    jsonlite,
+    furrr,
+    rtiktoken,
+    manifestoR,
+    lubridate,
+    stringi,
+    readxl,
+    readr,
+    fixest,
+    ggplot2,
+    scales,
+    RColorBrewer,
+    htmltools,
+    knitr
+URL: https://github.com/sstoeckl/populism-llm-replication, https://sstoeckl.github.io/populism-llm/
+BugReports: https://github.com/sstoeckl/populism-llm-replication/issues
