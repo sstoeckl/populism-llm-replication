@@ -117,8 +117,23 @@ same driver — it will pick up where it left off.
 
 ## Reproducing the headline result
 
-If you do not have the LLM API credits to re-score the corpus, you can skip
-straight to the analysis using the published HuggingFace dataset:
+**The fast path — one analysis-ready file.** If you only want the scores (not
+to re-score the corpus), download the baseline table and run the headline
+regression directly. One row per manifesto, cross-model-mean populism /
+liberalism scores plus per-model columns and CMP metadata:
+
+```r
+library(arrow); library(fixest)
+scores <- read_parquet(
+  "https://huggingface.co/datasets/sstoeckl/populism-llm/resolve/main/data/manifesto_scores.parquet"
+)
+feols(liberalism_overall ~ populism_overall | countryname + year,
+      data = scores, cluster = ~countryname)
+#> populism -> lower liberalism (negative, significant)
+```
+
+**The rebuild path — from the raw per-chunk annotations.** To verify the
+aggregation or apply your own, download the three raw files and re-aggregate:
 
 ```r
 library(arrow)
@@ -141,6 +156,11 @@ source("R/20_Spec_Curve_Compute.R")   # produces website/data/specs_grid.parquet
 source("R/21_Plot_Spec_Curve.R")       # produces paper figures
 source("R/4_Stats.R")                  # reproduces the headline regressions
 ```
+
+> The `manifesto_scores.parquet` baseline above is rebuilt from these three raw
+> files by `data/_build_agg.R` + `data/_build_baseline.R` in the
+> [website repo](https://github.com/sstoeckl/populism-llm), so the fast path and
+> the rebuild path agree by construction.
 
 ---
 
