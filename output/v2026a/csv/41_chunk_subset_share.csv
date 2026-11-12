@@ -1,0 +1,11 @@
+"model","dim","manifestos","with_score","multi_chunk","share_strict_subset_of_scored","share_strict_subset_of_scored_multichunk","share_no_chunk_enters","mean_share_chunks_entering"
+"all models (manifesto x model)","liberalism_overall",10109,9449,3911,0.109006244,0.2680895367,0.06528835691,0.897031816
+"cross-model score (any contributing model)","liberalism_overall",,3361,,0.2148170187,,,
+"gemini","liberalism_overall",3368,3302,1302,0.05057540884,0.1291569992,0.01959619952,0.9640744446
+"gpt41mini","liberalism_overall",3370,3159,1304,0.1421335866,0.3496884735,0.06261127596,0.8894257658
+"sonnet","liberalism_overall",3371,2988,1305,0.1385542169,0.3272727273,0.1136161376,0.8376526455
+"all models (manifesto x model)","populism_overall",10109,8936,3911,0.2008728738,0.4833064082,0.1160352161,0.8016579879
+"cross-model score (any contributing model)","populism_overall",,3349,,0.2994923858,,,
+"gemini","populism_overall",3368,2785,1302,0.2014362657,0.4710327456,0.1730997625,0.7484518914
+"gpt41mini","populism_overall",3370,2983,1304,0.2795843111,0.6747572816,0.1148367953,0.761633503
+"sonnet","populism_overall",3371,3168,1305,0.1262626263,0.3108003108,0.06021951943,0.8948293456

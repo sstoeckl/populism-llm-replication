@@ -1,0 +1,41 @@
+"model","scope","cls","n","share"
+"gemini","quote","both",3,0.002358490566
+"gemini","quote","economic/trade only",11,0.008647798742
+"gemini","quote","identity/immigration only",474,0.3726415094
+"gemini","quote","neither",784,0.6163522013
+"gpt41mini","quote","both",42,0.01036013814
+"gpt41mini","quote","economic/trade only",95,0.02343364578
+"gpt41mini","quote","identity/immigration only",1204,0.2969906265
+"gpt41mini","quote","neither",2713,0.6692155895
+"sonnet","quote","both",35,0.005953393434
+"sonnet","quote","economic/trade only",110,0.01871066508
+"sonnet","quote","identity/immigration only",2121,0.3607756421
+"sonnet","quote","neither",3613,0.6145602994
+"gemini","quote+context","both",15,0.01179245283
+"gemini","quote+context","economic/trade only",14,0.01100628931
+"gemini","quote+context","identity/immigration only",524,0.4119496855
+"gemini","quote+context","neither",719,0.5652515723
+"gpt41mini","quote+context","both",214,0.0527873705
+"gpt41mini","quote+context","economic/trade only",133,0.03280710409
+"gpt41mini","quote+context","identity/immigration only",1611,0.3973852985
+"gpt41mini","quote+context","neither",2096,0.5170202269
+"sonnet","quote+context","both",175,0.02976696717
+"sonnet","quote+context","economic/trade only",168,0.02857628848
+"sonnet","quote+context","identity/immigration only",2487,0.4230311277
+"sonnet","quote+context","neither",3049,0.5186256166
+"all","quote","both",80,0.00713966979
+"all","quote","economic/trade only",216,0.01927710843
+"all","quote","identity/immigration only",3799,0.3390450692
+"all","quote","neither",7110,0.6345381526
+"all","quote+context","both",404,0.03605533244
+"all","quote+context","economic/trade only",315,0.0281124498
+"all","quote+context","identity/immigration only",4622,0.4124944221
+"all","quote+context","neither",5864,0.5233377956
+"all, score>=6","quote","both",11,0.004515599343
+"all, score>=6","quote","economic/trade only",14,0.005747126437
+"all, score>=6","quote","identity/immigration only",860,0.3530377668
+"all, score>=6","quote","neither",1551,0.6366995074
+"all, score>=6","quote+context","both",59,0.02422003284
+"all, score>=6","quote+context","economic/trade only",22,0.009031198686
+"all, score>=6","quote+context","identity/immigration only",999,0.4100985222
+"all, score>=6","quote+context","neither",1356,0.5566502463

@@ -1,0 +1,27 @@
+"model","Outcome","Populism from","Liberalism from","OLS","N (OLS)","Country + decade FE","FE, z-scored","N (FE)"
+"gpt41mini","liberalism_overall","production run","production run","-0.240 (0.059)",180,"-0.183 (0.068)","-0.263 (0.097)",170
+"gpt41mini","liberalism_overall","joint call","joint call","-0.239 (0.056)",180,"-0.200 (0.063)","-0.301 (0.095)",170
+"gpt41mini","liberalism_overall","separate call","separate call","-0.340 (0.054)",180,"-0.315 (0.058)","-0.430 (0.079)",170
+"gpt41mini","liberalism_overall","joint call","separate call","-0.350 (0.062)",180,"-0.290 (0.079)","-0.366 (0.100)",170
+"gpt41mini","liberalism_overall","separate call","joint call","-0.239 (0.049)",180,"-0.237 (0.045)","-0.386 (0.073)",170
+"sonnet","liberalism_overall","production run","production run","-0.570 (0.086)",47,"-0.452 (0.224)","-0.611 (0.302)",22
+"sonnet","liberalism_overall","joint call","joint call","-0.557 (0.078)",47,"-0.411 (0.141)","-0.596 (0.204)",22
+"sonnet","liberalism_overall","separate call","separate call","-0.614 (0.077)",47,"-0.360 (0.256)","-0.456 (0.324)",22
+"sonnet","liberalism_overall","joint call","separate call","-0.545 (0.070)",47,"-0.440 (0.152)","-0.642 (0.222)",22
+"sonnet","liberalism_overall","separate call","joint call","-0.636 (0.085)",47,"-0.395 (0.202)","-0.497 (0.254)",22
+"gpt41mini","lib_political","joint call","joint call","-0.226 (0.057)",180,"-0.178 (0.062)",,170
+"gpt41mini","lib_political","separate call","separate call","-0.281 (0.063)",180,"-0.267 (0.060)",,170
+"gpt41mini","lib_social","joint call","joint call","-0.113 (0.072)",179,"-0.061 (0.088)",,169
+"gpt41mini","lib_social","separate call","separate call","-0.196 (0.077)",174,"-0.195 (0.078)",,165
+"gpt41mini","lib_economic","joint call","joint call","-0.331 (0.057)",179,"-0.310 (0.067)",,169
+"gpt41mini","lib_economic","separate call","separate call","-0.431 (0.059)",168,"-0.399 (0.068)",,158
+"gpt41mini","lib_financial_market","joint call","joint call","-0.378 (0.071)",148,"-0.404 (0.081)",,138
+"gpt41mini","lib_financial_market","separate call","separate call","-0.428 (0.064)",131,"-0.370 (0.077)",,120
+"sonnet","lib_political","joint call","joint call","-0.591 (0.096)",47,"-0.278 (0.180)",,22
+"sonnet","lib_political","separate call","separate call","-0.542 (0.158)",45,"-0.207 (0.353)",,22
+"sonnet","lib_social","joint call","joint call","-0.348 (0.183)",45,"0.215 (0.356)",,19
+"sonnet","lib_social","separate call","separate call","-0.475 (0.219)",40,"0.231 (0.358)",,18
+"sonnet","lib_economic","joint call","joint call","-0.691 (0.061)",43,"-0.610 (0.266)",,18
+"sonnet","lib_economic","separate call","separate call","-0.881 (0.086)",39,"-0.184 (0.738)",,16
+"sonnet","lib_financial_market","joint call","joint call","-0.710 (0.060)",44,"-0.954 (0.203)",,19
+"sonnet","lib_financial_market","separate call","separate call","-0.894 (0.077)",39,"-1.961 (0.857)",,12

@@ -1,0 +1,4 @@
+"pair","x","y","r","n"
+"IDEOL (LLM) ~ POP (LLM)","IDEO","populism_overall",-0.1409820857,425
+"RILE (CMP) ~ POP (LLM)","rile","populism_overall",-0.07879727385,449
+"RILE (CMP) ~ IDEOL (LLM)","rile","IDEO",0.6403499805,426

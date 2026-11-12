@@ -1,0 +1,20 @@
+"block","var","side","n","value"
+"pooled r(|IDEO|, var)","IDEO",,3209,-0.4712722319
+"pooled r(|IDEO|, var)","POP",,3201,0.2592816657
+"pooled r(|IDEO|, var)","pop_ideology_overall",,3201,0.4362348763
+"pooled r(|IDEO|, var)","liberalism_overall",,3203,-0.2696039734
+"pooled r(|IDEO|, var)","lib_political",,3202,-0.1006887335
+"pooled r(|IDEO|, var)","lib_social",,3187,0.137679662
+"pooled r(|IDEO|, var)","lib_economic",,3194,-0.4275017745
+"pooled r(|IDEO|, var)","lib_financial_market",,3009,-0.4227921037
+"within country-year r(|IDEO|, var)","POP",,3201,0.3269894461
+"mean |IDEO| by populism band","<=3","Left",715,0.3775146522
+"mean |IDEO| by populism band","<=3","Right",410,0.3198134525
+"mean |IDEO| by populism band","3-5","Left",749,0.4528694054
+"mean |IDEO| by populism band","3-5","Right",278,0.3491414364
+"mean |IDEO| by populism band","5-7","Left",510,0.5306209688
+"mean |IDEO| by populism band","5-7","Right",196,0.36283041
+"mean |IDEO| by populism band",">7","Left",229,0.6054808007
+"mean |IDEO| by populism band",">7","Right",114,0.3754904268
+"mean |IDEO| by populism band",,"Left",5,0.5817965368
+"mean |IDEO| by populism band",,"Right",3,0.4230979748

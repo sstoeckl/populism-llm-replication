@@ -1,0 +1,43 @@
+"countryname","manifestos","europe_sample","european_but_excluded"
+"Austria",70,TRUE,FALSE
+"Belgium",156,TRUE,FALSE
+"Bulgaria",25,TRUE,FALSE
+"Croatia",54,TRUE,FALSE
+"Cyprus",20,TRUE,FALSE
+"Czech Republic",37,TRUE,FALSE
+"Denmark",193,TRUE,FALSE
+"Estonia",24,TRUE,FALSE
+"Finland",114,TRUE,FALSE
+"France",75,TRUE,FALSE
+"Germany",104,TRUE,FALSE
+"Greece",55,TRUE,FALSE
+"Hungary",31,TRUE,FALSE
+"Iceland",48,TRUE,FALSE
+"Ireland",83,TRUE,FALSE
+"Italy",111,TRUE,FALSE
+"Latvia",38,TRUE,FALSE
+"Lithuania",42,TRUE,FALSE
+"Luxembourg",24,TRUE,FALSE
+"Malta",10,TRUE,FALSE
+"Netherlands",147,TRUE,FALSE
+"Norway",126,TRUE,FALSE
+"Poland",43,TRUE,FALSE
+"Portugal",86,TRUE,FALSE
+"Romania",29,TRUE,FALSE
+"Slovakia",46,TRUE,FALSE
+"Slovenia",41,TRUE,FALSE
+"Spain",141,TRUE,FALSE
+"Sweden",119,TRUE,FALSE
+"Switzerland",105,TRUE,FALSE
+"United Kingdom",84,TRUE,FALSE
+"Albania",5,FALSE,TRUE
+"Armenia",22,FALSE,TRUE
+"Bosnia-Herzegovina",47,FALSE,TRUE
+"Georgia",28,FALSE,TRUE
+"Moldova",10,FALSE,TRUE
+"Montenegro",43,FALSE,TRUE
+"North Macedonia",56,FALSE,TRUE
+"Russia",31,FALSE,TRUE
+"Serbia",42,FALSE,TRUE
+"Turkey",28,FALSE,TRUE
+"Ukraine",61,FALSE,TRUE

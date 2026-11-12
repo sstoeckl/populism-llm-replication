@@ -1,0 +1,11 @@
+"scores","pair","expected","r","n"
+"old","lib_economic ~ CHES lrecon","+",0.3504041829,855
+"old","lib_financial_market ~ CHES lrecon","+",0.163231999,855
+"old","lib_economic ~ CMP markeco - planeco","+",0.2446077627,3222
+"old","lib_social ~ CHES galtan","-",-0.5309994592,855
+"old","lib_political ~ CHES galtan","-",-0.4309008357,855
+"new","lib_economic ~ CHES lrecon","+",0.7932894701,862
+"new","lib_financial_market ~ CHES lrecon","+",0.7196430943,823
+"new","lib_economic ~ CMP markeco - planeco","+",0.4940204092,3300
+"new","lib_social ~ CHES galtan","-",-0.7257976403,862
+"new","lib_political ~ CHES galtan","-",-0.490970142,866

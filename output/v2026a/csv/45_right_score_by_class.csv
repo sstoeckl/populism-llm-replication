@@ -1,0 +1,5 @@
+"cls_q","n","mean_R_score"
+"both",80,3.0625
+"economic/trade only",216,2.486111111
+"identity/immigration only",3799,3.466175309
+"neither",7110,3.436005626

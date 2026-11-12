@@ -1,0 +1,27 @@
+\begin{table}[ht]
+\centering
+\caption{Full-corpus cross-family agreement of manifesto-level scores}
+\label{tab:verify_crossmodel}
+\scriptsize
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+ & & \multicolumn{3}{c}{Pairwise Pearson $r$} & \multicolumn{2}{c}{ICC (3 models)} & \multicolumn{3}{c}{$r$ with mean of other two} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-7}\cmidrule(lr){8-10}
+Variable & $n$ & S--G & S--Gem & G--Gem & ICC(A,1) & ICC(C,1) & Sonnet & GPT & Gemini \\
+\midrule
+Populism (overall) & 2{,}454 & 0.777 & 0.828 & 0.671 & 0.728 & 0.753 & 0.857 & 0.757 & 0.794 \\
+Anti-elitism & 2{,}263 & 0.800 & 0.804 & 0.643 & 0.739 & 0.744 & 0.869 & 0.769 & 0.755 \\
+People-centrism & 2{,}279 & 0.649 & 0.693 & 0.467 & 0.567 & 0.596 & 0.730 & 0.627 & 0.643 \\
+Manichaean & 1{,}531 & 0.793 & 0.725 & 0.585 & 0.677 & 0.687 & 0.818 & 0.771 & 0.695 \\
+Ideology (overall) & 2{,}294 & 0.659 & 0.831 & 0.561 & 0.604 & 0.635 & 0.819 & 0.644 & 0.788 \\
+Political liberalism & 2{,}748 & 0.784 & 0.789 & 0.709 & 0.637 & 0.753 & 0.842 & 0.776 & 0.768 \\
+Social liberalism & 2{,}653 & 0.836 & 0.895 & 0.800 & 0.789 & 0.842 & 0.902 & 0.830 & 0.863 \\
+Economic liberalism & 2{,}521 & 0.751 & 0.954 & 0.690 & 0.702 & 0.764 & 0.933 & 0.712 & 0.864 \\
+Financial-market liberalism & 2{,}015 & 0.679 & 0.941 & 0.659 & 0.712 & 0.743 & 0.892 & 0.665 & 0.872 \\
+Liberalism (overall) & 2{,}782 & 0.737 & 0.898 & 0.708 & 0.695 & 0.775 & 0.890 & 0.732 & 0.829 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{0.95\linewidth}{\scriptsize\textit{Notes:} 
+Per-model manifesto scores, baseline aggregation.
+ S = Claude Sonnet 4.6, G = GPT-4.1-mini, Gem = Gemini 3.5 Flash. $n$: manifestos scored by all three models (ICC); pairwise statistics use all available pairs. ICC(A,1): two-way, absolute agreement, single rater; ICC(C,1): consistency.}
+\end{table}

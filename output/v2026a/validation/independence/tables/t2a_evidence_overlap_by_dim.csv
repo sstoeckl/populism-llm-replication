@@ -1,0 +1,13 @@
+"dim_a","dim_b","n_pairs","pct_identical_or_nested","pct_span_overlap","pct_within_300ch"
+"pop_anti_elitism","lib_economic",16001,0.343728517,0.5222321695,4.028648165
+"pop_anti_elitism","lib_financial_market",12963,0.401141711,0.5056541326,2.500689528
+"pop_anti_elitism","lib_political",16021,0.3495412271,0.4465919906,5.666593455
+"pop_anti_elitism","lib_social",15567,0.07066229845,0.1065935739,1.941525811
+"pop_manichean","lib_economic",13520,0.1553254438,0.2248201439,2.553956835
+"pop_manichean","lib_financial_market",11166,0.1253806197,0.1951431049,2.059843886
+"pop_manichean","lib_political",13532,0.3103754064,0.4330151997,5.505478968
+"pop_manichean","lib_social",13224,0.3176043557,0.3831767175,2.873825381
+"pop_people_centrism","lib_economic",15538,0.09653752092,0.1149337216,2.980614512
+"pop_people_centrism","lib_financial_market",12651,0.03161805391,0.03758691975,1.165194512
+"pop_people_centrism","lib_political",15551,0.964568195,1.274509804,7.104072398
+"pop_people_centrism","lib_social",15174,0.6194806907,0.7544528273,3.671151902

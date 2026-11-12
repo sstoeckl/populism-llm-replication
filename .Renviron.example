@@ -1,19 +1,10 @@
-# Copy to ~/.Renviron or to the project root .Renviron and fill in.
-# NEVER commit a real .Renviron — it's in .gitignore.
+# Copy to the project root as .Renviron and fill in. NEVER commit a real .Renviron (it is in .gitignore).
 
-# Manifesto Project (CMP / WZB) API — free with academic registration.
-# Register at https://manifesto-project.wzb.eu/
-MANIFESTO_KEY=your-cmp-api-key
+# Manifesto Project (WZB) API — free with academic registration at https://manifesto-project.wzb.eu/
+# Needed by `Rscript run_all.R fetch_mpds` (R/73) and by the corpus stages (R/30).
+MANIFESTO_KEY=your-manifesto-project-api-key
 
-# OpenAI — needed by R/14 (gpt-4o-mini), R/16 (gpt-4.1-mini), and the
-# LLM-as-judge step in R/12.
-# Get at https://platform.openai.com/api-keys
-OPENAI_API_KEY=sk-...
-
-# Anthropic — needed by R/15b (Claude Sonnet 4.6).
-# Get at https://console.anthropic.com/
-ANTHROPIC_API_KEY=sk-ant-...
-
-# Google AI Studio — needed by R/18 (Gemini Flash).
-# Get at https://aistudio.google.com/app/apikey
-GEMINI_API_KEY=AIza...
+# Only for re-running the LLM scoring (not needed for the public chain):
+# OPENAI_API_KEY=sk-...          R/16, R/32, the judge of R/34 (gpt-4o-mini)
+# ANTHROPIC_API_KEY=sk-ant-...   R/15b, R/32
+# GEMINI_API_KEY=AIza...         R/18, R/32 (AI Studio); GEMINI_API_KEY_VERTEX / ~/.gcp key for Vertex

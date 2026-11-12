@@ -1,0 +1,27 @@
+\begin{table}[ht]
+\centering
+\caption{Manifesto-level determinism, Run 1 vs.\ Run 2 (baseline aggregation, $n=20$)}
+\label{tab:verify_manifesto}
+\scriptsize
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+ & \multicolumn{2}{c}{Sonnet 4.6} & \multicolumn{2}{c}{GPT-4.1-mini} & \multicolumn{2}{c}{Gemini 3.5 Flash} & \multicolumn{3}{c}{Cross-model mean} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-10}
+Variable & MAD & $r$ & MAD & $r$ & MAD & $r$ & MAD & $r$ & Max \\
+\midrule
+Populism (overall) & 0.141 & 0.987 & 0.374 & 0.952 & 0.110 & 0.994 & 0.290 & 0.960 & 2.33 \\
+Anti-elitism & 0.005 & 1.000 & 0.062 & 0.996 & 0.158 & 0.991 & 0.068 & 0.997 & 0.67 \\
+People-centrism & 0.133 & 0.982 & 0.145 & 0.980 & 0.395 & 0.960 & 0.338 & 0.921 & 2.33 \\
+Manichaean & 0.097 & 0.985 & 0.254 & 0.977 & 0.367 & 0.982 & 0.394 & 0.959 & 1.50 \\
+Ideology (overall) & 0.162 & 0.987 & 0.147 & 0.958 & 0.759 & 0.940 & 0.387 & 0.963 & 1.50 \\
+Political liberalism & 0.158 & 0.967 & 0.148 & 0.972 & 0.381 & 0.915 & 0.147 & 0.988 & 0.43 \\
+Social liberalism & 0.312 & 0.968 & 0.225 & 0.977 & 0.440 & 0.977 & 0.344 & 0.985 & 0.77 \\
+Economic liberalism & 0.156 & 0.974 & 0.349 & 0.916 & 0.305 & 0.965 & 0.286 & 0.984 & 0.50 \\
+Financial-market liberalism & 0.189 & 0.982 & 0.462 & 0.941 & 0.250 & 0.972 & 0.307 & 0.966 & 1.00 \\
+Liberalism (overall) & 0.201 & 0.939 & 0.236 & 0.952 & 0.168 & 0.974 & 0.158 & 0.983 & 0.83 \\
+\midrule
+All 10 dimensions & 0.155 & 0.977 & 0.240 & 0.962 & 0.333 & 0.967 & 0.272 & 0.971 & 2.33 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{0.95\linewidth}{\scriptsize\textit{Notes:} Baseline aggregation as in the paper: within model, confidence-weighted mean (the dimension's own confidence block) over chunks with status \texttt{verified} whose evidence quote passes the quote check (verbatim in the source chunk and not copied from the prompt); plain mean across the three models. MAD and Max on the 0--10 scale.}
+\end{table}

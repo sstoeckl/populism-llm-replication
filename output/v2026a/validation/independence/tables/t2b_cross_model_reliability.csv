@@ -1,0 +1,7 @@
+"level","pair","r_pop","r_lib"
+"chunk","sonnet-gpt41mini",0.7633737718,0.6717316232
+"chunk","sonnet-gemini",0.8056619878,0.8620885986
+"chunk","gpt41mini-gemini",0.6158653887,0.6201968146
+"manifesto","sonnet-gpt41mini",0.7765269616,0.736532619
+"manifesto","sonnet-gemini",0.8284687677,0.8980354131
+"manifesto","gpt41mini-gemini",0.670730356,0.7084175954

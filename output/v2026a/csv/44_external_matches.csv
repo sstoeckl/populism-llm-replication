@@ -1,0 +1,8 @@
+"dataset","version","key_used","window","parties_matched","manifestos_matched"
+"CMP rile","Manifesto Project 2026a","same manifesto (party, election month)","same election",995,3371
+"CHES","trend file 1999-2024 (means V2)","CHES cmp_id","nearest wave, +-2 years",237,881
+"ParlGov","development version (view_party)","ParlGov cmp","time-invariant party mean",308,2022
+"PopuList","4.0","Partyfacts","classified for the election year",147,517
+"POPPA","2018, v2.0 (party means)","Partyfacts (187 parties), POPPA cmp_id (4)","nearest election to 2018, +-2 years",190,190
+"Global Party Survey","2019, party file V2.1 (Dataverse v3.0)","Partyfacts","nearest election to 2019, +-2 years",276,276
+"RFPOPI (Celico et al. 2024)","final dataset, GitHub commit 2870ebb (2024-02-16)","Partyfacts","same election year, else nearest +-1 year",522,1860

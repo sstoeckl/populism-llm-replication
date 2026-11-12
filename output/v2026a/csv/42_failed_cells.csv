@@ -1,0 +1,2 @@
+"estimand","reason","regressions"
+"inter","fewer than 100 obs after fixest drops singleton FE groups",812

@@ -1,0 +1,253 @@
+model,variant,pop_src,lib_src,b,se,n,spec,sample
+gpt41mini,baseline rule,production,production,-0.23954815125926032,0.059054295102523496,180,"OLS, raw 0-10",all
+gpt41mini,baseline rule,production,production,-0.18262097544091307,0.06760346580557432,170,"country + decade FE, raw 0-10",all
+gpt41mini,baseline rule,production,production,-0.26301351143738144,0.09736354153148165,170,"country + decade FE, z-scored",all
+gpt41mini,baseline rule,joint,joint,-0.23939782027111,0.05643361707845029,180,"OLS, raw 0-10",all
+gpt41mini,baseline rule,joint,joint,-0.19989755005242832,0.06280830051611701,170,"country + decade FE, raw 0-10",all
+gpt41mini,baseline rule,joint,joint,-0.30122358258536125,0.09464518846079235,170,"country + decade FE, z-scored",all
+gpt41mini,baseline rule,separate,separate,-0.33977947975098566,0.053582265023483865,180,"OLS, raw 0-10",all
+gpt41mini,baseline rule,separate,separate,-0.31540756739315995,0.05824349930051705,170,"country + decade FE, raw 0-10",all
+gpt41mini,baseline rule,separate,separate,-0.42982113895878993,0.07937123200055668,170,"country + decade FE, z-scored",all
+gpt41mini,baseline rule,joint,separate,-0.3499407825420473,0.0620904847985934,180,"OLS, raw 0-10",all
+gpt41mini,baseline rule,joint,separate,-0.28985093028245773,0.07895075519644534,170,"country + decade FE, raw 0-10",all
+gpt41mini,baseline rule,joint,separate,-0.36557918260674704,0.0995779193214088,170,"country + decade FE, z-scored",all
+gpt41mini,baseline rule,separate,joint,-0.23865794195895074,0.049314587756303915,180,"OLS, raw 0-10",all
+gpt41mini,baseline rule,separate,joint,-0.2373074879665988,0.04478707846365171,170,"country + decade FE, raw 0-10",all
+gpt41mini,baseline rule,separate,joint,-0.3863686166671042,0.07291940805929292,170,"country + decade FE, z-scored",all
+gpt41mini,baseline rule,production,separate,-0.3506315602607586,0.06477634322832948,180,"OLS, raw 0-10",all
+gpt41mini,baseline rule,production,separate,-0.2881065913923659,0.07913373957039553,170,"country + decade FE, raw 0-10",all
+gpt41mini,baseline rule,production,separate,-0.3548803416069053,0.09747437014770771,170,"country + decade FE, z-scored",all
+gpt41mini,baseline rule,separate,production,-0.2569016619567943,0.04898107410512668,180,"OLS, raw 0-10",all
+gpt41mini,baseline rule,separate,production,-0.25479694317989654,0.047721613569076456,170,"country + decade FE, raw 0-10",all
+gpt41mini,baseline rule,separate,production,-0.4059836355214585,0.07603778101860861,170,"country + decade FE, z-scored",all
+gpt41mini,baseline rule,production,production,-0.2502947418061776,0.06473246082962675,151,"OLS, raw 0-10",single-chunk
+gpt41mini,baseline rule,production,production,-0.17593230935923065,0.07095025220815784,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,baseline rule,production,production,-0.2452847012024068,0.0989187914175488,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,baseline rule,joint,joint,-0.23630039750142107,0.06186999739636497,151,"OLS, raw 0-10",single-chunk
+gpt41mini,baseline rule,joint,joint,-0.19301579719760156,0.06900843004235276,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,baseline rule,joint,joint,-0.2830164274136543,0.10118611795708603,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,baseline rule,separate,separate,-0.3503606640568364,0.06058128118597744,151,"OLS, raw 0-10",single-chunk
+gpt41mini,baseline rule,separate,separate,-0.3167065815053007,0.06267489442808352,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,baseline rule,separate,separate,-0.4126709311199475,0.08166583377759314,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,baseline rule,joint,separate,-0.35481057840512786,0.06796670476899488,151,"OLS, raw 0-10",single-chunk
+gpt41mini,baseline rule,joint,separate,-0.28718089197680846,0.08580056360443915,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,baseline rule,joint,separate,-0.3537414213988824,0.10568674370128557,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,baseline rule,separate,joint,-0.24508844425112386,0.055400474879245404,151,"OLS, raw 0-10",single-chunk
+gpt41mini,baseline rule,separate,joint,-0.24072859199521016,0.05054452367112163,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,baseline rule,separate,joint,-0.37339016803507785,0.07839878069698705,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,baseline rule,production,separate,-0.35603738397890616,0.07161712385513204,151,"OLS, raw 0-10",single-chunk
+gpt41mini,baseline rule,production,separate,-0.2793196693111094,0.08626758927264493,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,baseline rule,production,separate,-0.334659903001782,0.10335936287402962,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,baseline rule,separate,production,-0.27559989850659683,0.054437815252683715,151,"OLS, raw 0-10",single-chunk
+gpt41mini,baseline rule,separate,production,-0.26406442320370915,0.05295260545372981,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,baseline rule,separate,production,-0.40038645714457627,0.08028914246368517,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,span-validated,production,production,-0.2132459576718162,0.068708205578621,144,"OLS, raw 0-10",all
+gpt41mini,span-validated,production,production,-0.1610215002386514,0.06808924333449375,131,"country + decade FE, raw 0-10",all
+gpt41mini,span-validated,production,production,-0.23419832129846482,0.09903265137086725,131,"country + decade FE, z-scored",all
+gpt41mini,span-validated,joint,joint,-0.22783264758350796,0.06075961803846281,144,"OLS, raw 0-10",all
+gpt41mini,span-validated,joint,joint,-0.21921529254218158,0.05760566838368446,131,"country + decade FE, raw 0-10",all
+gpt41mini,span-validated,joint,joint,-0.3407692007710372,0.0895477562141896,131,"country + decade FE, z-scored",all
+gpt41mini,span-validated,separate,separate,-0.2822352425699304,0.05729847817428837,144,"OLS, raw 0-10",all
+gpt41mini,span-validated,separate,separate,-0.26217319106602416,0.06546259887551162,131,"country + decade FE, raw 0-10",all
+gpt41mini,span-validated,separate,separate,-0.37933941795225773,0.09471809094632036,131,"country + decade FE, z-scored",all
+gpt41mini,span-validated,joint,separate,-0.2978895299310391,0.06764208661836403,144,"OLS, raw 0-10",all
+gpt41mini,span-validated,joint,separate,-0.24511751149024671,0.08196023258136391,131,"country + decade FE, raw 0-10",all
+gpt41mini,span-validated,joint,separate,-0.32601916297318206,0.10901141359019882,131,"country + decade FE, z-scored",all
+gpt41mini,span-validated,separate,joint,-0.19530997120253968,0.0512505133100956,144,"OLS, raw 0-10",all
+gpt41mini,span-validated,separate,joint,-0.20359618193434179,0.04719971254847725,131,"country + decade FE, raw 0-10",all
+gpt41mini,span-validated,separate,joint,-0.34429444984971636,0.07981779869616333,131,"country + decade FE, z-scored",all
+gpt41mini,span-validated,production,separate,-0.3087269427100594,0.07080776106109372,144,"OLS, raw 0-10",all
+gpt41mini,span-validated,production,separate,-0.2312199219336676,0.0832874875543939,131,"country + decade FE, raw 0-10",all
+gpt41mini,span-validated,production,separate,-0.29713965266999215,0.1070323640651385,131,"country + decade FE, z-scored",all
+gpt41mini,span-validated,separate,production,-0.19778926761630533,0.05515076731187034,144,"OLS, raw 0-10",all
+gpt41mini,span-validated,separate,production,-0.20446756259799628,0.05043800408298484,131,"country + decade FE, raw 0-10",all
+gpt41mini,span-validated,separate,production,-0.3348333139612134,0.08259659303465743,131,"country + decade FE, z-scored",all
+gpt41mini,span-validated,production,production,-0.22043217471547116,0.07742374700109336,117,"OLS, raw 0-10",single-chunk
+gpt41mini,span-validated,production,production,-0.1361457487918404,0.07447588677721577,102,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,span-validated,production,production,-0.19011317136156558,0.10399771679121242,102,"country + decade FE, z-scored",single-chunk
+gpt41mini,span-validated,joint,joint,-0.2218941382327202,0.07000729911647237,117,"OLS, raw 0-10",single-chunk
+gpt41mini,span-validated,joint,joint,-0.21141258673490657,0.06785582733562397,102,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,span-validated,joint,joint,-0.31444792521833503,0.1009264606672425,102,"country + decade FE, z-scored",single-chunk
+gpt41mini,span-validated,separate,separate,-0.2818328126479219,0.06709214697269153,117,"OLS, raw 0-10",single-chunk
+gpt41mini,span-validated,separate,separate,-0.2430383286921827,0.06995053008847131,102,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,span-validated,separate,separate,-0.337107995857413,0.09702536688011179,102,"country + decade FE, z-scored",single-chunk
+gpt41mini,span-validated,joint,separate,-0.30637576552930845,0.07758646914324997,117,"OLS, raw 0-10",single-chunk
+gpt41mini,span-validated,joint,separate,-0.2287692693377165,0.09077933431114733,102,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,span-validated,joint,separate,-0.2952340454908403,0.11715362903957496,102,"country + decade FE, z-scored",single-chunk
+gpt41mini,span-validated,separate,joint,-0.18541134147495875,0.05980381241255136,117,"OLS, raw 0-10",single-chunk
+gpt41mini,span-validated,separate,joint,-0.187900383438956,0.05223887157401756,102,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,span-validated,separate,joint,-0.30038005399131035,0.08350975541753643,102,"country + decade FE, z-scored",single-chunk
+gpt41mini,span-validated,production,separate,-0.30315672100891966,0.08050219099755251,117,"OLS, raw 0-10",single-chunk
+gpt41mini,span-validated,production,separate,-0.19216969269247278,0.09251368303016966,102,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,span-validated,production,separate,-0.24147845597487028,0.1162517409570119,102,"country + decade FE, z-scored",single-chunk
+gpt41mini,span-validated,separate,production,-0.20860550979835235,0.06363853586945421,117,"OLS, raw 0-10",single-chunk
+gpt41mini,span-validated,separate,production,-0.18936754387955618,0.052321216306709994,102,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,span-validated,separate,production,-0.29188680117145316,0.08064672619336842,102,"country + decade FE, z-scored",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,production,production,-0.23954815125926032,0.059054295102523496,180,"OLS, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,production,production,-0.18262097544091307,0.06760346580557432,170,"country + decade FE, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,production,production,-0.26301351143738144,0.09736354153148165,170,"country + decade FE, z-scored",all
+gpt41mini,joint lib weighted by liberalism_confidence,joint,joint,-0.23958037964805,0.056443617669824205,180,"OLS, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,joint,joint,-0.2003066804665811,0.06282683016534021,170,"country + decade FE, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,joint,joint,-0.3019758874002473,0.09471570168069622,170,"country + decade FE, z-scored",all
+gpt41mini,joint lib weighted by liberalism_confidence,separate,separate,-0.33977947975098566,0.053582265023483865,180,"OLS, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,separate,separate,-0.31540756739315995,0.05824349930051705,170,"country + decade FE, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,separate,separate,-0.42982113895878993,0.07937123200055668,170,"country + decade FE, z-scored",all
+gpt41mini,joint lib weighted by liberalism_confidence,joint,separate,-0.3499407825420473,0.0620904847985934,180,"OLS, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,joint,separate,-0.28985093028245773,0.07895075519644534,170,"country + decade FE, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,joint,separate,-0.36557918260674704,0.0995779193214088,170,"country + decade FE, z-scored",all
+gpt41mini,joint lib weighted by liberalism_confidence,separate,joint,-0.23861649797216966,0.04931398362931442,180,"OLS, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,separate,joint,-0.23747690421894566,0.04480487047410553,170,"country + decade FE, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,separate,joint,-0.3868183909207935,0.0729811935152614,170,"country + decade FE, z-scored",all
+gpt41mini,joint lib weighted by liberalism_confidence,production,separate,-0.3506315602607586,0.06477634322832948,180,"OLS, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,production,separate,-0.2881065913923659,0.07913373957039553,170,"country + decade FE, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,production,separate,-0.3548803416069053,0.09747437014770771,170,"country + decade FE, z-scored",all
+gpt41mini,joint lib weighted by liberalism_confidence,separate,production,-0.2569016619567943,0.04898107410512668,180,"OLS, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,separate,production,-0.25479694317989654,0.047721613569076456,170,"country + decade FE, raw 0-10",all
+gpt41mini,joint lib weighted by liberalism_confidence,separate,production,-0.4059836355214585,0.07603778101860861,170,"country + decade FE, z-scored",all
+gpt41mini,joint lib weighted by liberalism_confidence,production,production,-0.2502947418061776,0.06473246082962675,151,"OLS, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,production,production,-0.17593230935923065,0.07095025220815784,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,production,production,-0.2452847012024068,0.0989187914175488,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,joint,joint,-0.23630039750142107,0.06186999739636497,151,"OLS, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,joint,joint,-0.19301579719760156,0.06900843004235276,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,joint,joint,-0.2830164274136543,0.10118611795708603,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,separate,separate,-0.3503606640568364,0.06058128118597744,151,"OLS, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,separate,separate,-0.3167065815053007,0.06267489442808352,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,separate,separate,-0.4126709311199475,0.08166583377759314,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,joint,separate,-0.35481057840512786,0.06796670476899488,151,"OLS, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,joint,separate,-0.28718089197680846,0.08580056360443915,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,joint,separate,-0.3537414213988824,0.10568674370128557,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,separate,joint,-0.24508844425112386,0.055400474879245404,151,"OLS, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,separate,joint,-0.24072859199521016,0.05054452367112163,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,separate,joint,-0.37339016803507785,0.07839878069698705,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,production,separate,-0.35603738397890616,0.07161712385513204,151,"OLS, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,production,separate,-0.2793196693111094,0.08626758927264493,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,production,separate,-0.334659903001782,0.10335936287402962,135,"country + decade FE, z-scored",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,separate,production,-0.27559989850659683,0.054437815252683715,151,"OLS, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,separate,production,-0.26406442320370915,0.05295260545372981,135,"country + decade FE, raw 0-10",single-chunk
+gpt41mini,joint lib weighted by liberalism_confidence,separate,production,-0.40038645714457627,0.08028914246368517,135,"country + decade FE, z-scored",single-chunk
+sonnet,baseline rule,production,production,-0.5702334058742293,0.08625356471638157,47,"OLS, raw 0-10",all
+sonnet,baseline rule,production,production,-0.4517171318474325,0.22356949076604662,22,"country + decade FE, raw 0-10",all
+sonnet,baseline rule,production,production,-0.6106466080442787,0.30222884071452194,22,"country + decade FE, z-scored",all
+sonnet,baseline rule,joint,joint,-0.5568968158503242,0.07763236406455302,47,"OLS, raw 0-10",all
+sonnet,baseline rule,joint,joint,-0.41059973909017905,0.14052353599645415,22,"country + decade FE, raw 0-10",all
+sonnet,baseline rule,joint,joint,-0.5959608777795953,0.20396147851118404,22,"country + decade FE, z-scored",all
+sonnet,baseline rule,separate,separate,-0.6142413805256952,0.07720902812940537,47,"OLS, raw 0-10",all
+sonnet,baseline rule,separate,separate,-0.3603509826062686,0.2561503873365247,22,"country + decade FE, raw 0-10",all
+sonnet,baseline rule,separate,separate,-0.4562640299209595,0.3243288172733413,22,"country + decade FE, z-scored",all
+sonnet,baseline rule,joint,separate,-0.5453136758403119,0.06961655980588978,47,"OLS, raw 0-10",all
+sonnet,baseline rule,joint,separate,-0.4395451728362782,0.1522182984432484,22,"country + decade FE, raw 0-10",all
+sonnet,baseline rule,joint,separate,-0.6417351753058073,0.22223844663314016,22,"country + decade FE, z-scored",all
+sonnet,baseline rule,separate,joint,-0.6360863979963716,0.08460807170040963,47,"OLS, raw 0-10",all
+sonnet,baseline rule,separate,joint,-0.39490002005205294,0.2015331358884273,22,"country + decade FE, raw 0-10",all
+sonnet,baseline rule,separate,joint,-0.49707787074071136,0.25367854389552363,22,"country + decade FE, z-scored",all
+sonnet,baseline rule,production,separate,-0.5351268960590527,0.07744874680587843,47,"OLS, raw 0-10",all
+sonnet,baseline rule,production,separate,-0.31357722984921654,0.20718402660313523,22,"country + decade FE, raw 0-10",all
+sonnet,baseline rule,production,separate,-0.443178096611145,0.2928127868288191,22,"country + decade FE, z-scored",all
+sonnet,baseline rule,separate,production,-0.6623905844967224,0.08467790198466138,47,"OLS, raw 0-10",all
+sonnet,baseline rule,separate,production,-0.491432096670891,0.32607859390292276,22,"country + decade FE, raw 0-10",all
+sonnet,baseline rule,separate,production,-0.5951735982410981,0.3949138822702172,22,"country + decade FE, z-scored",all
+sonnet,baseline rule,production,production,-0.5685310387215745,0.09819465552007513,37,"OLS, raw 0-10",single-chunk
+sonnet,baseline rule,production,production,-0.4180997047073069,0.279995022157978,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,baseline rule,production,production,-0.5659357830190207,0.37899859847385836,15,"country + decade FE, z-scored",single-chunk
+sonnet,baseline rule,joint,joint,-0.5843208751139484,0.08960453263928858,37,"OLS, raw 0-10",single-chunk
+sonnet,baseline rule,joint,joint,-0.359223300970874,0.1701370306854232,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,baseline rule,joint,joint,-0.49689453132577455,0.23534152683054052,15,"country + decade FE, z-scored",single-chunk
+sonnet,baseline rule,separate,separate,-0.6397201710066076,0.0811496770123945,37,"OLS, raw 0-10",single-chunk
+sonnet,baseline rule,separate,separate,-0.25921017757752574,0.29408074965281766,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,baseline rule,separate,separate,-0.3228113155334836,0.36623788295955273,15,"country + decade FE, z-scored",single-chunk
+sonnet,baseline rule,joint,separate,-0.5698875721665155,0.08053388075304879,37,"OLS, raw 0-10",single-chunk
+sonnet,baseline rule,joint,separate,-0.4114852303243134,0.21036243039462485,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,baseline rule,joint,separate,-0.5795554572010247,0.29628449708677657,15,"country + decade FE, z-scored",single-chunk
+sonnet,baseline rule,separate,joint,-0.6574038087835214,0.09166308969565631,37,"OLS, raw 0-10",single-chunk
+sonnet,baseline rule,separate,joint,-0.29923138086403533,0.21909666381691995,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,baseline rule,separate,joint,-0.3659845957513558,0.26797323704408244,15,"country + decade FE, z-scored",single-chunk
+sonnet,baseline rule,production,separate,-0.5436385986478189,0.08633250274459625,37,"OLS, raw 0-10",single-chunk
+sonnet,baseline rule,production,separate,-0.25065138092756234,0.2572650751510424,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,baseline rule,production,separate,-0.351039253966227,0.3603017853657333,15,"country + decade FE, z-scored",single-chunk
+sonnet,baseline rule,separate,production,-0.6758647493198602,0.09280785231681009,37,"OLS, raw 0-10",single-chunk
+sonnet,baseline rule,separate,production,-0.3999469917837279,0.39309190230680113,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,baseline rule,separate,production,-0.4813941928112636,0.47314309150006384,15,"country + decade FE, z-scored",single-chunk
+sonnet,span-validated,production,production,-0.6028293494643462,0.08663295891054976,43,"OLS, raw 0-10",all
+sonnet,span-validated,production,production,-0.6369554435862325,0.23852865117094046,14,"country + decade FE, raw 0-10",all
+sonnet,span-validated,production,production,-0.8375865390748936,0.313661480431987,14,"country + decade FE, z-scored",all
+sonnet,span-validated,joint,joint,-0.5710296987347636,0.08051355149892211,43,"OLS, raw 0-10",all
+sonnet,span-validated,joint,joint,-0.3848901627443628,0.21224831710415487,14,"country + decade FE, raw 0-10",all
+sonnet,span-validated,joint,joint,-0.5499633740428074,0.303278212852276,14,"country + decade FE, z-scored",all
+sonnet,span-validated,separate,separate,-0.630641603932764,0.0795991349066953,43,"OLS, raw 0-10",all
+sonnet,span-validated,separate,separate,-0.5328407186045012,0.2656753503793061,14,"country + decade FE, raw 0-10",all
+sonnet,span-validated,separate,separate,-0.6656141539915489,0.33187642116724003,14,"country + decade FE, z-scored",all
+sonnet,span-validated,joint,separate,-0.5487023651532281,0.07353338043913298,43,"OLS, raw 0-10",all
+sonnet,span-validated,joint,separate,-0.4879533953494611,0.15973414776186512,14,"country + decade FE, raw 0-10",all
+sonnet,span-validated,joint,separate,-0.7084544474972819,0.23191634380991577,14,"country + decade FE, z-scored",all
+sonnet,span-validated,separate,joint,-0.6672487494344423,0.08467393608514719,43,"OLS, raw 0-10",all
+sonnet,span-validated,separate,joint,-0.42282741877989827,0.30134822965271724,14,"country + decade FE, raw 0-10",all
+sonnet,span-validated,separate,joint,-0.5198184079355331,0.37047352624645125,14,"country + decade FE, z-scored",all
+sonnet,span-validated,production,separate,-0.5530919721714103,0.08036110883156823,43,"OLS, raw 0-10",all
+sonnet,span-validated,production,separate,-0.5129186296688776,0.16570267714863535,14,"country + decade FE, raw 0-10",all
+sonnet,span-validated,production,separate,-0.7130266479044955,0.23034925542159812,14,"country + decade FE, z-scored",all
+sonnet,span-validated,separate,production,-0.6955154588869137,0.08351620909224379,43,"OLS, raw 0-10",all
+sonnet,span-validated,separate,production,-0.6059232409381665,0.4221505463616603,14,"country + decade FE, raw 0-10",all
+sonnet,span-validated,separate,production,-0.7159885904867481,0.4988337691672776,14,"country + decade FE, z-scored",all
+sonnet,span-validated,production,production,-0.608810240963856,0.09815152646170378,33,"OLS, raw 0-10",single-chunk
+sonnet,span-validated,production,production,-0.62395543175487,0.37039470285045234,10,"country + decade FE, raw 0-10",single-chunk
+sonnet,span-validated,production,production,-0.8165103725946922,0.48469987027909656,10,"country + decade FE, z-scored",single-chunk
+sonnet,span-validated,joint,joint,-0.6052344601962929,0.0933656570284651,33,"OLS, raw 0-10",single-chunk
+sonnet,span-validated,joint,joint,-0.35097493036211286,0.28682273823853316,10,"country + decade FE, raw 0-10",single-chunk
+sonnet,span-validated,joint,joint,-0.4751503413638186,0.3883009780470336,10,"country + decade FE, z-scored",single-chunk
+sonnet,span-validated,separate,separate,-0.6594888783719837,0.0837965150087706,33,"OLS, raw 0-10",single-chunk
+sonnet,span-validated,separate,separate,-0.41825095057034106,0.355680052744039,10,"country + decade FE, raw 0-10",single-chunk
+sonnet,span-validated,separate,separate,-0.5136503845044641,0.4368075798023009,10,"country + decade FE, z-scored",single-chunk
+sonnet,span-validated,joint,separate,-0.5730643402399123,0.08617740780064802,33,"OLS, raw 0-10",single-chunk
+sonnet,span-validated,joint,separate,-0.44011142061280734,0.21062990392667505,10,"country + decade FE, raw 0-10",single-chunk
+sonnet,span-validated,joint,separate,-0.6167211832793432,0.2951523580160723,10,"country + decade FE, z-scored",single-chunk
+sonnet,span-validated,separate,joint,-0.6982962612399435,0.09051833756877453,33,"OLS, raw 0-10",single-chunk
+sonnet,span-validated,separate,joint,-0.31939163498098777,0.38956460647787133,10,"country + decade FE, raw 0-10",single-chunk
+sonnet,span-validated,separate,joint,-0.37895089749838773,0.46220942100302426,10,"country + decade FE, z-scored",single-chunk
+sonnet,span-validated,production,separate,-0.5641942771084345,0.09006777140343422,33,"OLS, raw 0-10",single-chunk
+sonnet,span-validated,production,separate,-0.44011142061280734,0.21062990392667505,10,"country + decade FE, raw 0-10",single-chunk
+sonnet,span-validated,production,separate,-0.6059790446285048,0.29001135161173364,10,"country + decade FE, z-scored",single-chunk
+sonnet,span-validated,separate,production,-0.718409843823947,0.08989730809420349,33,"OLS, raw 0-10",single-chunk
+sonnet,span-validated,separate,production,-0.5323193916349803,0.6309740773309087,10,"country + decade FE, raw 0-10",single-chunk
+sonnet,span-validated,separate,production,-0.6213211491401123,0.7364705448745709,10,"country + decade FE, z-scored",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,production,production,-0.5702334058742293,0.08625356471638157,47,"OLS, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,production,production,-0.4517171318474325,0.22356949076604662,22,"country + decade FE, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,production,production,-0.6106466080442787,0.30222884071452194,22,"country + decade FE, z-scored",all
+sonnet,joint lib weighted by liberalism_confidence,joint,joint,-0.5570601268820496,0.07761789533660371,47,"OLS, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,joint,joint,-0.4126791185082314,0.14097806102549806,22,"country + decade FE, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,joint,joint,-0.5989183880676796,0.20460049776086295,22,"country + decade FE, z-scored",all
+sonnet,joint lib weighted by liberalism_confidence,separate,separate,-0.6142413805256952,0.07720902812940537,47,"OLS, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,separate,separate,-0.3603509826062686,0.2561503873365247,22,"country + decade FE, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,separate,separate,-0.4562640299209595,0.3243288172733413,22,"country + decade FE, z-scored",all
+sonnet,joint lib weighted by liberalism_confidence,joint,separate,-0.5453136758403119,0.06961655980588978,47,"OLS, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,joint,separate,-0.4395451728362782,0.1522182984432484,22,"country + decade FE, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,joint,separate,-0.6417351753058073,0.22223844663314016,22,"country + decade FE, z-scored",all
+sonnet,joint lib weighted by liberalism_confidence,separate,joint,-0.6363338863884991,0.08457325044365872,47,"OLS, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,separate,joint,-0.39652426192411105,0.20211153967602452,22,"country + decade FE, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,separate,joint,-0.4990718907204695,0.2543808738287078,22,"country + decade FE, z-scored",all
+sonnet,joint lib weighted by liberalism_confidence,production,separate,-0.5351268960590527,0.07744874680587843,47,"OLS, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,production,separate,-0.31357722984921654,0.20718402660313523,22,"country + decade FE, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,production,separate,-0.443178096611145,0.2928127868288191,22,"country + decade FE, z-scored",all
+sonnet,joint lib weighted by liberalism_confidence,separate,production,-0.6623905844967224,0.08467790198466138,47,"OLS, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,separate,production,-0.491432096670891,0.32607859390292276,22,"country + decade FE, raw 0-10",all
+sonnet,joint lib weighted by liberalism_confidence,separate,production,-0.5951735982410981,0.3949138822702172,22,"country + decade FE, z-scored",all
+sonnet,joint lib weighted by liberalism_confidence,production,production,-0.5685310387215745,0.09819465552007513,37,"OLS, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,production,production,-0.4180997047073069,0.279995022157978,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,production,production,-0.5659357830190207,0.37899859847385836,15,"country + decade FE, z-scored",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,joint,joint,-0.5843208751139484,0.08960453263928858,37,"OLS, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,joint,joint,-0.359223300970874,0.1701370306854232,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,joint,joint,-0.49689453132577455,0.23534152683054052,15,"country + decade FE, z-scored",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,separate,separate,-0.6397201710066076,0.0811496770123945,37,"OLS, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,separate,separate,-0.25921017757752574,0.29408074965281766,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,separate,separate,-0.3228113155334836,0.36623788295955273,15,"country + decade FE, z-scored",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,joint,separate,-0.5698875721665155,0.08053388075304879,37,"OLS, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,joint,separate,-0.4114852303243134,0.21036243039462485,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,joint,separate,-0.5795554572010247,0.29628449708677657,15,"country + decade FE, z-scored",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,separate,joint,-0.6574038087835214,0.09166308969565631,37,"OLS, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,separate,joint,-0.29923138086403533,0.21909666381691995,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,separate,joint,-0.3659845957513558,0.26797323704408244,15,"country + decade FE, z-scored",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,production,separate,-0.5436385986478189,0.08633250274459625,37,"OLS, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,production,separate,-0.25065138092756234,0.2572650751510424,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,production,separate,-0.351039253966227,0.3603017853657333,15,"country + decade FE, z-scored",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,separate,production,-0.6758647493198602,0.09280785231681009,37,"OLS, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,separate,production,-0.3999469917837279,0.39309190230680113,15,"country + decade FE, raw 0-10",single-chunk
+sonnet,joint lib weighted by liberalism_confidence,separate,production,-0.4813941928112636,0.47314309150006384,15,"country + decade FE, z-scored",single-chunk

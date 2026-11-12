@@ -19,7 +19,7 @@ abstract: >
   populist parties? A measurement approach using large language models." The
   pipeline scores European party manifestos on populism and liberalism
   dimensions using three independent LLM families (Claude Sonnet 4.6,
-  GPT-4.1-mini, Gemini Flash) and computes a specification-curve robustness
+  GPT-4.1-mini, Gemini 3.5 Flash) and computes a specification-curve robustness
   analysis across the full grid of defensible analytic choices.
 keywords:
   - populism
@@ -30,8 +30,8 @@ keywords:
   - non-standard errors
   - cross-validation
 license: MIT
-version: "1.0.0"
-date-released: "2026-06-07"
+version: 2.0.0
+date-released: 2026-11-11
 preferred-citation:
   type: article
   title: "The Milei question, or: How liberal are right-wing populist parties? A measurement approach using large language models"

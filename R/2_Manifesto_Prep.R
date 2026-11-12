@@ -8,7 +8,7 @@
 # Requires:
 #   - MANIFESTO_API_KEY in .Renviron
 #   - MP_EMAIL / MP_PASSWORD in .Renviron (optional, for PDF download)
-#   - source("R/1_Functions.R") for helper functions
+#   - source("R/1_Functions.R") and R/2_Helpers.R for helper functions
 #
 # Output:
 #   - data/CMP/mpds.parquet           (election metadata)
@@ -23,6 +23,7 @@ suppressPackageStartupMessages({
 })
 
 source("R/1_Functions.R")
+source("R/2_Helpers.R")   # cmp_date_to_Date(), clean_manifesto_text(), ... (reconstructed, see file header)
 
 # ---- Config ----
 

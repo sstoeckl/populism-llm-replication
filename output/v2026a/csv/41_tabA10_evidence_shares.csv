@@ -1,0 +1,11 @@
+"dimension","dim","n_chunk_dims","verified","mixed","no_evidence","parse_lost","verified_span_validated"
+"Populism (overall)","populism_overall",20053,80.2922256,1.755348327,17.95242607,0,74.50256819
+"Anti-elitism","pop_anti_elitism",20053,76.35765222,3.849798035,19.79254974,0,70.44332519
+"People-centrism","pop_people_centrism",20053,77.60933526,0.2792599611,22.11140478,0,71.81469107
+"Manichaean","pop_manichean",20053,65.17728021,2.51333965,32.30938014,0,59.27791353
+"Ideology (overall)","pop_ideology_overall",20053,80.04288635,0.7280706129,19.22904304,0,73.10626839
+"Political liberalism","lib_political",20053,96.89323293,2.303894679,0.8028723882,0,87.62279958
+"Social liberalism","lib_social",20053,94.00588441,2.089462923,3.90465267,0,84.41131003
+"Economic liberalism","lib_economic",20053,90.65975166,8.447613823,0.8926345185,0,80.37201416
+"Financial-market liberalism","lib_financial_market",20053,71.9692814,2.383683239,25.64703536,0,64.72348277
+"Liberalism (overall)","liberalism_overall",20053,96.63392011,3.301251683,0.06482820526,0,88.37580412

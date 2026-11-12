@@ -1,0 +1,31 @@
+"external","external_label","llm_measure","n","r","rho"
+"rile","CMP rile","IDEO",3209,0.6465879831,0.6619661203
+"rile","CMP rile","IDEO_c",3193,0.6571389235,0.6745208287
+"rile","CMP rile","IDEO_old",3143,0.6213215046,0.6621235542
+"rile","CMP rile","IDEO_diff",3209,0.6574545004,0.6787563203
+"rile","CMP rile","IDEO_logit",3209,0.649712628,0.6661669556
+"rile_logit","CMP rile, Lowe logit","IDEO",3202,0.6388525411,0.6681064691
+"rile_logit","CMP rile, Lowe logit","IDEO_c",3186,0.6539062495,0.6806852667
+"rile_logit","CMP rile, Lowe logit","IDEO_old",3136,0.6251302554,0.6717970126
+"rile_logit","CMP rile, Lowe logit","IDEO_diff",3202,0.6526795667,0.6823037012
+"rile_logit","CMP rile, Lowe logit","IDEO_logit",3202,0.6485433237,0.6720796082
+"lrgen","CHES lrgen","IDEO",847,0.8545589305,0.8698862784
+"lrgen","CHES lrgen","IDEO_c",844,0.8791197582,0.8887158051
+"lrgen","CHES lrgen","IDEO_old",833,0.8132863311,0.8424124477
+"lrgen","CHES lrgen","IDEO_diff",847,0.8934682848,0.8992177448
+"lrgen","CHES lrgen","IDEO_logit",847,0.866013348,0.8765489683
+"lrecon","CHES lrecon","IDEO",847,0.6898245595,0.7124354197
+"lrecon","CHES lrecon","IDEO_c",844,0.7079412584,0.7287794899
+"lrecon","CHES lrecon","IDEO_old",833,0.6524472578,0.6823822487
+"lrecon","CHES lrecon","IDEO_diff",847,0.7026962769,0.7319484495
+"lrecon","CHES lrecon","IDEO_logit",847,0.7052229421,0.7184537397
+"galtan","CHES galtan","IDEO",847,0.7155127448,0.7165997877
+"galtan","CHES galtan","IDEO_c",844,0.7129085621,0.7126246344
+"galtan","CHES galtan","IDEO_old",833,0.6480506433,0.6919552641
+"galtan","CHES galtan","IDEO_diff",847,0.7141086973,0.7040494304
+"galtan","CHES galtan","IDEO_logit",847,0.7145869699,0.7161472243
+"parlgov_lr","ParlGov left_right","IDEO",1916,0.8216221002,0.8370169066
+"parlgov_lr","ParlGov left_right","IDEO_c",1907,0.8490895304,0.860723685
+"parlgov_lr","ParlGov left_right","IDEO_old",1874,0.7828151986,0.8231570539
+"parlgov_lr","ParlGov left_right","IDEO_diff",1916,0.8661091018,0.875887037
+"parlgov_lr","ParlGov left_right","IDEO_logit",1916,0.832228218,0.845066628

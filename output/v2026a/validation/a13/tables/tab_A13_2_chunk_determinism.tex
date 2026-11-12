@@ -1,0 +1,37 @@
+\begin{table}[ht]
+\centering
+\caption{Chunk-level determinism of the production pipeline (13 dimensions per chunk)}
+\label{tab:verify_determinism}
+\scriptsize
+\begin{tabular}{lrrrr}
+\toprule
+ & Sonnet 4.6 & GPT-4.1-mini & Gemini 3.5 Flash & Pooled \\
+\midrule
+\multicolumn{5}{l}{\textit{Panel A: Run 1 vs.\ Run 2 (fresh, identical settings)}} \\
+Chunk-dimension fully identical (score, status, quote) & 55.9\% & 45.4\% & 23.6\% & 41.6\% \\
+Exact score agreement (both scored) & 85.9\% & 77.3\% & 67.7\% & 77.2\% \\
+Agreement within $\pm$1 point & 100.0\% & 98.5\% & 96.1\% & 98.3\% \\
+Mean absolute difference & 0.141 & 0.242 & 0.374 & 0.249 \\
+Pearson correlation & 0.972 & 0.948 & 0.954 & 0.958 \\
+\texttt{evidence\_status} agreement & 94.6\% & 97.2\% & 86.7\% & 92.8\% \\
+Score NA/non-NA agreement & 98.2\% & 98.7\% & 93.1\% & 96.7\% \\
+Identical evidence quote & 63.3\% & 48.9\% & 28.6\% & 47.9\% \\
+Chunk $\times$ dimension pairs & 390 & 390 & 390 & 1{,}170 \\
+\midrule
+\multicolumn{5}{l}{\textit{Panel B: Fresh runs vs.\ stored production scores}} \\
+\multicolumn{5}{l}{\textit{(average of Run 1 and Run 2)}} \\
+Chunk-dimension fully identical (score, status, quote) & 39.6\% & 36.7\% & 14.9\% & 30.4\% \\
+Exact score agreement (both scored) & 77.0\% & 66.8\% & 40.7\% & 63.4\% \\
+Agreement within $\pm$1 point & 99.7\% & 96.3\% & 79.5\% & 92.9\% \\
+Mean absolute difference & 0.233 & 0.394 & 0.850 & 0.459 \\
+Pearson correlation & 0.953 & 0.916 & 0.882 & 0.917 \\
+\texttt{evidence\_status} agreement & 92.4\% & 95.8\% & 78.3\% & 88.8\% \\
+Score NA/non-NA agreement & 96.0\% & 96.8\% & 79.6\% & 90.8\% \\
+Identical evidence quote & 51.6\% & 45.5\% & 17.1\% & 40.0\% \\
+Chunk $\times$ dimension pairs & 390 & 390 & 390 & 1{,}170 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{0.95\linewidth}{\scriptsize\textit{Notes:} \texttt{temperature}\,=\,0 for all models; identical \texttt{poplib\_v4} schema, system prompt and chunking as in production. Score metrics use pairs where both runs return a numeric score; status and NA agreement use all pairs. Production scores: 
+the archived production scores
+.}
+\end{table}

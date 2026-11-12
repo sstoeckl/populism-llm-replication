@@ -1,0 +1,241 @@
+"region","subgroup","outcome","n","mean","sd","q25","q75"
+"World","all","populism_overall",3349,4.291117092,1.939448985,2.666666667,5.666666667
+"World","all","IDEO",3209,-0.2112583806,0.4402546735,-0.6,0.1428571429
+"World","all","lib_political",3359,7.266819102,1.232704817,7,8
+"World","all","lib_social",3336,7.029967285,1.653648243,6.666666667,8.047643233
+"World","all","lib_economic",3347,6.154095314,1.882170364,5,7.5
+"World","all","lib_financial_market",3137,5.16845994,1.897624964,3.754901961,6.666666667
+"World","all","liberalism_overall",3361,6.578147244,1.327342595,6,7.5
+"World","all","pop_anti_elitism",3332,4.542287129,2.208808251,2.666666667,6.333333333
+"World","all","pop_people_centrism",3357,5.173072196,1.607660981,4,6.333333333
+"World","all","pop_manichean",3314,3.834183501,2.038883102,2,5.333333333
+"World","right","populism_overall",998,4.200827372,1.984610476,2.633327847,5.666666667
+"World","right","IDEO",1001,0.343031766,0.2017930146,0.1666666667,0.5
+"World","right","lib_political",998,6.941519575,1.472497156,6.5,7.896733135
+"World","right","lib_social",986,5.729502006,1.961922728,4.432351533,7.165957624
+"World","right","lib_economic",996,7.084480825,1.5253993,6.347077922,8.226151475
+"World","right","lib_financial_market",911,6.023393728,1.649245981,5,7.328068433
+"World","right","liberalism_overall",999,6.581384222,1.501830023,6,7.666666667
+"World","right","pop_anti_elitism",989,4.305157686,2.235951547,2.5,6.064102564
+"World","right","pop_people_centrism",999,5.00599721,1.672227671,3.666666667,6.333333333
+"World","right","pop_manichean",990,3.940266288,2.071924744,2.164426523,5.354161393
+"World","populist","populism_overall",1674,5.903740525,1.37047442,4.666666667,7
+"World","populist","IDEO",1611,-0.2730211541,0.4633319523,-0.6666666667,0.08474576271
+"World","populist","lib_political",1668,6.80898674,1.448792941,6.356422254,7.666666667
+"World","populist","lib_social",1664,6.706705077,1.945981777,6,8.020289496
+"World","populist","lib_economic",1659,5.252404794,2.008403142,3.850294067,7
+"World","populist","lib_financial_market",1559,4.172984964,1.897635957,2.735697751,5.946806863
+"World","populist","liberalism_overall",1668,5.927121104,1.416256382,5.125839816,7
+"World","populist","pop_anti_elitism",1666,6.368127417,1.484807824,5.333333333,7.5
+"World","populist","pop_people_centrism",1673,6.385349409,1.138902205,5.5,7.111111111
+"World","populist","pop_manichean",1667,5.39471737,1.600203199,4.177940974,6.5
+"World","right_populist","populism_overall",453,6.04211016,1.401653751,4.798662238,7.00952381
+"World","right_populist","IDEO",453,0.3613107389,0.2224578002,0.1627906977,0.5384615385
+"World","right_populist","lib_political",450,6.135195744,1.667673622,5,7.473182957
+"World","right_populist","lib_social",449,4.675112102,2.042341333,3,6.5
+"World","right_populist","lib_economic",449,6.34033346,1.735899981,5.127564688,7.666666667
+"World","right_populist","lib_financial_market",399,5.068506521,1.787170111,3.666666667,6.666666667
+"World","right_populist","liberalism_overall",451,5.704163857,1.612310844,4.666666667,7
+"World","right_populist","pop_anti_elitism",449,6.372895552,1.511018466,5.333333333,7.508515815
+"World","right_populist","pop_people_centrism",452,6.419126299,1.195265736,5.5,7.333333333
+"World","right_populist","pop_manichean",452,5.708280593,1.587164213,4.5,7
+"World","populist_q3","populism_overall",832,7.064472231,0.8928587192,6.333333333,7.666666667
+"World","populist_q3","IDEO",806,-0.2859646271,0.491255078,-0.7,0.126641651
+"World","populist_q3","lib_political",829,6.297960929,1.703970742,5.5,7.5
+"World","populist_q3","lib_social",829,6.260450545,2.245489321,5,8
+"World","populist_q3","lib_economic",824,4.526288067,2.119569978,2.905952652,6.333333333
+"World","populist_q3","lib_financial_market",776,3.427768303,1.866247137,2,4.541666667
+"World","populist_q3","liberalism_overall",827,5.31768147,1.535426706,4.423704914,6.497916667
+"World","populist_q3","pop_anti_elitism",830,7.537608451,0.9113973404,7,8.182260105
+"World","populist_q3","pop_people_centrism",831,7.210858501,0.8499044016,6.616696973,7.836630272
+"World","populist_q3","pop_manichean",829,6.612498032,1.118611605,5.838095238,7.333333333
+"World","right_populist_q3","populism_overall",244,7.127296697,0.9103537911,6.333333333,7.666666667
+"World","right_populist_q3","IDEO",244,0.3690176384,0.2317932449,0.1631556162,0.5667701863
+"World","right_populist_q3","lib_political",242,5.469869331,1.804473528,4,7
+"World","right_populist_q3","lib_social",243,3.936365078,2.099964976,2.032031139,5.666666667
+"World","right_populist_q3","lib_economic",241,5.730725288,1.889832256,4,7
+"World","right_populist_q3","lib_financial_market",213,4.319609145,1.791075419,3,5.5
+"World","right_populist_q3","liberalism_overall",242,4.992308893,1.65784009,3.870171133,6.219501918
+"World","right_populist_q3","pop_anti_elitism",243,7.4538529,0.9499695551,6.943722944,8
+"World","right_populist_q3","pop_people_centrism",243,7.21325421,0.8661783157,6.630685671,7.666666667
+"World","right_populist_q3","pop_manichean",244,6.789412594,1.17167284,6,7.666666667
+"World","left","populism_overall",2117,4.427546967,1.904851636,2.958692529,6
+"World","left","IDEO",2122,-0.4812926207,0.2328021604,-0.6724489719,-0.2857142857
+"World","left","lib_political",2119,7.410089887,1.075181415,7.159441708,8
+"World","left","lib_social",2117,7.630011578,1.084861787,7.166666667,8.333333333
+"World","left","lib_economic",2113,5.65431621,1.858228133,4.333333333,7
+"World","left","lib_financial_market",2022,4.726010038,1.86177974,3.333333333,6.265470602
+"World","left","liberalism_overall",2119,6.545540766,1.228465102,6,7.333333333
+"World","left","pop_anti_elitism",2119,4.744220482,2.167665266,3,6.5
+"World","left","pop_people_centrism",2119,5.341837889,1.54390414,4.287229792,6.498536109
+"World","left","pop_manichean",2102,3.87455127,2.024969269,2,5.366406338
+"World","left_populist","populism_overall",1139,5.874266144,1.353813552,4.666666667,6.881440636
+"World","left_populist","IDEO",1139,-0.5298602668,0.2379469626,-0.7154554438,-0.3513513514
+"World","left_populist","lib_political",1137,7.080074693,1.253247304,6.666666667,7.666666667
+"World","left_populist","lib_social",1138,7.511859816,1.22000055,7,8.333333333
+"World","left_populist","lib_economic",1132,4.808153684,1.926465852,3.498873874,6.5
+"World","left_populist","lib_financial_market",1090,3.838241048,1.827456248,2.495967742,5.333333333
+"World","left_populist","liberalism_overall",1136,6.015856512,1.306391799,5.355865711,7
+"World","left_populist","pop_anti_elitism",1138,6.384188848,1.466762665,5.333333333,7.5
+"World","left_populist","pop_people_centrism",1139,6.396043625,1.115862565,5.542027707,7.033333333
+"World","left_populist","pop_manichean",1136,5.305253252,1.581244349,4.028680259,6.333333333
+"Latin America","all","populism_overall",282,4.645821756,1.730703343,3.319468253,6.071400508
+"Latin America","all","IDEO",280,-0.379047144,0.2803857387,-0.5885431766,-0.2488207547
+"Latin America","all","lib_political",282,7.487770338,0.7678840084,7.191155696,7.855653552
+"Latin America","all","lib_social",282,7.434722287,0.9250533694,7.002380952,8.009957326
+"Latin America","all","lib_economic",282,6.233449715,1.601274494,5.347222222,7.333333333
+"Latin America","all","lib_financial_market",277,5.451765293,1.644403119,4.333333333,6.666666667
+"Latin America","all","liberalism_overall",283,6.799340691,0.9389241652,6.333333333,7.333333333
+"Latin America","all","pop_anti_elitism",283,4.898683807,1.966902003,3.162280702,6.666666667
+"Latin America","all","pop_people_centrism",282,5.624958119,1.34936142,4.666666667,6.666666667
+"Latin America","all","pop_manichean",282,4.022490045,1.906918098,2.479018462,5.61477412
+"Latin America","right","populism_overall",28,4.781177892,1.564267379,3.662110986,5.75
+"Latin America","right","IDEO",28,0.2529499465,0.2226661916,0.09005681818,0.3788814613
+"Latin America","right","lib_political",28,7.322603757,0.8356318961,7.128763353,7.782083333
+"Latin America","right","lib_social",27,6.201711346,1.433049667,5.920924574,7.153460135
+"Latin America","right","lib_economic",28,7.633667172,1.074449217,7.295454545,8.275900901
+"Latin America","right","lib_financial_market",28,6.810458797,1.30477286,6.62951478,7.668456033
+"Latin America","right","liberalism_overall",28,7.156433116,0.9729279875,6.929645188,7.71727286
+"Latin America","right","pop_anti_elitism",28,4.972052018,1.744707876,3.555098684,6.380952381
+"Latin America","right","pop_people_centrism",28,5.452868369,1.285690644,4.673431921,6.474420849
+"Latin America","right","pop_manichean",28,4.651185308,1.736409027,3.221965699,5.910144453
+"Latin America","populist","populism_overall",165,5.804123663,1.283713115,4.666666667,6.666666667
+"Latin America","populist","IDEO",165,-0.4111012032,0.2874224241,-0.6006177314,-0.2879245628
+"Latin America","populist","lib_political",164,7.324459148,0.806355175,7.042166577,7.670646999
+"Latin America","populist","lib_social",164,7.406645208,1.038323187,6.998737374,8.122593164
+"Latin America","populist","lib_economic",164,5.63261439,1.704672843,4.30292188,7
+"Latin America","populist","lib_financial_market",163,4.767041422,1.682962072,3.456079302,6
+"Latin America","populist","liberalism_overall",165,6.446291841,0.9613603742,5.996750186,7.166666667
+"Latin America","populist","pop_anti_elitism",165,6.188436713,1.460899355,5.04259007,7.333333333
+"Latin America","populist","pop_people_centrism",165,6.447016255,1.024204255,5.666666667,7.103925585
+"Latin America","populist","pop_manichean",165,5.170129799,1.565025939,4,6.029437229
+"Latin America","right_populist","populism_overall",15,5.969793215,1.12502249,5.169554217,6.757848325
+"Latin America","right_populist","IDEO",15,0.2631375135,0.2632134321,0.06545454545,0.323501826
+"Latin America","right_populist","lib_political",15,6.998521904,0.9598781892,6.590411689,7.666666667
+"Latin America","right_populist","lib_social",14,5.612333426,1.737738101,4.726399152,6.916666667
+"Latin America","right_populist","lib_economic",15,7.214920524,1.232722302,6.683262237,7.951192779
+"Latin America","right_populist","lib_financial_market",15,6.322190557,1.509337813,5.75,7.305683343
+"Latin America","right_populist","liberalism_overall",15,6.734419779,1.104962518,6.128182082,7.421052632
+"Latin America","right_populist","pop_anti_elitism",15,6.330511313,1.07266762,5.334891542,7.252380952
+"Latin America","right_populist","pop_people_centrism",15,6.21418115,1.059211854,5.661971831,6.905836419
+"Latin America","right_populist","pop_manichean",15,5.934416503,1.079328304,5.333333333,6.5
+"Latin America","populist_q3","populism_overall",84,6.872031127,0.7825932815,6.333000721,7.347338936
+"Latin America","populist_q3","IDEO",84,-0.4749332191,0.2631208409,-0.62804788,-0.4035001303
+"Latin America","populist_q3","lib_political",83,7.090822883,0.969863964,6.843161343,7.666666667
+"Latin America","populist_q3","lib_social",83,7.522376926,0.9439319191,7.168692735,8.211258695
+"Latin America","populist_q3","lib_economic",84,4.888675602,1.899031938,3.795305721,6.545454545
+"Latin America","populist_q3","lib_financial_market",83,4.00373647,1.733517015,2.960948154,5
+"Latin America","populist_q3","liberalism_overall",84,6.01775715,1.046517914,5.5,6.666666667
+"Latin America","populist_q3","pop_anti_elitism",84,7.330490834,0.8142750214,6.778869542,7.965995878
+"Latin America","populist_q3","pop_people_centrism",84,7.21781365,0.721923461,6.666666667,7.694450524
+"Latin America","populist_q3","pop_manichean",84,6.340879657,0.9190498376,5.666666667,7
+"Latin America","right_populist_q3","populism_overall",7,6.953920442,0.8071797495,6.257848325,7.580873223
+"Latin America","right_populist_q3","IDEO",7,0.2053597446,0.2726254842,0.03643942683,0.2365453043
+"Latin America","right_populist_q3","lib_political",7,6.809052417,1.240812185,6.590909091,7.583333333
+"Latin America","right_populist_q3","lib_social",6,5.770320543,1.62522023,4.807351533,6.916666667
+"Latin America","right_populist_q3","lib_economic",7,7.125643338,1.640439858,6.840909091,7.833333333
+"Latin America","right_populist_q3","lib_financial_market",7,5.974207368,1.838382356,5,7.166666667
+"Latin America","right_populist_q3","liberalism_overall",7,6.529054147,1.393738783,6.090909091,7.5
+"Latin America","right_populist_q3","pop_anti_elitism",7,7.129704618,0.9035584252,6.919047619,7.701585212
+"Latin America","right_populist_q3","pop_people_centrism",7,6.951528974,1.019732844,6.591181658,7.666666667
+"Latin America","right_populist_q3","pop_manichean",7,6.701809189,0.8757938266,6,7.289665493
+"Latin America","left","populism_overall",250,4.659661684,1.746071412,3.241383616,6.136678418
+"Latin America","left","IDEO",251,-0.4510589594,0.178506988,-0.6,-0.3333333333
+"Latin America","left","lib_political",250,7.496739987,0.7613363216,7.231732976,7.855653552
+"Latin America","left","lib_social",251,7.567644669,0.7493595041,7.178265694,8.155555556
+"Latin America","left","lib_economic",250,6.067027222,1.582998092,5,7.141062326
+"Latin America","left","lib_financial_market",246,5.289076449,1.613855816,4,6.512139685
+"Latin America","left","liberalism_overall",251,6.750995836,0.931843205,6.333333333,7.333333333
+"Latin America","left","pop_anti_elitism",251,4.919429193,1.991466182,3.175586365,6.666666667
+"Latin America","left","pop_people_centrism",250,5.668898167,1.346479547,4.666666667,6.666666667
+"Latin America","left","pop_manichean",250,3.986436016,1.905789014,2.479018462,5.498981534
+"Latin America","left_populist","populism_overall",150,5.787556708,1.300713411,4.541666667,6.660211546
+"Latin America","left_populist","IDEO",150,-0.4785250749,0.1846001983,-0.6155356664,-0.3528728565
+"Latin America","left_populist","lib_political",149,7.357271622,0.7855577231,7.098518409,7.739365197
+"Latin America","left_populist","lib_social",150,7.574114308,0.7649870023,7.162175649,8.179444444
+"Latin America","left_populist","lib_economic",149,5.473321826,1.666548169,4.171428571,6.666666667
+"Latin America","left_populist","lib_financial_market",148,4.609424955,1.62253484,3.333333333,5.882092199
+"Latin America","left_populist","liberalism_overall",150,6.417479047,0.9451681276,5.983519344,7.011731913
+"Latin America","left_populist","pop_anti_elitism",150,6.174229253,1.496240341,5,7.333333333
+"Latin America","left_populist","pop_people_centrism",150,6.470299765,1.021360971,5.666666667,7.089856731
+"Latin America","left_populist","pop_manichean",150,5.093701129,1.587997573,4,6.009090909
+"Argentina","all","populism_overall",38,4.428488195,1.474987261,3.541666667,5.503571429
+"Argentina","all","IDEO",37,-0.4305433092,0.1796171865,-0.6,-0.2798325004
+"Argentina","all","lib_political",38,7.735152965,0.6422018983,7.416554214,8
+"Argentina","all","lib_social",38,7.470461206,0.8751305552,6.937778131,7.958333333
+"Argentina","all","lib_economic",38,6.125664619,1.510956423,4.75,7
+"Argentina","all","lib_financial_market",36,5.246148664,1.611639641,3.625,6.057762692
+"Argentina","all","liberalism_overall",38,6.759155604,0.867638541,6.083333333,7.332142857
+"Argentina","all","pop_anti_elitism",38,4.632720615,1.583899511,3.333333333,6
+"Argentina","all","pop_people_centrism",38,5.448325784,1.311909792,4.626831502,6
+"Argentina","all","pop_manichean",37,3.782138501,1.72566367,2.666666667,5
+"Argentina","right","populism_overall",0,,,,
+"Argentina","right","IDEO",0,,,,
+"Argentina","right","lib_political",0,,,,
+"Argentina","right","lib_social",0,,,,
+"Argentina","right","lib_economic",0,,,,
+"Argentina","right","lib_financial_market",0,,,,
+"Argentina","right","liberalism_overall",0,,,,
+"Argentina","right","pop_anti_elitism",0,,,,
+"Argentina","right","pop_people_centrism",0,,,,
+"Argentina","right","pop_manichean",0,,,,
+"Argentina","populist","populism_overall",22,5.421887574,1.003715627,4.666666667,6.260817308
+"Argentina","populist","IDEO",22,-0.4634331753,0.1823819298,-0.6,-0.3517112931
+"Argentina","populist","lib_political",22,7.569630643,0.5632101267,7.333333333,7.963492063
+"Argentina","populist","lib_social",22,7.477879734,0.9848759909,7.333333333,8.084101101
+"Argentina","populist","lib_economic",22,5.551817948,1.289236587,4.541666667,6.666666667
+"Argentina","populist","lib_financial_market",21,4.615728626,1.485496214,3.333333333,5.666666667
+"Argentina","populist","liberalism_overall",22,6.387312365,0.7829366629,5.666666667,7.019047619
+"Argentina","populist","pop_anti_elitism",22,5.565373583,1.192939017,4.75,6.650240385
+"Argentina","populist","pop_people_centrism",22,6.178300858,1.077421172,5.503571429,6.833333333
+"Argentina","populist","pop_manichean",22,4.786904285,1.123539408,4.083333333,5.622996795
+"Argentina","right_populist","populism_overall",0,,,,
+"Argentina","right_populist","IDEO",0,,,,
+"Argentina","right_populist","lib_political",0,,,,
+"Argentina","right_populist","lib_social",0,,,,
+"Argentina","right_populist","lib_economic",0,,,,
+"Argentina","right_populist","lib_financial_market",0,,,,
+"Argentina","right_populist","liberalism_overall",0,,,,
+"Argentina","right_populist","pop_anti_elitism",0,,,,
+"Argentina","right_populist","pop_people_centrism",0,,,,
+"Argentina","right_populist","pop_manichean",0,,,,
+"Argentina","populist_q3","populism_overall",7,6.659095554,0.4630297576,6.333333333,7
+"Argentina","populist_q3","IDEO",7,-0.5526024283,0.1308014243,-0.6064516129,-0.4396189154
+"Argentina","populist_q3","lib_political",7,7.263510367,0.5529515271,7.055555556,7.533397395
+"Argentina","populist_q3","lib_social",7,7.714606149,0.8431343465,7.5,8.0560674
+"Argentina","populist_q3","lib_economic",7,4.411836001,0.986437964,4.161904762,4.833333333
+"Argentina","populist_q3","lib_financial_market",7,3.324056625,0.8789494721,3.134198188,3.333333333
+"Argentina","populist_q3","liberalism_overall",7,5.690510064,0.2424400666,5.583333333,5.831708426
+"Argentina","populist_q3","pop_anti_elitism",7,6.896529859,0.2621388407,6.670707071,7
+"Argentina","populist_q3","pop_people_centrism",7,7.323887706,0.9015915753,6.833333333,8
+"Argentina","populist_q3","pop_manichean",7,5.976777389,0.532117369,5.74599359,6.006060606
+"Argentina","right_populist_q3","populism_overall",0,,,,
+"Argentina","right_populist_q3","IDEO",0,,,,
+"Argentina","right_populist_q3","lib_political",0,,,,
+"Argentina","right_populist_q3","lib_social",0,,,,
+"Argentina","right_populist_q3","lib_economic",0,,,,
+"Argentina","right_populist_q3","lib_financial_market",0,,,,
+"Argentina","right_populist_q3","liberalism_overall",0,,,,
+"Argentina","right_populist_q3","pop_anti_elitism",0,,,,
+"Argentina","right_populist_q3","pop_people_centrism",0,,,,
+"Argentina","right_populist_q3","pop_manichean",0,,,,
+"Argentina","left","populism_overall",37,4.449077966,1.489786308,3.5,5.666666667
+"Argentina","left","IDEO",37,-0.4305433092,0.1796171865,-0.6,-0.2798325004
+"Argentina","left","lib_political",37,7.737003947,0.6509575032,7.400128123,8
+"Argentina","left","lib_social",37,7.483176374,0.8836361642,6.917037508,8
+"Argentina","left","lib_economic",37,6.12906096,1.531651126,4.666666667,7
+"Argentina","left","lib_financial_market",35,5.253181483,1.634607898,3.583333333,6.115525384
+"Argentina","left","liberalism_overall",37,6.761655305,0.8794678031,6,7.333333333
+"Argentina","left","pop_anti_elitism",37,4.676848199,1.581889419,3.333333333,6
+"Argentina","left","pop_people_centrism",37,5.451433688,1.329864128,4.613553114,6
+"Argentina","left","pop_manichean",36,3.859420126,1.683954876,2.897506083,5.083333333
+"Argentina","left_populist","populism_overall",22,5.421887574,1.003715627,4.666666667,6.260817308
+"Argentina","left_populist","IDEO",22,-0.4634331753,0.1823819298,-0.6,-0.3517112931
+"Argentina","left_populist","lib_political",22,7.569630643,0.5632101267,7.333333333,7.963492063
+"Argentina","left_populist","lib_social",22,7.477879734,0.9848759909,7.333333333,8.084101101
+"Argentina","left_populist","lib_economic",22,5.551817948,1.289236587,4.541666667,6.666666667
+"Argentina","left_populist","lib_financial_market",21,4.615728626,1.485496214,3.333333333,5.666666667
+"Argentina","left_populist","liberalism_overall",22,6.387312365,0.7829366629,5.666666667,7.019047619
+"Argentina","left_populist","pop_anti_elitism",22,5.565373583,1.192939017,4.75,6.650240385
+"Argentina","left_populist","pop_people_centrism",22,6.178300858,1.077421172,5.503571429,6.833333333
+"Argentina","left_populist","pop_manichean",22,4.786904285,1.123539408,4.083333333,5.622996795

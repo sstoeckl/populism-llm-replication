@@ -1,0 +1,6 @@
+"dv","n_measures","sig_neg","sig_pos","cells","verdict"
+"lib_economic",5,0,2,"IDEO 0.075***; rile 0.047**; rile_logit 0.038*; lrgen -0.048; parlgov_lr 0.013","right flatter in 2 of 5 measures"
+"lib_financial_market",5,1,0,"IDEO 0.027; rile -0.003; rile_logit -0.015; lrgen -0.103***; parlgov_lr -0.034","right steeper in 1 of 5 measures"
+"lib_political",5,1,0,"IDEO -0.060***; rile -0.032*; rile_logit -0.019; lrgen -0.061; parlgov_lr 0.014","right steeper in 1 of 5 measures"
+"lib_social",5,3,0,"IDEO -0.162***; rile -0.076***; rile_logit -0.053*; lrgen -0.093*; parlgov_lr -0.057**","right steeper in 3 of 5 measures"
+"liberalism_overall",5,0,0,"IDEO -0.032*; rile -0.011; rile_logit -0.006; lrgen -0.070*; parlgov_lr -0.007","no significant difference with any measure"

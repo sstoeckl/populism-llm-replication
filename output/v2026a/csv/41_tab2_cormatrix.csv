@@ -1,0 +1,22 @@
+"row","col","r","n","p"
+"Liberalism (overall)","Populism (overall)",-0.6512427113,3342,0
+"Liberalism (political)","Populism (overall)",-0.5345109752,3342,2.45711824e-246
+"Liberalism (political)","Liberalism (overall)",0.8566729739,3355,0
+"Liberalism (social)","Populism (overall)",-0.3109908074,3318,2.540558426e-75
+"Liberalism (social)","Liberalism (overall)",0.5903784928,3329,5.81146186e-312
+"Liberalism (social)","Liberalism (political)",0.7156876773,3327,0
+"Liberalism (economic)","Populism (overall)",-0.5997750923,3327,0
+"Liberalism (economic)","Liberalism (overall)",0.8101445578,3342,0
+"Liberalism (economic)","Liberalism (political)",0.5493655579,3338,1.431866557e-262
+"Liberalism (economic)","Liberalism (social)",0.1090623247,3317,3.021025297e-10
+"Liberalism (financial markets)","Populism (overall)",-0.6398160908,3120,0
+"Liberalism (financial markets)","Liberalism (overall)",0.8379043605,3131,0
+"Liberalism (financial markets)","Liberalism (political)",0.5616852145,3129,1.048534323e-259
+"Liberalism (financial markets)","Liberalism (social)",0.1586644871,3116,5.113721667e-19
+"Liberalism (financial markets)","Liberalism (economic)",0.9054936234,3123,0
+"Ideology","Populism (overall)",-0.1377181136,3201,5.036261758e-15
+"Ideology","Liberalism (overall)",0.1051082904,3203,2.479365817e-09
+"Ideology","Liberalism (political)",-0.1353454239,3202,1.45865797e-14
+"Ideology","Liberalism (social)",-0.576327078,3187,1.540285255e-281
+"Ideology","Liberalism (economic)",0.5030864958,3194,1.508024051e-204
+"Ideology","Liberalism (financial markets)",0.461324178,3009,1.760505541e-158

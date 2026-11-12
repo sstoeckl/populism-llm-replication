@@ -1,0 +1,26 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+caption={Liberalism (z-scored) and expert-coded populism (PopuList 4.0), European parties 1989+. Country and year FE; SE clustered by party.},
+note{}={* p \num{< 0.1}, ** p \num{< 0.05}, *** p \num{< 0.01}},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]Q[]Q[]Q[]Q[]},
+hline{2}={1-8}{solid, black, 0.05em},
+hline{8}={1-8}{solid, black, 0.05em},
+hline{1}={1-8}{solid, black, 0.08em},
+hline{10}={1-8}{solid, black, 0.08em},
+column{2-8}={}{halign=c},
+column{1}={}{halign=l},
+}                     %% tabularray inner close
+& LLM Lib & LLM Pol & LLM Soc & LLM Econ & CMP Lib & CMP Soc & CMP Econ \\
+Populist (PopuList) & -0.156 & -0.154 & -0.325** & -0.001 & -0.192** & -0.346*** & 0.167 \\
+& (0.127) & (0.146) & (0.130) & (0.128) & (0.090) & (0.095) & (0.109) \\
+Far right (PopuList) & -1.342*** & -1.471*** & -1.725*** & -0.408** & -0.953*** & -0.811*** & -0.019 \\
+& (0.178) & (0.200) & (0.166) & (0.168) & (0.128) & (0.115) & (0.143) \\
+Far left (PopuList) & -1.391*** & -0.866*** & 0.154 & -1.924*** & 0.088 & 0.828*** & -1.322*** \\
+& (0.156) & (0.201) & (0.136) & (0.134) & (0.123) & (0.121) & (0.132) \\
+Num.Obs. & 1587 & 1588 & 1577 & 1583 & 1587 & 1587 & 1587 \\
+R2 Within & 0.337 & 0.294 & 0.414 & 0.301 & 0.134 & 0.220 & 0.158 \\
+\end{talltblr}
+\end{table}

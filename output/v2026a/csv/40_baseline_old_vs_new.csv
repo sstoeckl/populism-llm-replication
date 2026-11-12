@@ -1,0 +1,40 @@
+"comparison","var","n_a","n_b","n_both","cor","mean_diff","mad","max_abs"
+"data: June file -> v2026a data (June rule)","populism_overall",3317,3363,3314,0.9981928315,0.0001675199455,0.02344212172,1.833333333
+"data: June file -> v2026a data (June rule)","liberalism_overall",3327,3371,3324,0.9981751092,-0.004929542056,0.01573458189,1.5
+"data: June file -> v2026a data (June rule)","lib_political",3326,3370,3323,0.9966195773,-0.003970432757,0.01458006058,4
+"data: June file -> v2026a data (June rule)","lib_social",3304,3349,3301,0.9986599102,-0.004193092438,0.0158488972,1.999666667
+"data: June file -> v2026a data (June rule)","lib_economic",3322,3367,3319,0.998508142,-0.004263069742,0.01885405928,2
+"data: June file -> v2026a data (June rule)","lib_financial_market",3123,3169,3120,0.9983627416,-0.005921058141,0.0212418211,2
+"data: June file -> v2026a data (June rule)","pop_anti_elitism",3306,3351,3302,0.99780843,0.001698674201,0.02816299478,2.666666667
+"data: June file -> v2026a data (June rule)","pop_people_centrism",3324,3370,3321,0.9968412264,0.002846791091,0.02517659907,1.5
+"data: June file -> v2026a data (June rule)","pop_manichean",3299,3348,3296,0.9971609683,-0.0005269653934,0.02975810676,2.265460637
+"data: June file -> v2026a data (June rule)","pop_ideology_left",3316,3362,3313,0.9984134449,-0.004603109183,0.0253269206,2
+"data: June file -> v2026a data (June rule)","pop_ideology_right",3247,3298,3242,0.9964605662,0.001063620142,0.02987629581,5
+"data: June file -> v2026a data (June rule)","pop_ideology_centrist",3316,3364,3313,0.9783519815,-0.008740730049,0.04236476961,4
+"data: June file -> v2026a data (June rule)","IDEO",3237,3293,3232,0.9884493817,-0.06900232645,0.1397963875,0.6428571429
+"rule: June rule -> new rule (v2026a data)","populism_overall",3363,3349,3349,0.9949361481,-0.01221467497,0.05873544549,3.333333333
+"rule: June rule -> new rule (v2026a data)","liberalism_overall",3371,3361,3361,0.9938489316,-0.006164189172,0.04956263489,1.5
+"rule: June rule -> new rule (v2026a data)","lib_political",3370,3359,3359,0.9927343317,-0.004442843255,0.05033536403,2
+"rule: June rule -> new rule (v2026a data)","lib_social",3349,3336,3336,0.995021194,0.001037392476,0.05746143705,2
+"rule: June rule -> new rule (v2026a data)","lib_economic",3367,3347,3347,0.9896630129,-0.01681708874,0.08773233987,4
+"rule: June rule -> new rule (v2026a data)","lib_financial_market",3169,3137,3137,0.9909959355,-0.007551366437,0.07998847589,3.666666667
+"rule: June rule -> new rule (v2026a data)","pop_anti_elitism",3351,3332,3332,0.9949815945,-0.004664273607,0.06306581167,3.333333333
+"rule: June rule -> new rule (v2026a data)","pop_people_centrism",3370,3357,3357,0.989765429,-0.007221292717,0.07169243461,3.2
+"rule: June rule -> new rule (v2026a data)","pop_manichean",3348,3314,3314,0.9942220641,-0.01206127917,0.06896811546,2.685724079
+"rule: June rule -> new rule (v2026a data)","pop_ideology_left",3362,3329,3329,0.9926439609,-0.02143840357,0.0920180836,4.666666667
+"rule: June rule -> new rule (v2026a data)","pop_ideology_right",3298,3240,3240,0.9901924009,-0.02478729561,0.09619704735,3
+"rule: June rule -> new rule (v2026a data)","pop_ideology_centrist",3364,3342,3342,0.9193579266,-0.02826319264,0.1361169678,3.08125
+"rule: June rule -> new rule (v2026a data)","IDEO",3293,3209,3209,0.9902686141,-0.001559342911,0.02412488328,0.5769230769
+"total: June file -> v2026a baseline","populism_overall",3317,3349,3300,0.9931364879,-0.01264007507,0.07820402995,3.333
+"total: June file -> v2026a baseline","liberalism_overall",3327,3361,3314,0.9920144933,-0.01096784222,0.06221307401,1.5
+"total: June file -> v2026a baseline","lib_political",3326,3359,3312,0.9895238913,-0.008044836236,0.0620811625,4
+"total: June file -> v2026a baseline","lib_social",3304,3336,3288,0.9936209126,-0.003478480022,0.07017198378,2
+"total: June file -> v2026a baseline","lib_economic",3322,3347,3299,0.9876570767,-0.02140435954,0.1033781249,4
+"total: June file -> v2026a baseline","lib_financial_market",3123,3137,3088,0.9891942134,-0.01316904276,0.09807797255,3.667
+"total: June file -> v2026a baseline","pop_anti_elitism",3306,3332,3283,0.9926543094,-0.002723543946,0.08550364752,3.333
+"total: June file -> v2026a baseline","pop_people_centrism",3324,3357,3308,0.9871252994,-0.003067695808,0.09262976513,2
+"total: June file -> v2026a baseline","pop_manichean",3299,3314,3262,0.9915219829,-0.01208419556,0.09288340093,2.558
+"total: June file -> v2026a baseline","pop_ideology_left",3316,3329,3280,0.9910215105,-0.02597050292,0.112070757,4.667
+"total: June file -> v2026a baseline","pop_ideology_right",3247,3240,3185,0.9868490714,-0.02335728286,0.1211995333,5
+"total: June file -> v2026a baseline","pop_ideology_centrist",3316,3342,3291,0.8988924071,-0.03764188651,0.1733020387,4
+"total: June file -> v2026a baseline","IDEO",3237,3209,3149,0.9787598058,-0.07047057156,0.1486835636,0.6428571429

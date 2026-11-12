@@ -1,16 +1,19 @@
 Package: populismLLM
 Title: Cross-Validated LLM Annotation of European Party Manifestos
-Version: 1.0.0
+Version: 2.0.0
 Authors@R: c(
     person("Martin", "Rode", email = "martinrode@unav.es",
            role = c("aut")),
     person("Sebastian", "Stöckl", email = "sebastian.stoeckl@uni.li",
            role = c("aut", "cre"),
            comment = c(URL = "http://www.sebastianstoeckl.com")))
-Description: Pipeline and replication code for scoring European party
-    manifestos on populism and liberalism dimensions using three independent
-    large language models (Claude Sonnet 4.6, GPT-4.1-mini, Gemini Flash),
-    with a 8,100-cell specification-curve robustness analysis.
+Description: Replication package (v2026a) for the LLM measurement of populism,
+    ideology and liberalism in the 3,371 manifestos of the Manifesto Project
+    corpus 2026-1 (MPDS2026a), scored by three model families (Claude Sonnet 4.6,
+    GPT-4.1-mini, Gemini 3.5 Flash) with verbatim-quote evidence, and for the
+    regressions, the 20,592-specification curve with non-standard errors, the
+    construct-independence tests and every table, figure and number of the paper.
+    One chain (run_all.R), verified byte-identical against MANIFEST.md5 (R/71).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 4.4.0)

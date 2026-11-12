@@ -1,0 +1,5 @@
+"set","spans","chunk_missing","verbatim_agree","halluc_agree","quote_ok_agree","n_disagree"
+"claude",84748,0,1,1,1,0
+"gemini",57403,0,1,1,1,0
+"gemini_june_superseded",4080,0,1,1,1,0
+"gpt41mini",68538,0,1,1,1,0

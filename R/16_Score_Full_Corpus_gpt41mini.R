@@ -195,7 +195,12 @@ if (length(existing_files) > 0) {
   for (f in existing_files) {
     e <- new.env()
     load(f, envir = e)
-    already_done <- c(already_done, unique(e$batch_result$raw$doc_id_root))
+    # FIX 2026-10-13: count a manifesto as done only if ALL its chunks parsed in this
+    # batch. Previously error rows counted as done, so failed chunks were never retried.
+    raw_b <- e$batch_result$raw
+    err_b <- if ("scoring_error" %in% names(raw_b)) !is.na(raw_b$scoring_error) else rep(FALSE, nrow(raw_b))
+    bad_b <- raw_b$doc_id_root[err_b | is.na(raw_b$schema_version)]
+    already_done <- c(already_done, setdiff(unique(raw_b$doc_id_root), bad_b))
   }
   already_done <- unique(already_done)
   message("  already-scored manifestos: ", length(already_done))

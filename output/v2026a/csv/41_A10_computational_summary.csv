@@ -1,0 +1,9 @@
+"item","value"
+"manifestos in the scoring pool",3371
+"chunk records, all three models",20053
+"chunk records per model (mean)",6684.333333
+"share of dimension judgements with status verified (10 dims, %)",82.96414502
+"share verified and passing span validation (10 dims, %)",75.4650177
+"share no_evidence (%)",14.27068269
+"share mixed (%)",2.765172293
+"share parse-lost (Claude, status missing, %)",0

@@ -1,0 +1,121 @@
+"model","measure","source","external","stat","n","value"
+"sonnet","POP","CMP (Manifesto Project 2026a)","rile","r",3168,-0.1108340863
+"sonnet","POP","CMP (Manifesto Project 2026a)","rile_logit","r",3161,-0.1410595041
+"sonnet","POP","CHES 1999--2024","lrgen","r",830,-0.1806773582
+"sonnet","POP","CHES 1999--2024","lrecon","r",830,-0.4544559076
+"sonnet","POP","CHES 1999--2024","galtan","r",830,0.1546811374
+"sonnet","POP","ParlGov","parlgov_lr","r",1900,-0.3833441971
+"sonnet","POP","POPPA 2018","poppa_populism","r",168,0.6174580916
+"sonnet","POP","POPPA 2018","poppa_lroverall","r",180,-0.1716167661
+"sonnet","POP","POPPA 2018","poppa_lrecon","r",176,-0.4702676117
+"sonnet","POP","Global Party Survey 2019","gps_v8_populism","r",262,0.378580135
+"sonnet","POP","Global Party Survey 2019","gps_v4_econ_lr","r",261,-0.3917970632
+"sonnet","POP","Global Party Survey 2019","gps_v6_social","r",262,-0.005682510089
+"sonnet","POP","RFPOPI (Celico et al. 2024)","rfpopi_rhet","r",1753,0.2134629338
+"sonnet","POP","RFPOPI (Celico et al. 2024)","rfpopi_ide","r",1753,0.5893333834
+"sonnet","POP","PopuList 4.0","populist","AUC",1501,0.78444845
+"sonnet","IDEO","CMP (Manifesto Project 2026a)","rile","r",2931,0.6658969049
+"sonnet","IDEO","CMP (Manifesto Project 2026a)","rile_logit","r",2924,0.6553621825
+"sonnet","IDEO","CHES 1999--2024","lrgen","r",792,0.8729739057
+"sonnet","IDEO","CHES 1999--2024","lrecon","r",792,0.715901021
+"sonnet","IDEO","CHES 1999--2024","galtan","r",792,0.6952277461
+"sonnet","IDEO","ParlGov","parlgov_lr","r",1755,0.8435996445
+"sonnet","IDEO","POPPA 2018","poppa_populism","r",152,0.2328675961
+"sonnet","IDEO","POPPA 2018","poppa_lroverall","r",164,0.856785034
+"sonnet","IDEO","POPPA 2018","poppa_lrecon","r",161,0.6998664065
+"sonnet","IDEO","Global Party Survey 2019","gps_v8_populism","r",254,0.4372683115
+"sonnet","IDEO","Global Party Survey 2019","gps_v4_econ_lr","r",253,0.6608169256
+"sonnet","IDEO","Global Party Survey 2019","gps_v6_social","r",254,0.6974192557
+"sonnet","IDEO","RFPOPI (Celico et al. 2024)","rfpopi_rhet","r",1617,0.2095661768
+"sonnet","IDEO","RFPOPI (Celico et al. 2024)","rfpopi_ide","r",1617,0.125082346
+"sonnet","IDEO","PopuList 4.0","farright_vs_farleft","AUC",349,0.9946763063
+"gpt41mini","POP","CMP (Manifesto Project 2026a)","rile","r",2983,-0.1523517128
+"gpt41mini","POP","CMP (Manifesto Project 2026a)","rile_logit","r",2976,-0.1745698149
+"gpt41mini","POP","CHES 1999--2024","lrgen","r",792,-0.1691448673
+"gpt41mini","POP","CHES 1999--2024","lrecon","r",792,-0.3967442178
+"gpt41mini","POP","CHES 1999--2024","galtan","r",792,0.05815813418
+"gpt41mini","POP","ParlGov","parlgov_lr","r",1767,-0.3670982527
+"gpt41mini","POP","POPPA 2018","poppa_populism","r",163,0.5541032005
+"gpt41mini","POP","POPPA 2018","poppa_lroverall","r",174,-0.2022191676
+"gpt41mini","POP","POPPA 2018","poppa_lrecon","r",170,-0.4814964735
+"gpt41mini","POP","Global Party Survey 2019","gps_v8_populism","r",259,0.2366894563
+"gpt41mini","POP","Global Party Survey 2019","gps_v4_econ_lr","r",258,-0.3834289049
+"gpt41mini","POP","Global Party Survey 2019","gps_v6_social","r",259,-0.0772129746
+"gpt41mini","POP","RFPOPI (Celico et al. 2024)","rfpopi_rhet","r",1656,0.1570429123
+"gpt41mini","POP","RFPOPI (Celico et al. 2024)","rfpopi_ide","r",1656,0.4765452144
+"gpt41mini","POP","PopuList 4.0","populist","AUC",1428,0.7055012767
+"gpt41mini","IDEO","CMP (Manifesto Project 2026a)","rile","r",2358,0.6157195399
+"gpt41mini","IDEO","CMP (Manifesto Project 2026a)","rile_logit","r",2352,0.6093344071
+"gpt41mini","IDEO","CHES 1999--2024","lrgen","r",673,0.8020952049
+"gpt41mini","IDEO","CHES 1999--2024","lrecon","r",673,0.6112055925
+"gpt41mini","IDEO","CHES 1999--2024","galtan","r",673,0.7010159567
+"gpt41mini","IDEO","ParlGov","parlgov_lr","r",1369,0.783423468
+"gpt41mini","IDEO","POPPA 2018","poppa_populism","r",136,0.3455061672
+"gpt41mini","IDEO","POPPA 2018","poppa_lroverall","r",146,0.7825661786
+"gpt41mini","IDEO","POPPA 2018","poppa_lrecon","r",143,0.5577456626
+"gpt41mini","IDEO","Global Party Survey 2019","gps_v8_populism","r",218,0.4752747345
+"gpt41mini","IDEO","Global Party Survey 2019","gps_v4_econ_lr","r",217,0.571850238
+"gpt41mini","IDEO","Global Party Survey 2019","gps_v6_social","r",218,0.6096220096
+"gpt41mini","IDEO","RFPOPI (Celico et al. 2024)","rfpopi_rhet","r",1316,0.2430314729
+"gpt41mini","IDEO","RFPOPI (Celico et al. 2024)","rfpopi_ide","r",1316,0.1719187155
+"gpt41mini","IDEO","PopuList 4.0","farright_vs_farleft","AUC",314,0.9871982146
+"gemini","POP","CMP (Manifesto Project 2026a)","rile","r",2785,-0.06719059444
+"gemini","POP","CMP (Manifesto Project 2026a)","rile_logit","r",2779,-0.07786739915
+"gemini","POP","CHES 1999--2024","lrgen","r",746,-0.0009350594435
+"gemini","POP","CHES 1999--2024","lrecon","r",746,-0.3289517044
+"gemini","POP","CHES 1999--2024","galtan","r",746,0.2799971551
+"gemini","POP","ParlGov","parlgov_lr","r",1578,-0.2285516662
+"gemini","POP","POPPA 2018","poppa_populism","r",157,0.6862824301
+"gemini","POP","POPPA 2018","poppa_lroverall","r",167,-0.02017687949
+"gemini","POP","POPPA 2018","poppa_lrecon","r",163,-0.3496342282
+"gemini","POP","Global Party Survey 2019","gps_v8_populism","r",237,0.4264458967
+"gemini","POP","Global Party Survey 2019","gps_v4_econ_lr","r",236,-0.2835806644
+"gemini","POP","Global Party Survey 2019","gps_v6_social","r",237,0.07959719305
+"gemini","POP","RFPOPI (Celico et al. 2024)","rfpopi_rhet","r",1529,0.2882515412
+"gemini","POP","RFPOPI (Celico et al. 2024)","rfpopi_ide","r",1529,0.6814889589
+"gemini","POP","PopuList 4.0","populist","AUC",1327,0.8147680081
+"gemini","IDEO","CMP (Manifesto Project 2026a)","rile","r",596,0.6419626087
+"gemini","IDEO","CMP (Manifesto Project 2026a)","rile_logit","r",595,0.6410230197
+"gemini","IDEO","CHES 1999--2024","lrgen","r",214,0.8635915099
+"gemini","IDEO","CHES 1999--2024","lrecon","r",214,0.6407442913
+"gemini","IDEO","CHES 1999--2024","galtan","r",214,0.822716309
+"gemini","IDEO","ParlGov","parlgov_lr","r",315,0.8244694501
+"gemini","IDEO","POPPA 2018","poppa_populism","r",55,0.3934458632
+"gemini","IDEO","POPPA 2018","poppa_lroverall","r",56,0.8553959215
+"gemini","IDEO","POPPA 2018","poppa_lrecon","r",55,0.7273983197
+"gemini","IDEO","Global Party Survey 2019","gps_v8_populism","r",70,0.5429643249
+"gemini","IDEO","Global Party Survey 2019","gps_v4_econ_lr","r",70,0.6788229413
+"gemini","IDEO","Global Party Survey 2019","gps_v6_social","r",70,0.776760454
+"gemini","IDEO","RFPOPI (Celico et al. 2024)","rfpopi_rhet","r",342,0.4067272094
+"gemini","IDEO","RFPOPI (Celico et al. 2024)","rfpopi_ide","r",342,0.4259659345
+"gemini","IDEO","PopuList 4.0","farright_vs_farleft","AUC",138,0.9985284843
+"cross_model","POP","CMP (Manifesto Project 2026a)","rile","r",3349,-0.1225463232
+"cross_model","POP","CMP (Manifesto Project 2026a)","rile_logit","r",3342,-0.1449099476
+"cross_model","POP","CHES 1999--2024","lrgen","r",875,-0.1354547738
+"cross_model","POP","CHES 1999--2024","lrecon","r",875,-0.4332272587
+"cross_model","POP","CHES 1999--2024","galtan","r",875,0.1735918994
+"cross_model","POP","ParlGov","parlgov_lr","r",2010,-0.3625157495
+"cross_model","POP","POPPA 2018","poppa_populism","r",177,0.656071249
+"cross_model","POP","POPPA 2018","poppa_lroverall","r",189,-0.1367381127
+"cross_model","POP","POPPA 2018","poppa_lrecon","r",185,-0.4561540485
+"cross_model","POP","Global Party Survey 2019","gps_v8_populism","r",276,0.386014231
+"cross_model","POP","Global Party Survey 2019","gps_v4_econ_lr","r",275,-0.3860541144
+"cross_model","POP","Global Party Survey 2019","gps_v6_social","r",276,-0.02383024012
+"cross_model","POP","RFPOPI (Celico et al. 2024)","rfpopi_rhet","r",1852,0.2439959826
+"cross_model","POP","RFPOPI (Celico et al. 2024)","rfpopi_ide","r",1852,0.6345393801
+"cross_model","POP","PopuList 4.0","populist","AUC",1582,0.8002317833
+"cross_model","IDEO","CMP (Manifesto Project 2026a)","rile","r",3209,0.6465879831
+"cross_model","IDEO","CMP (Manifesto Project 2026a)","rile_logit","r",3202,0.6388525411
+"cross_model","IDEO","CHES 1999--2024","lrgen","r",847,0.8545589305
+"cross_model","IDEO","CHES 1999--2024","lrecon","r",847,0.6898245595
+"cross_model","IDEO","CHES 1999--2024","galtan","r",847,0.7155127448
+"cross_model","IDEO","ParlGov","parlgov_lr","r",1916,0.8216221002
+"cross_model","IDEO","POPPA 2018","poppa_populism","r",173,0.2928306413
+"cross_model","IDEO","POPPA 2018","poppa_lroverall","r",185,0.8421339865
+"cross_model","IDEO","POPPA 2018","poppa_lrecon","r",181,0.665627946
+"cross_model","IDEO","Global Party Survey 2019","gps_v8_populism","r",273,0.4481521942
+"cross_model","IDEO","Global Party Survey 2019","gps_v4_econ_lr","r",272,0.6440278243
+"cross_model","IDEO","Global Party Survey 2019","gps_v6_social","r",273,0.6894603017
+"cross_model","IDEO","RFPOPI (Celico et al. 2024)","rfpopi_rhet","r",1769,0.2207134649
+"cross_model","IDEO","RFPOPI (Celico et al. 2024)","rfpopi_ide","r",1769,0.1468687824
+"cross_model","IDEO","PopuList 4.0","farright_vs_farleft","AUC",384,0.9947643979

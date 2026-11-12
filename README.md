@@ -1,246 +1,70 @@
-# Populism-LLM — replication code
+# Populism-LLM — replication package (v2026a)
 
-Reproduction code for **Rode, M. & Stöckl, S. (2026). _The Milei question, or:
-How liberal are right-wing populist parties? A measurement approach using
-large language models._** (Working paper.)
+Replication package for **Rode, M. & Stöckl, S. (2026). _The Milei question, or: How liberal are
+right-wing populist parties? A measurement approach using large language models._** (working paper).
 
-- **Dataset** (HuggingFace): <https://huggingface.co/datasets/sstoeckl/populism-llm>
-- **Interactive inspection site**: <https://sstoeckl.github.io/populism-llm/>
-- **Companion website source**: <https://github.com/sstoeckl/populism-llm>
+Three model families (Claude Sonnet 4.6, GPT-4.1-mini, Gemini 3.5 Flash) score the 3,371 manifestos
+of the Manifesto Project corpus 2026-1 (MPDS2026a; 995 parties, 62 countries, 1945–2025) on populism
+(anti-elitism, people-centrism, Manichaean, overall), ideology (left, right, centrist) and liberalism
+(political, social, economic, financial-market, overall), each score backed by a verbatim quote.
+The paper's regressions, the 20,592-specification curve with non-standard errors, the
+construct-independence tests and every table, figure and number come out of **one script chain**
+(`run_all.R`) that is verified byte for byte against `output/v2026a/MANIFEST.md5` (`R/71_Verify.R`).
 
-The pipeline scores 3,327 European party manifestos (CMP / WZB) on 12 dimensions
-of populism and liberalism using three independent LLM families (Claude
-Sonnet 4.6, GPT-4.1-mini, Gemini Flash) under a strict JSON schema with
-verbatim-quote evidence.
+- Inspection website: <https://populism-llm.org>
+- Public inputs (scores with 8-word quotes) also on Hugging Face: `sstoeckl/populism-llm-replication`
+- Full guide: [`README_REPLICATION.md`](README_REPLICATION.md); stages: [`PIPELINE.md`](PIPELINE.md);
+  prompt, schema, formulas, variables: [`CODEBOOK.md`](CODEBOOK.md); script map: [`R/README.md`](R/README.md);
+  data history: [`CHANGELOG_DATA.md`](CHANGELOG_DATA.md)
 
----
+## What is in the package
 
-## What you reproduce
+| Part | Where | Notes |
+|---|---|---|
+| Code | `R/`, `run_all.R`, `renv.lock` | R 4.4.1; package versions pinned in `renv.lock` and listed in `output/v2026a/env/packages.csv` |
+| Public inputs | `data/CMP/v2026a_public/` | per-chunk scores, statuses, confidences, provenance of the three models; quotes truncated to their first 8 words; contexts, justifications and raw model JSON removed; span-check flags; coverage; judge cache with hashed quotes; our identifiers and text flags (`meta_2026a_keys.parquet`) |
+| Archived inputs of the independence tests | `output/independence/` | PopuList 4.0 and Partyfacts cache (CC BY), the separate-call Test 3 results |
+| Reference outputs | `output/v2026a/` | every table, figure and csv of the paper and its appendices, `MANIFEST.md5`, `env/` |
+| External data register | `data/external/SOURCES.csv` | URL, version, retrieval time and md5 of CHES, ParlGov, POPPA, GPS and RFPOPI; the files are fetched, not redistributed |
 
-By running the scripts in order you reproduce:
+**Not in the package** (licence or size): the manifesto texts and the Manifesto Project dataset
+(fetch them with your own free key, see below), the model outputs with full quotes and contexts, the
+Argentina 2021–2025 excursion of Section 5 (CNE platform pdfs, OCR text and out-of-sample scores; its
+tables and figures are shipped as outputs), the paper source and the files derived from it.
 
-1. The cleaned CMP manifesto corpus with manifesto texts.
-2. The per-chunk LLM scores from all three model families.
-3. The post-hoc span-validation step (regex + LLM-as-judge for topic relevance).
-4. The aggregated per-manifesto scores per model.
-5. The cross-LLM aggregated table used in the headline regressions.
-6. The 8,100-cell specification-curve grid that underpins Appendix C of the paper.
-7. The headline figure (`spec_curve.pdf`) and per-fork CSV.
-8. The regression tables reported in the main paper.
-
-**Approximate compute budget (full pipeline from scratch):**
-
-| Step | Wall-clock | API cost |
-|---|---:|---:|
-| CMP load + preprocess | 5 min | — |
-| Sonnet scoring (3,327 mfsto × 4 workers) | ~6 h | ~€620 |
-| GPT-4.1-mini scoring | ~3 h | ~€42 |
-| Gemini Flash scoring | ~3 h | ~€31 |
-| Span validation incl. LLM-as-judge | ~5 h | ~€3 |
-| Spec-curve compute | ~5 min | — |
-| **Total** | **~17 h** | **~€700** |
-
-If you want to skip the LLM scoring (which is the expensive part), the
-HuggingFace dataset has the raw per-chunk scores and verbatim quotes —
-download them and start at `R/12_Validate_Span_Quality.R`.
-
----
-
-## Setup
-
-### 1. Clone
+## Quick start
 
 ```bash
-git clone https://github.com/sstoeckl/populism-llm-replication.git
-cd populism-llm-replication
+# 1. packages (renv is not activated; the lockfile is the record)
+Rscript -e 'install.packages("renv"); renv::restore()'
+# 2. your Manifesto Project key (free academic registration at manifesto-project.wzb.eu)
+cp .Renviron.example .Renviron     # fill in MANIFESTO_KEY
+# 3. fetch what is not redistributed: MPDS2026a (byte-identical to the manifest) and the external party data
+Rscript run_all.R fetch_mpds fetch_external
+# 4. run the public chain and verify it against the manifest
+PIPE_PUBLIC=1 Rscript run_all.R
+Rscript R/71_Verify.R --public
 ```
 
-### 2. R packages
+`R/71_Verify.R --public` reruns the public stages into a scratch directory and reports, for every
+file in the manifest, `identical`, `different` or `not produced in public mode`. The stages that
+need the full texts or quotes (`recheck`, `ideology`, `ind2`, `a13`, `argentina`, `compare`, the
+quote-class table and worked examples) cannot be rerun publicly; their outputs ship as files. The
+expected result is `RESULT: BYTE-IDENTICAL` in an environment with the pinned package versions and
+`NUMERIC/TEXT level: identical` elsewhere (binary files such as pdf and parquet may then differ in
+bytes but not in content).
 
-R ≥ 4.4 required. Install:
+The full mode (`Rscript run_all.R`, about 90 minutes on a 128-core server) additionally needs the
+restricted inputs listed in `MANIFEST.md5`. The LLM scoring itself (`R/15b`, `R/16`, `R/18`, `R/32`,
+`R/52`) is rerunnable with API keys but not deterministic; the archived per-chunk scores are the
+starting point of everything reproduced here.
 
-```r
-install.packages(c(
-  "tidyverse", "arrow", "httr", "jsonlite", "furrr",
-  "rtiktoken",       # token counting compatible with OpenAI tokenizer
-  "manifestoR",      # CMP data access
-  "lubridate", "stringi", "readxl", "readr",
-  "fixest",          # panel regressions for spec curve
-  "ggplot2", "scales", "RColorBrewer"
-))
-```
+## Licence and citation
 
-### 3. API keys
+Code: MIT (see `LICENSE`). Our scores, flags and derived tables: CC BY 4.0. The 8-word quotes are
+excerpts of manifestos provided by the Manifesto Project (WZB) and quoted for identification;
+the texts themselves are available from the Manifesto Project under its terms of use. Third-party
+party data (CHES, ParlGov, POPPA, GPS, RFPOPI, PopuList, Partyfacts) carry their own licences,
+recorded with the sources in `data/external/SOURCES.csv` and `R/44a_Fetch_External.R`.
 
-Copy `.Renviron.example` to `~/.Renviron` (or to the project root) and fill in:
-
-```
-MANIFESTO_KEY=your-cmp-api-key       # from https://manifesto-project.wzb.eu/
-OPENAI_API_KEY=sk-...                # OpenAI
-ANTHROPIC_API_KEY=sk-ant-...         # Anthropic Console
-GEMINI_API_KEY=AIza...               # Google AI Studio
-```
-
-The Manifesto Project key is free with academic registration. The three
-LLM keys require paid accounts (cost estimate above).
-
-### 4. Working directory
-
-All scripts assume the project root as working directory. They run cleanly
-from RStudio if you open the `.Rproj` file, or via `Rscript` from the project
-root.
-
----
-
-## Pipeline (run in this order)
-
-| Script | Purpose | Wall-clock |
-|---|---|---:|
-| `R/1_Functions.R` | Utility functions, chunking, OpenAI helpers | source first |
-| `R/1_batch.R` | (Optional) OpenAI Batch API helpers | source if using |
-| `R/2_Manifesto_Prep.R` | Load CMP corpus → `data/CMP/full_data.parquet` | 5 min |
-| `R/3c_Populism_v4_safe.R` | Defines `poplib_v4_schema` + `system_prompt_v4_safe()` + `user_prompt_v4()`. Loaded by every scoring driver. | source only |
-| `R/15b_Claude_Full_Corpus.R` | Claude Sonnet 4.6 scoring | ~6 h |
-| `R/16_Score_Full_Corpus_gpt41mini.R` | GPT-4.1-mini scoring | ~3 h |
-| `R/18_Score_Full_Corpus_Gemini_flash_latest.R` | Gemini Flash scoring (with resume) | ~3 h |
-| `R/19_Materialize_Gemini_Partial.R` | Helper if Gemini gets interrupted mid-run | as needed |
-| `R/12_Validate_Span_Quality.R` | Span validation + LLM-as-judge backstop | sourced by drivers |
-| `R/20_Spec_Curve_Compute.R` | Compute the 8,100-cell specification-curve grid | ~5-10 min |
-| `R/21_Plot_Spec_Curve.R` | Generate `spec_curve.pdf` for the paper + per-fork CSV | <1 min |
-| `R/4_Stats.R` | Statistical analysis, regression tables for the paper | 5 min |
-
-All scoring drivers (`R/15b`, `R/16`, `R/18`) write per-batch checkpoints to
-`data/CMP/v4_*_checkpoints/`. If a run is interrupted, just re-launch the
-same driver — it will pick up where it left off.
-
----
-
-## Reproducing the headline result
-
-**The fast path — one analysis-ready file.** If you only want the scores (not
-to re-score the corpus), download the baseline table and run the headline
-regression directly. One row per manifesto, cross-model-mean populism /
-liberalism scores plus per-model columns and CMP metadata:
-
-```r
-library(arrow); library(fixest)
-scores <- read_parquet(
-  "https://huggingface.co/datasets/sstoeckl/populism-llm/resolve/main/data/manifesto_scores.parquet"
-)
-feols(liberalism_overall ~ populism_overall | countryname + year,
-      data = scores, cluster = ~countryname)
-#> populism -> lower liberalism (negative, significant)
-```
-
-**The rebuild path — from the raw per-chunk annotations.** To verify the
-aggregation or apply your own, download the three raw files and re-aggregate:
-
-```r
-library(arrow)
-sonnet <- read_parquet(
-  "https://huggingface.co/datasets/sstoeckl/populism-llm/resolve/main/data/raw_sonnet.parquet"
-)
-gpt41  <- read_parquet(
-  "https://huggingface.co/datasets/sstoeckl/populism-llm/resolve/main/data/raw_gpt41mini.parquet"
-)
-gemini <- read_parquet(
-  "https://huggingface.co/datasets/sstoeckl/populism-llm/resolve/main/data/raw_gemini.parquet"
-)
-```
-
-Place these three parquets in `data/CMP/poplib_v4_*_raw.parquet` (with the
-right filename — see `R/18` header for the exact path), then run:
-
-```r
-source("R/20_Spec_Curve_Compute.R")   # produces website/data/specs_grid.parquet
-source("R/21_Plot_Spec_Curve.R")       # produces paper figures
-source("R/4_Stats.R")                  # reproduces the headline regressions
-```
-
-> The `manifesto_scores.parquet` baseline above is rebuilt from these three raw
-> files by `data/_build_agg.R` + `data/_build_baseline.R` in the
-> [website repo](https://github.com/sstoeckl/populism-llm), so the fast path and
-> the rebuild path agree by construction.
-
----
-
-## Schema
-
-The strict JSON schema enforced for every chunk × dimension is in
-`R/3c_Populism_v4_safe.R::poplib_v4_schema`. Each scored dimension returns:
-
-```json
-{
-  "score": <integer 0-10 or null>,
-  "evidence_status": "verified" | "mixed" | "no_evidence",
-  "span": {
-    "quote": "<3-8 word verbatim quote>",
-    "context": "<surrounding ~3 sentences>"
-  }
-}
-```
-
-The 12 scored dimensions are listed in the [methodology page of the
-companion site](https://sstoeckl.github.io/populism-llm/methodology.html).
-
----
-
-## Repo structure
-
-```
-populism-llm-replication/
-├── R/                                  # All scoring + analysis scripts
-│   ├── 1_Functions.R                   # Utilities
-│   ├── 1_batch.R                       # (Optional) batch API
-│   ├── 2_Manifesto_Prep.R              # CMP loader
-│   ├── 3c_Populism_v4_safe.R           # Schema + prompts
-│   ├── 4_Stats.R                       # Regressions
-│   ├── 12_Validate_Span_Quality.R      # Validation
-│   ├── 15b_Claude_Full_Corpus.R        # Sonnet driver
-│   ├── 16_Score_Full_Corpus_gpt41mini.R# GPT-4.1-mini driver
-│   ├── 18_Score_Full_Corpus_Gemini_*.R # Gemini driver
-│   ├── 19_Materialize_Gemini_Partial.R # Recovery helper
-│   ├── 20_Spec_Curve_Compute.R         # Multiverse
-│   └── 21_Plot_Spec_Curve.R            # Paper figure
-├── .Renviron.example                   # API key template
-├── DESCRIPTION                         # R package metadata (for renv)
-├── LICENSE                             # MIT
-├── CITATION.cff                        # Cite-this metadata
-└── README.md                           # This file
-```
-
----
-
-## License & citation
-
-Code under MIT (see `LICENSE`).
-Data products (scores, derived metrics) under CC-BY 4.0 via the HuggingFace
-dataset card.
-Original CMP manifesto texts are © Manifesto Project / WZB — obtain via
-<https://manifesto-project.wzb.eu/>.
-
-Please cite:
-
-```bibtex
-@article{rode_stoeckl_2026_milei,
-  author  = {Rode, Martin and St{\"o}ckl, Sebastian},
-  title   = {The Milei question, or: How liberal are right-wing populist
-             parties? A measurement approach using large language models},
-  year    = {2026},
-  journal = {Working paper}
-}
-
-@misc{rode_stoeckl_2026_populismllm,
-  author    = {Rode, Martin and St{\"o}ckl, Sebastian},
-  title     = {Populism-LLM v1: A Cross-Validated LLM Annotation of
-               European Party Manifestos},
-  year      = {2026},
-  publisher = {Hugging Face Datasets},
-  url       = {https://huggingface.co/datasets/sstoeckl/populism-llm}
-}
-```
-
-## Contact
-
-Martin Rode · [martinrode@unav.es](mailto:martinrode@unav.es) · [Scholar](https://scholar.google.com/citations?user=CbCCz_EAAAAJ&hl=en)
-Sebastian Stöckl · [sebastian.stoeckl@uni.li](mailto:sebastian.stoeckl@uni.li) · [homepage](http://www.sebastianstoeckl.com)
+Please cite the paper and this package (`CITATION.cff`).

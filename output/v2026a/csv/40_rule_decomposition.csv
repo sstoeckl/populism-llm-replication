@@ -1,0 +1,6 @@
+"step","n_pop","n_lib","n_ideo","mean_pop","mean_lib","mean_ideo"
+"June rule (verified, pop-confidence weights, no span check)",3363,3371,3293,4.298719963,6.58111414,-0.2097968224
+"+ own-block confidence weights",3363,3371,3293,4.298719963,6.583337344,-0.2097914157
+"+ quote check, all dims",3349,3361,3209,4.291117092,6.578147244,-0.2112583806
+"+ topic check on L/R/C and *_overall (= rule r12, fork)",2939,3345,1909,4.479265339,6.596878341,-0.184840564
+"+ topic check on all dims (= rule full, fork)",2939,3345,1909,4.479265339,6.596878341,-0.184840564

@@ -1,0 +1,4 @@
+"model","model_requested","endpoint","model_resolved","chunks","docs"
+"sonnet","claude-sonnet-4-6","anthropic","claude-sonnet-4-6",39,38
+"gpt41mini","gpt-4.1-mini-2025-04-14","openai","gpt-4.1-mini-2025-04-14",39,38
+"gemini","gemini-3.5-flash","google-vertex","gemini-3.5-flash",39,38

@@ -128,7 +128,10 @@ anthropic_v4_chat <- function(system_prompt, user_prompt,
   tu <- NULL
   for (b in cont$content) if (identical(b$type, "tool_use")) { tu <- b; break }
   if (is.null(tu)) stop("Claude did not return a tool_use block.")
-  list(parsed = tu$input, usage = cont$usage)
+  # PATCH 2026-10-24: also return the raw tool_use input as JSON text, so a response can be
+  # re-parsed later (363 June/Oct chunks were lost to unparsed dimensions; nothing was stored)
+  raw_json <- as.character(jsonlite::toJSON(tu$input, auto_unbox = TRUE, null = "null", digits = NA))
+  list(parsed = tu$input, usage = cont$usage, raw_json = raw_json)
 }
 
 # ============================================================
@@ -145,10 +148,32 @@ score_chunk_v4_claude <- function(chunk_text, doc_id_in, country, year,
       anthropic_v4_chat(sysp, usp, model = MODEL_CLAUDE),
       error = function(e) list(parsed = NULL, error = conditionMessage(e))
     )
-    if (!is.null(res$parsed)) return(list(parsed = res$parsed, attempts = attempt))
+    if (!is.null(res$parsed)) return(list(parsed = res$parsed, attempts = attempt, raw_json = res$raw_json))
     Sys.sleep(base_sleep * (2^(attempt - 1)))
   }
   list(parsed = NULL, attempts = max_retries, last_error = res$error %||% "unknown")
+}
+
+# PATCH 2026-10-24 (refactored 2026-10-26): decode a dimension object that Claude returned as a
+# JSON-encoded string. jsonlite if the string is valid JSON; otherwise a deterministic field
+# extraction (score, evidence_status, quote up to the "context" key, context up to the closing
+# braces), used when the quote or context contains unescaped quotation marks. Returns NULL if
+# `obj` is not such a string or no evidence_status can be found. `lenient_only = TRUE` skips
+# jsonlite (used by R/36 to test the extractor against jsonlite on valid strings).
+decode_dim_string <- function(obj, lenient_only = FALSE) {
+  if (!(is.character(obj) && length(obj) == 1L && !is.na(obj) && grepl("^\\s*\\{", obj))) return(NULL)
+  dec <- if (lenient_only) NULL else tryCatch(jsonlite::fromJSON(obj, simplifyVector = FALSE), error = function(e) NULL)
+  if (is.list(dec)) return(dec)
+  grab <- function(pat) { m <- regmatches(obj, regexec(pat, obj, perl = TRUE))[[1]]; if (length(m) > 1) m[2] else NA_character_ }
+  unesc <- function(x) if (is.na(x)) x else gsub('\\\\(["\\\\/])', "\\1", x, perl = TRUE)
+  sc  <- grab('"score"\\s*:\\s*(null|-?[0-9]+(?:\\.[0-9]+)?)')
+  stt <- grab('"evidence_status"\\s*:\\s*"(verified|mixed|no_evidence)"')
+  q   <- grab('"quote"\\s*:\\s*"(.*?)"\\s*,\\s*"context"')
+  if (is.na(q)) q <- grab('"quote"\\s*:\\s*"(.*?)"\\s*\\}')
+  cx  <- grab('"context"\\s*:\\s*"(.*)"\\s*\\}\\s*(?:,[^{}]*)?\\}\\s*$')
+  if (is.na(stt)) return(NULL)
+  list(score = if (is.na(sc) || sc == "null") NULL else as.numeric(sc), evidence_status = stt,
+       span = list(quote = if (is.na(q)) "" else unesc(q), context = if (is.na(cx)) "" else unesc(cx)))
 }
 
 flatten_parsed_v4_claude <- function(parsed, chunk_doc_id, doc_id_root,
@@ -159,6 +184,18 @@ flatten_parsed_v4_claude <- function(parsed, chunk_doc_id, doc_id_root,
     chunk_id       = chunk_id,
     schema_version = parsed$schema_version %||% NA_character_
   )
+  # PATCH 2026-10-24: Claude sometimes returns a dimension object as a JSON-encoded STRING
+  # ("{\"score\": 5, ...}"), typically when the quote or context contains quotation marks,
+  # which it then leaves unescaped, so the string is not valid JSON. The branches below sent
+  # such dims to "unknown" (all fields NA), which lost 703 chunk-dims in the June/Oct runs.
+  # Decode them first: jsonlite if the string is valid JSON, otherwise a deterministic field
+  # extraction (score, evidence_status, quote up to the "context" key, context up to the closing
+  # braces). Repaired dims are listed in parse_repaired.
+  repaired <- character()
+  for (d in V4_DIMS) {
+    dec <- decode_dim_string(parsed[[d]])
+    if (!is.null(dec)) { parsed[[d]] <- dec; repaired <- c(repaired, d) }
+  }
   # DEFENSIVE: Claude sometimes returns a dimension as a flat integer
   # rather than the nested {score, evidence_status, span} object that the
   # schema requests. Handle both shapes gracefully.
@@ -185,6 +222,7 @@ flatten_parsed_v4_claude <- function(parsed, chunk_doc_id, doc_id_root,
       row[[paste0(d, "_context")]] <- NA_character_
     }
   }
+  row$parse_repaired            <- if (length(repaired)) paste(repaired, collapse = ",") else NA_character_
   row$populism_confidence       <- as.numeric(parsed$populism_confidence %||% NA)
   row$pop_ideology_confidence   <- as.numeric(parsed$pop_ideology_confidence %||% NA)
   row$liberalism_confidence     <- as.numeric(parsed$liberalism_confidence %||% NA)
@@ -195,7 +233,7 @@ flatten_parsed_v4_claude <- function(parsed, chunk_doc_id, doc_id_root,
     obj <- parsed[[d]]
     if (!is.list(obj)) return(tibble())     # flat-integer case → no span available
     q <- obj$span$quote %||% ""
-    if (!nzchar(q)) return(tibble())
+    if (is.na(q) || !nzchar(q)) return(tibble())   # FIX 2026-10-26: nzchar(NA) is TRUE
     tibble(doc_id = chunk_doc_id, doc_id_root = doc_id_root, chunk_id = chunk_id,
            dim_name = d, quote = q,
            context = obj$span$context %||% "",
@@ -223,6 +261,7 @@ score_manifesto_v4_claude <- function(doc_id_root, text, country, year) {
       next
     }
     f <- flatten_parsed_v4_claude(sr$parsed, chunk_doc_id, doc_id_root, ci, chunks[[ci]])
+    f$row$raw_tool_json <- sr$raw_json %||% NA_character_   # PATCH 2026-10-24
     rows[[ci]]  <- f$row
     spans[[ci]] <- f$spans
   }
@@ -255,7 +294,12 @@ already_done <- character()
 if (length(existing_files) > 0) {
   for (f in existing_files) {
     e <- new.env(); load(f, envir = e)
-    already_done <- c(already_done, unique(e$batch_result$raw$doc_id_root))
+    # FIX 2026-10-13: count a manifesto as done only if ALL its chunks parsed in this
+    # batch. Previously error rows counted as done, so failed chunks were never retried.
+    raw_b <- e$batch_result$raw
+    err_b <- if ("scoring_error" %in% names(raw_b)) !is.na(raw_b$scoring_error) else rep(FALSE, nrow(raw_b))
+    bad_b <- raw_b$doc_id_root[err_b | is.na(raw_b$schema_version)]
+    already_done <- c(already_done, setdiff(unique(raw_b$doc_id_root), bad_b))
   }
   already_done <- unique(already_done)
   message("  resume: ", length(already_done), " manifestos already scored")

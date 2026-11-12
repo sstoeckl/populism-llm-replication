@@ -1,0 +1,26 @@
+"x","x_label","dv","estimate","p","n"
+"IDEO","IDEO (LLM)","liberalism_overall",-0.03175000571,0.09464852481,3192
+"IDEO","IDEO (LLM)","lib_political",-0.06010316474,0.00419463465,3192
+"IDEO","IDEO (LLM)","lib_social",-0.1620500717,3.906220717e-13,3176
+"IDEO","IDEO (LLM)","lib_economic",0.07497842096,0.0009791095287,3183
+"IDEO","IDEO (LLM)","lib_financial_market",0.02654270005,0.1653490301,2999
+"rile","CMP rile","liberalism_overall",-0.01149972082,0.5022140342,3340
+"rile","CMP rile","lib_political",-0.03178946193,0.07936360632,3340
+"rile","CMP rile","lib_social",-0.07573896037,0.001739398811,3316
+"rile","CMP rile","lib_economic",0.046797168,0.03366552414,3325
+"rile","CMP rile","lib_financial_market",-0.003119900599,0.8749288985,3118
+"rile_logit","CMP rile (logit)","liberalism_overall",-0.006237199763,0.7278725101,3333
+"rile_logit","CMP rile (logit)","lib_political",-0.01928795922,0.3654732266,3333
+"rile_logit","CMP rile (logit)","lib_social",-0.05284373068,0.06191614581,3309
+"rile_logit","CMP rile (logit)","lib_economic",0.0382475218,0.09029619656,3318
+"rile_logit","CMP rile (logit)","lib_financial_market",-0.01516253671,0.4512482206,3111
+"lrgen","CHES lrgen","liberalism_overall",-0.07026215913,0.06345553788,872
+"lrgen","CHES lrgen","lib_political",-0.06125636505,0.2248912515,873
+"lrgen","CHES lrgen","lib_social",-0.093366919,0.09781428551,868
+"lrgen","CHES lrgen","lib_economic",-0.0482060598,0.1342696425,867
+"lrgen","CHES lrgen","lib_financial_market",-0.103021043,8.369369179e-05,829
+"parlgov_lr","ParlGov left_right","liberalism_overall",-0.007475870703,0.7710759638,2005
+"parlgov_lr","ParlGov left_right","lib_political",0.01411432745,0.6353077987,2005
+"parlgov_lr","ParlGov left_right","lib_social",-0.05728679106,0.03864365205,1985
+"parlgov_lr","ParlGov left_right","lib_economic",0.01252678985,0.6770453896,1995
+"parlgov_lr","ParlGov left_right","lib_financial_market",-0.03387257637,0.1647578623,1862

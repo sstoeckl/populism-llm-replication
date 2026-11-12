@@ -1,0 +1,11 @@
+"figure","x_june_lo","x_june_hi","y_june_lo","y_june_hi","x_used_lo","x_used_hi","y_used_lo","y_used_hi","widened"
+"Austria_Populism_vs_Populist_Ideology",-0.44,0.5,2,8,-0.7086710302,0.6481481481,2,8,TRUE
+"Germany_Populism_vs_Populist_Ideology",-0.49,0.46,2,8,-0.8007468258,0.6426613995,1.41522158,8,TRUE
+"Spain_Populism_vs_Populist_Ideology",-0.58,0.54,2,9,-0.7679522395,0.7142857143,2,9,TRUE
+"Germany_Economic_Liberalism_vs_Populism",2,8,5,8,1.41522158,8,1.932823059,9.16925734,TRUE
+"Populism_Over_Time",,,3.86,6.34,,,3.222975918,6.34,TRUE
+"Marginal_Effect_Populism_on_Liberalism_by_Ideology",-1,1,-0.3,0,-1,1,-0.65520763,0,TRUE
+"Marginal_Effect_Populism_on_Political_Liberalism_by_Ideology",-1,1,-0.3,0,-1,1,-0.6428243799,0,TRUE
+"Marginal_Effect_Populism_on_Social_Liberalism_by_Ideology",-1,1,-0.3,0,-1,1,-0.905795416,0,TRUE
+"Marginal_Effect_Populism_on_Economic_Liberalism_by_Ideology",-1,1,-0.35,0,-1,1,-0.7692855547,0,TRUE
+"Marginal_Effect_Populism_on_Financial_Market_Liberalism_by_Ideology",-1,1,-0.5,0,-1,1,-0.7151650079,0,TRUE

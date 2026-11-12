@@ -1,0 +1,17 @@
+"var","pair","n","r"
+"L","sonnet_gpt41mini",2755,0.8557549539
+"L","sonnet_gemini",1419,0.8323985198
+"L","gpt41mini_gemini",1365,0.6592868495
+"L","all_three_icc_a1",1311,0.7210834268
+"R","sonnet_gpt41mini",2414,0.8204499547
+"R","sonnet_gemini",1047,0.8734687866
+"R","gpt41mini_gemini",986,0.7865433695
+"R","all_three_icc_a1",946,0.8009470296
+"C","sonnet_gpt41mini",2871,0.3904904114
+"C","sonnet_gemini",1151,0.5370660832
+"C","gpt41mini_gemini",1097,0.2463850281
+"C","all_three_icc_a1",1072,0.1952840976
+"IDEO","sonnet_gpt41mini",2134,0.875508247
+"IDEO","sonnet_gemini",550,0.9145882294
+"IDEO","gpt41mini_gemini",497,0.8526053482
+"IDEO","all_three_icc_a1",462,0.8036052991

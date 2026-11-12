@@ -1,0 +1,4 @@
+"model","in_mult","out_per_call","usd_in","usd_out","calls","cost_usd"
+"sonnet",1.35,2500,3,15,60,5.4399663
+"gpt41mini",1,2000,0.4,1.6,60,0.5070584
+"gemini",1.1,2000,0.5,3,60,0.7932053

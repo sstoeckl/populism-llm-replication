@@ -1,0 +1,16 @@
+"stat","value"
+"r(POP, IDEO)",-0.1377181136
+"r(POP, |IDEO|)",0.2592816657
+"r(POP, R)",0.2558448587
+"r(POP, L)",0.5497395761
+"r(POP, pop_ideology_overall)",0.8921334714
+"VIF raw POP",1.222954918
+"VIF raw IDEO",6.428804164
+"VIF raw POPxIDEO",6.90216834
+"VIF centred POP",1.019463469
+"VIF centred IDEO",1.051286108
+"VIF centred POPxIDEO",1.031521187
+"n POP>7 & IDEO<-0.2",203
+"n POP>7 & IDEO>0.2",78
+"AUC IDEO far right vs far left (PopuList)",0.9947643979
+"r(IDEO Nov2025, IDEO v2026a)",0.8244752646

@@ -1,0 +1,8 @@
+"model","model_requested","endpoint","resolved_status","chunks","share_chunks"
+"gemini","gemini-3.5-flash","aistudio","logged",273,0.04099714672
+"gemini","gemini-3.5-flash","vertex-global","logged",446,0.06697702358
+"gemini","gemini-flash-latest","aistudio","inferred",5940,0.8920258297
+"gpt41mini","gpt-4.1-mini-2025-04-14","openai-api","logged",759,0.1133681852
+"gpt41mini","gpt-4.1-mini-2025-04-14","openai-api","not logged",5936,0.8866318148
+"sonnet","claude-sonnet-4-6","anthropic-api","logged",1076,0.1606209882
+"sonnet","claude-sonnet-4-6","anthropic-api","not logged",5623,0.8393790118

@@ -1,0 +1,33 @@
+\begin{table}[ht]
+\centering
+\caption{Manifestos selected for reproducibility verification}
+\label{tab:verify_manifestos}
+\footnotesize
+\begin{tabular}{lllllrrl}
+\toprule
+\texttt{doc\_id} & Country & Language & Party & Year & Tokens & Chunks & Populism \\
+\midrule
+\texttt{22722\_200611} & Netherlands & Dutch & PVV & 2006 & 2{,}047 & 1 & high \\
+\texttt{22235\_202103} & Netherlands & Dutch & Volt & 2021 & 22{,}663 & 2 & mid \\
+\texttt{63810\_196611} & Australia & English & CP & 1966 & 2{,}773 & 1 & low \\
+\texttt{64620\_202010} & New Zealand & English & National & 2020 & 39{,}905 & 3 & low \\
+\texttt{31320\_198106} & France & French & PS & 1981 & 4{,}905 & 1 & mid \\
+\texttt{31626\_201206} & France & French & UMP & 2012 & 15{,}513 & 1 & low \\
+\texttt{41222\_200509} & Germany & German & L-PDS & 2005 & 14{,}723 & 1 & high \\
+\texttt{41953\_202109} & Germany & German & AfD & 2021 & 47{,}267 & 3 & high \\
+\texttt{55422\_200605} & Cyprus & Greek & DiKo & 2006 & 2{,}936 & 1 & high \\
+\texttt{34340\_201501} & Greece & Greek & The River & 2015 & 44{,}662 & 3 & mid \\
+\texttt{86320\_199405} & Hungary & Hungarian & MSzDP & 1994 & 18{,}868 & 1 & mid \\
+\texttt{86110\_201804} & Hungary & Hungarian & LMP & 2018 & 40{,}657 & 3 & high \\
+\texttt{32061\_200804} & Italy & Italian & PdL & 2008 & 6{,}054 & 1 & low \\
+\texttt{32630\_201803} & Italy & Italian & FDI & 2018 & 3{,}875 & 1 & high \\
+\texttt{92431\_199110} & Poland & Polish & PPPP & 1991 & 6{,}439 & 1 & low \\
+\texttt{92811\_201110} & Poland & Polish & PSL & 2011 & 7{,}545 & 1 & mid \\
+\texttt{150025\_200710} & Argentina & Spanish & FpV & 2007 & 1{,}181 & 1 & mid \\
+\texttt{33610\_201904} & Spain & Spanish & PP & 2019 & 36{,}880 & 2 & low \\
+\texttt{11420\_199109} & Sweden & Swedish & FP & 1991 & 5{,}298 & 1 & low \\
+\texttt{11520\_201809} & Sweden & Swedish & Kd & 2018 & 3{,}162 & 1 & mid \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{0.95\linewidth}{\scriptsize\textit{Notes:} Stratified draw (seed 20261007) over 10 languages $\times$ 2, three election eras, and terciles of the stored cross-model populism baseline. Tokens: o200k tokenizer, as used for chunking; documents above 18{,}000 tokens are split into 20{,}000-token chunks with 2{,}000-token overlap.}
+\end{table}

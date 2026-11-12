@@ -1,0 +1,271 @@
+"comparison","kind","aggregation","model","dim","n","na_mismatch","identical","mad","max_dev","r"
+"run1_vs_run2","Run-to-run","baseline_cwm","cross_model_mean","lib_economic",19,0,0.1578947368,0.2857417036,0.5,0.9836648583
+"run1_vs_run2","Run-to-run","baseline_cwm","cross_model_mean","lib_financial_market",17,0,0.2941176471,0.3070601937,1,0.9661843255
+"run1_vs_run2","Run-to-run","baseline_cwm","cross_model_mean","lib_political",20,0,0.5,0.1473803283,0.42981385,0.9876787459
+"run1_vs_run2","Run-to-run","baseline_cwm","cross_model_mean","lib_social",20,0,0.15,0.3443692718,0.7685453415,0.9851506173
+"run1_vs_run2","Run-to-run","baseline_cwm","cross_model_mean","liberalism_overall",20,0,0.4,0.1576423887,0.8333333333,0.9834605367
+"run1_vs_run2","Run-to-run","baseline_cwm","cross_model_mean","pop_anti_elitism",20,0,0.65,0.0677856322,0.6666666667,0.9971893272
+"run1_vs_run2","Run-to-run","baseline_cwm","cross_model_mean","pop_ideology_overall",20,0,0.3,0.387212872,1.5,0.9626136856
+"run1_vs_run2","Run-to-run","baseline_cwm","cross_model_mean","pop_manichean",20,0,0.3,0.3940703348,1.5,0.9594891023
+"run1_vs_run2","Run-to-run","baseline_cwm","cross_model_mean","pop_people_centrism",20,0,0.4,0.3383813075,2.333333333,0.9210577231
+"run1_vs_run2","Run-to-run","baseline_cwm","cross_model_mean","populism_overall",19,0,0.4210526316,0.2899689277,2.333333333,0.9599440456
+"run1_vs_run2","Run-to-run","baseline_cwm","gemini","lib_economic",14,0,0.5714285714,0.3052970068,1.392156863,0.9650622313
+"run1_vs_run2","Run-to-run","baseline_cwm","gemini","lib_financial_market",15,0,0.6666666667,0.2499032309,1.180779818,0.971662923
+"run1_vs_run2","Run-to-run","baseline_cwm","gemini","lib_political",20,0,0.6,0.3809970732,1.523255814,0.9153151699
+"run1_vs_run2","Run-to-run","baseline_cwm","gemini","lib_social",18,0,0.3888888889,0.4395073715,1.5,0.9767424212
+"run1_vs_run2","Run-to-run","baseline_cwm","gemini","liberalism_overall",18,0,0.6111111111,0.1681233837,1,0.974258426
+"run1_vs_run2","Run-to-run","baseline_cwm","gemini","pop_anti_elitism",16,0,0.6875,0.1575151804,1,0.9905691283
+"run1_vs_run2","Run-to-run","baseline_cwm","gemini","pop_ideology_overall",16,0,0.25,0.7586167822,3,0.9403652642
+"run1_vs_run2","Run-to-run","baseline_cwm","gemini","pop_manichean",12,0,0.4166666667,0.3665002174,1,0.9823765867
+"run1_vs_run2","Run-to-run","baseline_cwm","gemini","pop_people_centrism",17,0,0.5294117647,0.3952154631,2,0.959980302
+"run1_vs_run2","Run-to-run","baseline_cwm","gemini","populism_overall",16,0,0.625,0.1098438463,1,0.9943199255
+"run1_vs_run2","Run-to-run","baseline_cwm","gpt41mini","lib_economic",17,0,0.5294117647,0.3485714286,1,0.9159008811
+"run1_vs_run2","Run-to-run","baseline_cwm","gpt41mini","lib_financial_market",13,0,0.4615384615,0.4615384615,1,0.9409252032
+"run1_vs_run2","Run-to-run","baseline_cwm","gpt41mini","lib_political",17,0,0.7058823529,0.1481942932,1,0.972488048
+"run1_vs_run2","Run-to-run","baseline_cwm","gpt41mini","lib_social",17,0,0.7058823529,0.2245414295,1.483870968,0.9773409936
+"run1_vs_run2","Run-to-run","baseline_cwm","gpt41mini","liberalism_overall",19,0,0.6842105263,0.2357146524,1,0.9515450994
+"run1_vs_run2","Run-to-run","baseline_cwm","gpt41mini","pop_anti_elitism",16,0,0.9375,0.0625,1,0.9955957533
+"run1_vs_run2","Run-to-run","baseline_cwm","gpt41mini","pop_ideology_overall",15,0,0.6666666667,0.147483871,1,0.9579375418
+"run1_vs_run2","Run-to-run","baseline_cwm","gpt41mini","pop_manichean",13,0,0.6153846154,0.2542771694,1,0.9768519428
+"run1_vs_run2","Run-to-run","baseline_cwm","gpt41mini","pop_people_centrism",16,0,0.8125,0.1449389447,1,0.9797704346
+"run1_vs_run2","Run-to-run","baseline_cwm","gpt41mini","populism_overall",16,0,0.5625,0.3740530303,1,0.9515517981
+"run1_vs_run2","Run-to-run","baseline_cwm","sonnet","lib_economic",13,0,0.6923076923,0.1559729099,1,0.9739624802
+"run1_vs_run2","Run-to-run","baseline_cwm","sonnet","lib_financial_market",14,0,0.6428571429,0.1886652534,1,0.9817751296
+"run1_vs_run2","Run-to-run","baseline_cwm","sonnet","lib_political",18,0,0.7222222222,0.1577328276,1,0.9667155011
+"run1_vs_run2","Run-to-run","baseline_cwm","sonnet","lib_social",15,0,0.6,0.3122460692,1.03030303,0.9677585346
+"run1_vs_run2","Run-to-run","baseline_cwm","sonnet","liberalism_overall",15,0,0.7333333333,0.2012100586,1,0.9390743359
+"run1_vs_run2","Run-to-run","baseline_cwm","sonnet","pop_anti_elitism",16,0,0.8125,0.005307092393,0.04,0.9999819183
+"run1_vs_run2","Run-to-run","baseline_cwm","sonnet","pop_ideology_overall",16,0,0.6875,0.1616237427,1,0.9868241515
+"run1_vs_run2","Run-to-run","baseline_cwm","sonnet","pop_manichean",17,0,0.7058823529,0.09727294349,1,0.9847661676
+"run1_vs_run2","Run-to-run","baseline_cwm","sonnet","pop_people_centrism",17,0,0.7058823529,0.1331443503,1,0.9823874821
+"run1_vs_run2","Run-to-run","baseline_cwm","sonnet","populism_overall",16,0,0.75,0.1409734891,1.409638554,0.986703505
+"run1_vs_run2","Run-to-run","validated_mean","cross_model_mean","lib_economic",20,0,0.2,0.2763648394,0.5,0.9765884814
+"run1_vs_run2","Run-to-run","validated_mean","cross_model_mean","lib_financial_market",17,0,0.3529411765,0.2544899366,0.8333333333,0.9771781827
+"run1_vs_run2","Run-to-run","validated_mean","cross_model_mean","lib_political",20,0,0.4,0.1379667905,0.3333333333,0.9891893615
+"run1_vs_run2","Run-to-run","validated_mean","cross_model_mean","lib_social",20,0,0.2,0.2139119614,0.5,0.9942434548
+"run1_vs_run2","Run-to-run","validated_mean","cross_model_mean","liberalism_overall",20,0,0.45,0.1492512722,0.8333333333,0.9836432979
+"run1_vs_run2","Run-to-run","validated_mean","cross_model_mean","pop_anti_elitism",20,0,0.65,0.05989156548,0.6666666667,0.9970768619
+"run1_vs_run2","Run-to-run","validated_mean","cross_model_mean","pop_ideology_overall",20,0,0.35,0.282752045,1,0.9780356841
+"run1_vs_run2","Run-to-run","validated_mean","cross_model_mean","pop_manichean",20,0,0.4,0.2753744198,2,0.9653862223
+"run1_vs_run2","Run-to-run","validated_mean","cross_model_mean","pop_people_centrism",20,0,0.4,0.2726292753,1.333333333,0.9565980636
+"run1_vs_run2","Run-to-run","validated_mean","cross_model_mean","populism_overall",20,0,0.45,0.1614264255,0.8333333333,0.9889457261
+"run1_vs_run2","Run-to-run","validated_mean","gemini","lib_economic",14,0,0.6428571429,0.3012398701,1.387755102,0.96553214
+"run1_vs_run2","Run-to-run","validated_mean","gemini","lib_financial_market",17,0,0.7058823529,0.2455426388,1.163120567,0.9729240692
+"run1_vs_run2","Run-to-run","validated_mean","gemini","lib_political",20,0,0.6,0.3321390799,1.519125683,0.9268333044
+"run1_vs_run2","Run-to-run","validated_mean","gemini","lib_social",18,0,0.4444444444,0.3816932354,1.013515896,0.9826273168
+"run1_vs_run2","Run-to-run","validated_mean","gemini","liberalism_overall",18,0,0.6666666667,0.1673640281,1,0.9742627211
+"run1_vs_run2","Run-to-run","validated_mean","gemini","pop_anti_elitism",17,0,0.7058823529,0.1193096634,1,0.9916538926
+"run1_vs_run2","Run-to-run","validated_mean","gemini","pop_ideology_overall",17,0,0.2352941176,0.7692285858,3,0.9312385869
+"run1_vs_run2","Run-to-run","validated_mean","gemini","pop_manichean",12,0,0.3333333333,0.3676265421,1,0.9818728472
+"run1_vs_run2","Run-to-run","validated_mean","gemini","pop_people_centrism",17,0,0.5294117647,0.3352664835,2,0.9655780897
+"run1_vs_run2","Run-to-run","validated_mean","gemini","populism_overall",17,0,0.5882352941,0.143015318,1,0.9900300044
+"run1_vs_run2","Run-to-run","validated_mean","gpt41mini","lib_economic",20,0,0.7,0.2414375562,1,0.9320825185
+"run1_vs_run2","Run-to-run","validated_mean","gpt41mini","lib_financial_market",15,0,0.4,0.4647619048,1,0.9293413368
+"run1_vs_run2","Run-to-run","validated_mean","gpt41mini","lib_political",20,0,0.7,0.1896945193,1,0.9611302456
+"run1_vs_run2","Run-to-run","validated_mean","gpt41mini","lib_social",20,0,0.7,0.1526864331,1,0.984279561
+"run1_vs_run2","Run-to-run","validated_mean","gpt41mini","liberalism_overall",20,0,0.7,0.2084186882,1,0.953495978
+"run1_vs_run2","Run-to-run","validated_mean","gpt41mini","pop_anti_elitism",19,0,0.9473684211,0.05263157895,1,0.9961838664
+"run1_vs_run2","Run-to-run","validated_mean","gpt41mini","pop_ideology_overall",19,0,0.6842105263,0.1781163887,1,0.937311816
+"run1_vs_run2","Run-to-run","validated_mean","gpt41mini","pop_manichean",17,0,0.5882352941,0.3709178354,2,0.9453018652
+"run1_vs_run2","Run-to-run","validated_mean","gpt41mini","pop_people_centrism",19,0,0.7368421053,0.3141945774,2,0.9086417113
+"run1_vs_run2","Run-to-run","validated_mean","gpt41mini","populism_overall",19,0,0.6315789474,0.2792422738,1,0.9656462558
+"run1_vs_run2","Run-to-run","validated_mean","sonnet","lib_economic",15,0,0.7333333333,0.1357187372,1,0.9744780523
+"run1_vs_run2","Run-to-run","validated_mean","sonnet","lib_financial_market",14,0,0.7857142857,0.1666666667,1,0.9829507559
+"run1_vs_run2","Run-to-run","validated_mean","sonnet","lib_political",19,0,0.6842105263,0.1659566511,1,0.9645605791
+"run1_vs_run2","Run-to-run","validated_mean","sonnet","lib_social",20,0,0.7,0.2093058934,1,0.9836128243
+"run1_vs_run2","Run-to-run","validated_mean","sonnet","liberalism_overall",17,0,0.6470588235,0.1971947395,1,0.9524678593
+"run1_vs_run2","Run-to-run","validated_mean","sonnet","pop_anti_elitism",19,0,0.7894736842,0.005434109729,0.04,0.9999803038
+"run1_vs_run2","Run-to-run","validated_mean","sonnet","pop_ideology_overall",19,0,0.7368421053,0.1613279377,1,0.9859386798
+"run1_vs_run2","Run-to-run","validated_mean","sonnet","pop_manichean",20,0,0.75,0.05091846218,0.5324675325,0.9963681846
+"run1_vs_run2","Run-to-run","validated_mean","sonnet","pop_people_centrism",19,0,0.6842105263,0.1646275405,1,0.9785146756
+"run1_vs_run2","Run-to-run","validated_mean","sonnet","populism_overall",19,0,0.7894736842,0.07522610081,0.7500253113,0.995194517
+"run1_vs_run2","Run-to-run","baseline_cwm","cross_model_mean","ALL",195,0,0.3573065015,0.271961296,2.333333333,0.9706432967
+"run1_vs_run2","Run-to-run","baseline_cwm","gemini","ALL",162,0,0.5346673669,0.3331519555,3,0.9670652378
+"run1_vs_run2","Run-to-run","baseline_cwm","gpt41mini","ALL",159,0,0.668147674,0.2401813281,1.483870968,0.9619907696
+"run1_vs_run2","Run-to-run","baseline_cwm","sonnet","ALL",157,0,0.7052485097,0.1554148737,1.409638554,0.9769949206
+"run1_vs_run2","Run-to-run","validated_mean","cross_model_mean","ALL",197,0,0.3852941176,0.2084058531,2,0.9806885336
+"run1_vs_run2","Run-to-run","validated_mean","gemini","ALL",167,0,0.545200747,0.3162425445,3,0.9682552972
+"run1_vs_run2","Run-to-run","validated_mean","gpt41mini","ALL",188,0,0.6788235294,0.2452101756,2,0.9513415154
+"run1_vs_run2","Run-to-run","validated_mean","sonnet","ALL",181,0,0.7300316969,0.1332376839,1,0.9814066432
+"run1_vs_run2","Run-to-run","baseline_cwm","pooled","ALL",478,0,0.6360211836,0.2429160524,3,0.9686836427
+"run1_vs_run2","Run-to-run","validated_mean","pooled","ALL",536,0,0.6513519911,0.231563468,3,0.967001152
+"run1_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","lib_economic",19,0,0.1578947368,0.358890893,1,0.9735210158
+"run1_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","lib_financial_market",17,0,0.1764705882,0.4596263493,2,0.9175209908
+"run1_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","lib_political",20,0,0.2,0.3713531271,1.333333333,0.939013607
+"run1_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","lib_social",20,0,0.4,0.3427947671,3,0.9483833314
+"run1_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","liberalism_overall",20,0,0.35,0.2605948158,1.007797838,0.9613571342
+"run1_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","pop_anti_elitism",20,0,0.2,0.4880169371,1.028571429,0.9689151855
+"run1_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","pop_ideology_overall",19,0,0.1052631579,0.4668140987,1.5,0.9713953122
+"run1_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","pop_manichean",20,0,0.2,0.4387110116,2,0.9434570037
+"run1_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","pop_people_centrism",20,0,0.15,0.6430269589,2.052511416,0.8799681364
+"run1_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","populism_overall",19,0,0.2105263158,0.502352124,1.5,0.9476064842
+"run1_vs_prod","Fresh vs production","baseline_cwm","gemini","lib_economic",14,0,0.5714285714,0.3005370904,1.365129836,0.9733218203
+"run1_vs_prod","Fresh vs production","baseline_cwm","gemini","lib_financial_market",16,0,0.25,0.9754114377,3,0.8140921077
+"run1_vs_prod","Fresh vs production","baseline_cwm","gemini","lib_political",19,0,0.4736842105,0.549083489,2,0.78650512
+"run1_vs_prod","Fresh vs production","baseline_cwm","gemini","lib_social",18,0,0.3888888889,0.4898059554,2,0.9800161062
+"run1_vs_prod","Fresh vs production","baseline_cwm","gemini","liberalism_overall",19,0,0.4736842105,0.3934249774,1,0.9413586173
+"run1_vs_prod","Fresh vs production","baseline_cwm","gemini","pop_anti_elitism",14,0,0.2857142857,0.9718703006,2.33974359,0.9251132167
+"run1_vs_prod","Fresh vs production","baseline_cwm","gemini","pop_ideology_overall",14,0,0.07142857143,0.9233660471,2,0.9505308479
+"run1_vs_prod","Fresh vs production","baseline_cwm","gemini","pop_manichean",10,0,0.2,1.20028032,3,0.8504466238
+"run1_vs_prod","Fresh vs production","baseline_cwm","gemini","pop_people_centrism",14,0,0.2142857143,1.353177816,4,0.7750667631
+"run1_vs_prod","Fresh vs production","baseline_cwm","gemini","populism_overall",15,0,0.2666666667,0.8341145722,2,0.9405383999
+"run1_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","lib_economic",18,0,0.5555555556,0.3568674754,1.5,0.8958541437
+"run1_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","lib_financial_market",13,0,0.4615384615,0.51001221,1.485714286,0.9411997743
+"run1_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","lib_political",17,0,0.6470588235,0.237318671,1.192831541,0.9892371776
+"run1_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","lib_social",16,0,0.5625,0.3537774725,1.466666667,0.9725465372
+"run1_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","liberalism_overall",15,0,0.4666666667,0.3902309548,1,0.9420880672
+"run1_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","pop_anti_elitism",16,0,0.5,0.7169642857,4,0.8823497011
+"run1_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","pop_ideology_overall",15,0,0.6,0.2100449658,1,0.9502568613
+"run1_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","pop_manichean",14,0,0.7857142857,0.1859838275,1,0.9780573812
+"run1_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","pop_people_centrism",16,0,0.4375,0.4876179245,1,0.9284838986
+"run1_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","populism_overall",15,0,0.6666666667,0.3971428571,2,0.9236812182
+"run1_vs_prod","Fresh vs production","baseline_cwm","sonnet","lib_economic",13,0,0.6153846154,0.2320118622,1,0.9641354314
+"run1_vs_prod","Fresh vs production","baseline_cwm","sonnet","lib_financial_market",15,0,0.5333333333,0.2628169612,1,0.97258493
+"run1_vs_prod","Fresh vs production","baseline_cwm","sonnet","lib_political",17,0,0.6470588235,0.3434752554,3,0.8246598177
+"run1_vs_prod","Fresh vs production","baseline_cwm","sonnet","lib_social",15,0,0.7333333333,0.2272078096,1.50617284,0.9663838725
+"run1_vs_prod","Fresh vs production","baseline_cwm","sonnet","liberalism_overall",14,0,0.5714285714,0.3237323901,1,0.906077634
+"run1_vs_prod","Fresh vs production","baseline_cwm","sonnet","pop_anti_elitism",15,0,0.7333333333,0.1380243976,1.480349345,0.9869057798
+"run1_vs_prod","Fresh vs production","baseline_cwm","sonnet","pop_ideology_overall",17,0,0.5294117647,0.3565111146,1,0.9754463362
+"run1_vs_prod","Fresh vs production","baseline_cwm","sonnet","pop_manichean",17,0,0.5882352941,0.1867934459,1,0.9742128881
+"run1_vs_prod","Fresh vs production","baseline_cwm","sonnet","pop_people_centrism",17,0,0.5882352941,0.2208130853,1,0.9689158488
+"run1_vs_prod","Fresh vs production","baseline_cwm","sonnet","populism_overall",15,0,0.6,0.2880377751,2.07860262,0.9604039917
+"run1_vs_prod","Fresh vs production","validated_mean","cross_model_mean","lib_economic",20,0,0.2,0.3082106492,1,0.9691156593
+"run1_vs_prod","Fresh vs production","validated_mean","cross_model_mean","lib_financial_market",17,0,0.1764705882,0.5031319358,2,0.9062394633
+"run1_vs_prod","Fresh vs production","validated_mean","cross_model_mean","lib_political",20,0,0.25,0.2977489187,1.196667438,0.9513691285
+"run1_vs_prod","Fresh vs production","validated_mean","cross_model_mean","lib_social",20,0,0.45,0.2377317524,1,0.9855709767
+"run1_vs_prod","Fresh vs production","validated_mean","cross_model_mean","liberalism_overall",20,0,0.3,0.2264622338,1,0.9723253473
+"run1_vs_prod","Fresh vs production","validated_mean","cross_model_mean","pop_anti_elitism",20,0,0.2,0.4527327393,1.028571429,0.9747567337
+"run1_vs_prod","Fresh vs production","validated_mean","cross_model_mean","pop_ideology_overall",20,0,0.15,0.3645712624,1.5,0.9700836899
+"run1_vs_prod","Fresh vs production","validated_mean","cross_model_mean","pop_manichean",20,0,0.2,0.4286421365,1.666666667,0.9509659158
+"run1_vs_prod","Fresh vs production","validated_mean","cross_model_mean","pop_people_centrism",20,0,0.15,0.601903194,1.666666667,0.8931516498
+"run1_vs_prod","Fresh vs production","validated_mean","cross_model_mean","populism_overall",20,0,0.25,0.380485316,0.928616997,0.9682555119
+"run1_vs_prod","Fresh vs production","validated_mean","gemini","lib_economic",15,0,0.5333333333,0.3577388954,1.359183673,0.964823914
+"run1_vs_prod","Fresh vs production","validated_mean","gemini","lib_financial_market",16,0,0.25,0.9772299836,3,0.8137958295
+"run1_vs_prod","Fresh vs production","validated_mean","gemini","lib_political",19,0,0.4210526316,0.5006428078,2,0.802653939
+"run1_vs_prod","Fresh vs production","validated_mean","gemini","lib_social",18,0,0.4444444444,0.4475608241,2,0.9800721187
+"run1_vs_prod","Fresh vs production","validated_mean","gemini","liberalism_overall",19,0,0.4736842105,0.3929837893,1,0.941171796
+"run1_vs_prod","Fresh vs production","validated_mean","gemini","pop_anti_elitism",15,0,0.2666666667,0.9737456139,2.33974359,0.928509692
+"run1_vs_prod","Fresh vs production","validated_mean","gemini","pop_ideology_overall",14,0,0.07142857143,0.9278223359,2,0.9504265982
+"run1_vs_prod","Fresh vs production","validated_mean","gemini","pop_manichean",10,0,0.2,1.20028032,3,0.8504466238
+"run1_vs_prod","Fresh vs production","validated_mean","gemini","pop_people_centrism",14,0,0.2142857143,1.302869399,4,0.7851880873
+"run1_vs_prod","Fresh vs production","validated_mean","gemini","populism_overall",16,0,0.25,0.8444824114,2,0.9301123964
+"run1_vs_prod","Fresh vs production","validated_mean","gpt41mini","lib_economic",20,0,0.65,0.2426100629,1,0.9374215971
+"run1_vs_prod","Fresh vs production","validated_mean","gpt41mini","lib_financial_market",15,0,0.4666666667,0.292576214,1,0.9653488978
+"run1_vs_prod","Fresh vs production","validated_mean","gpt41mini","lib_political",20,0,0.7,0.2025157233,1,0.9789110967
+"run1_vs_prod","Fresh vs production","validated_mean","gpt41mini","lib_social",20,0,0.6,0.2513432165,1,0.978846551
+"run1_vs_prod","Fresh vs production","validated_mean","gpt41mini","liberalism_overall",20,0,0.55,0.2836477987,1,0.9535452358
+"run1_vs_prod","Fresh vs production","validated_mean","gpt41mini","pop_anti_elitism",19,0,0.4736842105,0.7105546886,4,0.8840362895
+"run1_vs_prod","Fresh vs production","validated_mean","gpt41mini","pop_ideology_overall",19,0,0.5789473684,0.2649483916,1,0.9271511601
+"run1_vs_prod","Fresh vs production","validated_mean","gpt41mini","pop_manichean",17,0,0.7647058824,0.2708102109,2,0.9636441622
+"run1_vs_prod","Fresh vs production","validated_mean","gpt41mini","pop_people_centrism",19,0,0.5263157895,0.4106256207,1,0.9289639005
+"run1_vs_prod","Fresh vs production","validated_mean","gpt41mini","populism_overall",19,0,0.6315789474,0.3932614555,2,0.9363695396
+"run1_vs_prod","Fresh vs production","validated_mean","sonnet","lib_economic",15,0,0.6,0.2912920312,1,0.9404755045
+"run1_vs_prod","Fresh vs production","validated_mean","sonnet","lib_financial_market",15,0,0.5333333333,0.2731523691,1,0.9707690133
+"run1_vs_prod","Fresh vs production","validated_mean","sonnet","lib_political",19,0,0.5789473684,0.3288775294,3,0.8259979744
+"run1_vs_prod","Fresh vs production","validated_mean","sonnet","lib_social",18,0,0.7222222222,0.208006625,1.433070866,0.9815157553
+"run1_vs_prod","Fresh vs production","validated_mean","sonnet","liberalism_overall",16,0,0.6875,0.2216262232,1,0.9512567156
+"run1_vs_prod","Fresh vs production","validated_mean","sonnet","pop_anti_elitism",19,0,0.8421052632,0.06963623065,0.6986934673,0.9953959049
+"run1_vs_prod","Fresh vs production","validated_mean","sonnet","pop_ideology_overall",20,0,0.55,0.2645579792,1,0.9775154134
+"run1_vs_prod","Fresh vs production","validated_mean","sonnet","pop_manichean",20,0,0.7,0.145226492,1,0.9819324955
+"run1_vs_prod","Fresh vs production","validated_mean","sonnet","pop_people_centrism",19,0,0.5789473684,0.2281768379,1,0.9678838458
+"run1_vs_prod","Fresh vs production","validated_mean","sonnet","populism_overall",19,0,0.5789473684,0.1664539724,1,0.9820039684
+"run1_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","ALL",194,0,0.2150154799,0.4332181083,3,0.9451138201
+"run1_vs_prod","Fresh vs production","baseline_cwm","gemini","ALL",153,0,0.3195781119,0.7991072006,4,0.8936989623
+"run1_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","ALL",155,0,0.568320046,0.3845960644,4,0.940375476
+"run1_vs_prod","Fresh vs production","baseline_cwm","sonnet","ALL",155,0,0.6139754363,0.2579424097,3,0.949972653
+"run1_vs_prod","Fresh vs production","validated_mean","cross_model_mean","ALL",197,0,0.2326470588,0.3801620138,2,0.9541834076
+"run1_vs_prod","Fresh vs production","validated_mean","gemini","ALL",156,0,0.3124895572,0.7925356381,4,0.8947200995
+"run1_vs_prod","Fresh vs production","validated_mean","gpt41mini","ALL",188,0,0.5941898865,0.3322893383,4,0.945423843
+"run1_vs_prod","Fresh vs production","validated_mean","sonnet","ALL",180,0,0.6372002924,0.219700629,3,0.9574746591
+"run1_vs_prod","Fresh vs production","baseline_cwm","pooled","ALL",463,0,0.5006245314,0.4805485583,4,0.9280156971
+"run1_vs_prod","Fresh vs production","validated_mean","pooled","ALL",524,0,0.5146265787,0.4481752018,4,0.9325395339
+"run2_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","lib_economic",19,0,0.4210526316,0.1397365261,0.5,0.9923507317
+"run2_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","lib_financial_market",18,0,0.05555555556,0.5578404129,2,0.8999619294
+"run2_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","lib_political",20,0,0.15,0.3741792554,1.333333333,0.9334256226
+"run2_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","lib_social",20,0,0.2,0.4912703932,2.5,0.9514603542
+"run2_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","liberalism_overall",20,0,0.25,0.299399153,0.9261830938,0.9498345578
+"run2_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","pop_anti_elitism",20,0,0.25,0.4543054534,1.195238095,0.9724344339
+"run2_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","pop_ideology_overall",19,0,0.2631578947,0.5457335807,2,0.9608223124
+"run2_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","pop_manichean",20,0,0.15,0.4616474795,1.5,0.9551344248
+"run2_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","pop_people_centrism",20,0,0.1,0.6511529143,1.666666667,0.8725260758
+"run2_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","populism_overall",20,0,0.2,0.438713707,0.9312907938,0.9621597703
+"run2_vs_prod","Fresh vs production","baseline_cwm","gemini","lib_economic",15,0,0.4666666667,0.3113057179,1.341085271,0.9712425412
+"run2_vs_prod","Fresh vs production","baseline_cwm","gemini","lib_financial_market",15,0,0.2,1.041903814,3,0.82446096
+"run2_vs_prod","Fresh vs production","baseline_cwm","gemini","lib_political",19,0,0.4210526316,0.5836613048,2.485714286,0.7811232829
+"run2_vs_prod","Fresh vs production","baseline_cwm","gemini","lib_social",19,0,0.4210526316,0.6660515491,2,0.9456296698
+"run2_vs_prod","Fresh vs production","baseline_cwm","gemini","liberalism_overall",19,0,0.4210526316,0.6031147713,3,0.830394376
+"run2_vs_prod","Fresh vs production","baseline_cwm","gemini","pop_anti_elitism",15,0,0.3333333333,0.9058939108,2.33974359,0.9440313749
+"run2_vs_prod","Fresh vs production","baseline_cwm","gemini","pop_ideology_overall",15,0,0.2666666667,0.8890112409,2,0.9677574978
+"run2_vs_prod","Fresh vs production","baseline_cwm","gemini","pop_manichean",11,0,0.1818181818,1.087863551,3,0.8972243718
+"run2_vs_prod","Fresh vs production","baseline_cwm","gemini","pop_people_centrism",14,0,0.07142857143,1.650763559,4,0.7420265466
+"run2_vs_prod","Fresh vs production","baseline_cwm","gemini","populism_overall",16,0,0.25,0.8414393181,2,0.9419632627
+"run2_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","lib_economic",17,0,0.5882352941,0.2672642159,1,0.9598710241
+"run2_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","lib_financial_market",15,0,0.5333333333,0.3753439153,1,0.9321041499
+"run2_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","lib_political",18,0,0.6666666667,0.1967806989,1,0.9820343973
+"run2_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","lib_social",15,0,0.6,0.2123557446,1,0.9911071716
+"run2_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","liberalism_overall",15,0,0.4666666667,0.331763637,1,0.9512472848
+"run2_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","pop_anti_elitism",16,0,0.5625,0.6544642857,4,0.8872397991
+"run2_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","pop_ideology_overall",14,0,0.5,0.3592375367,1,0.9016091768
+"run2_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","pop_manichean",14,0,0.6428571429,0.3048476681,2,0.9579313587
+"run2_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","pop_people_centrism",17,0,0.4117647059,0.5953476416,2,0.8925895777
+"run2_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","populism_overall",17,0,0.4705882353,0.5259994907,3,0.8698395471
+"run2_vs_prod","Fresh vs production","baseline_cwm","sonnet","lib_economic",14,0,0.7142857143,0.1442221914,1,0.971830543
+"run2_vs_prod","Fresh vs production","baseline_cwm","sonnet","lib_financial_market",14,0,0.4285714286,0.3312428279,1,0.9646040839
+"run2_vs_prod","Fresh vs production","baseline_cwm","sonnet","lib_political",18,0,0.5,0.4075450811,2,0.8593299758
+"run2_vs_prod","Fresh vs production","baseline_cwm","sonnet","lib_social",17,0,0.5882352941,0.3602185629,1.49382716,0.9542951456
+"run2_vs_prod","Fresh vs production","baseline_cwm","sonnet","liberalism_overall",15,0,0.7333333333,0.2342735055,2,0.9077902079
+"run2_vs_prod","Fresh vs production","baseline_cwm","sonnet","pop_anti_elitism",15,0,0.7333333333,0.1373395894,1.480349345,0.9869798679
+"run2_vs_prod","Fresh vs production","baseline_cwm","sonnet","pop_ideology_overall",17,0,0.6470588235,0.2619505533,1.458598726,0.9779333423
+"run2_vs_prod","Fresh vs production","baseline_cwm","sonnet","pop_manichean",17,0,0.5294117647,0.2096178116,1,0.9599717879
+"run2_vs_prod","Fresh vs production","baseline_cwm","sonnet","pop_people_centrism",18,0,0.5,0.2684907915,1.342465753,0.9457493014
+"run2_vs_prod","Fresh vs production","baseline_cwm","sonnet","populism_overall",15,0,0.6,0.1376660534,1,0.9872113063
+"run2_vs_prod","Fresh vs production","validated_mean","cross_model_mean","lib_economic",20,0,0.4,0.1846678572,0.8333333333,0.9791548229
+"run2_vs_prod","Fresh vs production","validated_mean","cross_model_mean","lib_financial_market",18,0,0.05555555556,0.4911390547,2,0.9114237143
+"run2_vs_prod","Fresh vs production","validated_mean","cross_model_mean","lib_political",20,0,0.2,0.2980808479,1.269080401,0.9544907805
+"run2_vs_prod","Fresh vs production","validated_mean","cross_model_mean","lib_social",20,0,0.3,0.2766111224,0.8333333333,0.9862697835
+"run2_vs_prod","Fresh vs production","validated_mean","cross_model_mean","liberalism_overall",20,0,0.3,0.2390919681,0.7629528448,0.9643476511
+"run2_vs_prod","Fresh vs production","validated_mean","cross_model_mean","pop_anti_elitism",20,0,0.25,0.4111271889,1.031245225,0.9805180998
+"run2_vs_prod","Fresh vs production","validated_mean","cross_model_mean","pop_ideology_overall",20,0,0.25,0.3571398625,1.5,0.9782195921
+"run2_vs_prod","Fresh vs production","validated_mean","cross_model_mean","pop_manichean",20,0,0.2,0.3376833011,1,0.9758882141
+"run2_vs_prod","Fresh vs production","validated_mean","cross_model_mean","pop_people_centrism",20,0,0.1,0.6519187171,1.666666667,0.8784692623
+"run2_vs_prod","Fresh vs production","validated_mean","cross_model_mean","populism_overall",20,0,0.25,0.4060645276,1,0.9642245929
+"run2_vs_prod","Fresh vs production","validated_mean","gemini","lib_economic",15,0,0.4666666667,0.3246752023,1.332129964,0.9700160926
+"run2_vs_prod","Fresh vs production","validated_mean","gemini","lib_financial_market",17,0,0.2352941176,0.9277443077,3,0.829065763
+"run2_vs_prod","Fresh vs production","validated_mean","gemini","lib_political",19,0,0.4210526316,0.5871049971,2.486486486,0.7807464286
+"run2_vs_prod","Fresh vs production","validated_mean","gemini","lib_social",19,0,0.4210526316,0.5713117521,2,0.9557794687
+"run2_vs_prod","Fresh vs production","validated_mean","gemini","liberalism_overall",19,0,0.4210526316,0.6041707632,3,0.8300519139
+"run2_vs_prod","Fresh vs production","validated_mean","gemini","pop_anti_elitism",16,0,0.3125,0.9117755414,2.33974359,0.9462436485
+"run2_vs_prod","Fresh vs production","validated_mean","gemini","pop_ideology_overall",15,0,0.2,0.8904759351,2,0.9676493665
+"run2_vs_prod","Fresh vs production","validated_mean","gemini","pop_manichean",11,0,0.1818181818,1.087863551,3,0.8972243718
+"run2_vs_prod","Fresh vs production","validated_mean","gemini","pop_people_centrism",14,0,0.07142857143,1.673250331,4,0.7425771057
+"run2_vs_prod","Fresh vs production","validated_mean","gemini","populism_overall",16,0,0.25,0.8210492472,2,0.9432653404
+"run2_vs_prod","Fresh vs production","validated_mean","gpt41mini","lib_economic",20,0,0.65,0.2526010782,1.014285714,0.9533581162
+"run2_vs_prod","Fresh vs production","validated_mean","gpt41mini","lib_financial_market",16,0,0.4375,0.3957187721,1,0.9270548109
+"run2_vs_prod","Fresh vs production","validated_mean","gpt41mini","lib_political",20,0,0.7,0.1922102426,1,0.9816383575
+"run2_vs_prod","Fresh vs production","validated_mean","gpt41mini","lib_social",20,0,0.65,0.1700673854,1,0.988686297
+"run2_vs_prod","Fresh vs production","validated_mean","gpt41mini","liberalism_overall",20,0,0.5,0.342524708,1,0.9423534894
+"run2_vs_prod","Fresh vs production","validated_mean","gpt41mini","pop_anti_elitism",19,0,0.5263157895,0.6579231097,4,0.8899354769
+"run2_vs_prod","Fresh vs production","validated_mean","gpt41mini","pop_ideology_overall",19,0,0.5789473684,0.3346118297,1,0.8955664479
+"run2_vs_prod","Fresh vs production","validated_mean","gpt41mini","pop_manichean",18,0,0.6111111111,0.3482148529,2,0.955803383
+"run2_vs_prod","Fresh vs production","validated_mean","gpt41mini","pop_people_centrism",19,0,0.3684210526,0.6195570401,2,0.8635448675
+"run2_vs_prod","Fresh vs production","validated_mean","gpt41mini","populism_overall",19,0,0.4736842105,0.533476917,3,0.8744473955
+"run2_vs_prod","Fresh vs production","validated_mean","sonnet","lib_economic",16,0,0.625,0.2089207393,1,0.9499980399
+"run2_vs_prod","Fresh vs production","validated_mean","sonnet","lib_financial_market",14,0,0.4285714286,0.3402823003,1,0.9632912321
+"run2_vs_prod","Fresh vs production","validated_mean","sonnet","lib_political",19,0,0.5263157895,0.3176485403,2,0.8795304421
+"run2_vs_prod","Fresh vs production","validated_mean","sonnet","lib_social",18,0,0.5555555556,0.2364315574,1,0.9808298853
+"run2_vs_prod","Fresh vs production","validated_mean","sonnet","liberalism_overall",17,0,0.7058823529,0.1681719164,2,0.9218063937
+"run2_vs_prod","Fresh vs production","validated_mean","sonnet","pop_anti_elitism",19,0,0.7894736842,0.0698546083,0.7386934673,0.995238227
+"run2_vs_prod","Fresh vs production","validated_mean","sonnet","pop_ideology_overall",19,0,0.5789473684,0.2224173035,1,0.9806273911
+"run2_vs_prod","Fresh vs production","validated_mean","sonnet","pop_manichean",20,0,0.6,0.1532068943,1,0.9801215202
+"run2_vs_prod","Fresh vs production","validated_mean","sonnet","pop_people_centrism",19,0,0.5263157895,0.1975473943,1,0.9671191739
+"run2_vs_prod","Fresh vs production","validated_mean","sonnet","populism_overall",19,0,0.5789473684,0.1616451417,1,0.9827247495
+"run2_vs_prod","Fresh vs production","baseline_cwm","cross_model_mean","ALL",196,0,0.2039766082,0.4413978876,2.5,0.9450110213
+"run2_vs_prod","Fresh vs production","baseline_cwm","gemini","ALL",158,0,0.3033071315,0.8581008736,4,0.8845853884
+"run2_vs_prod","Fresh vs production","baseline_cwm","gpt41mini","ALL",158,0,0.5442612045,0.3823404834,4,0.9325573487
+"run2_vs_prod","Fresh vs production","baseline_cwm","sonnet","ALL",160,0,0.5974229692,0.2492566968,2,0.9515695562
+"run2_vs_prod","Fresh vs production","validated_mean","cross_model_mean","ALL",198,0,0.2305555556,0.3653524447,2,0.9573006513
+"run2_vs_prod","Fresh vs production","validated_mean","gemini","ALL",161,0,0.2980865432,0.8399421628,4,0.88626195
+"run2_vs_prod","Fresh vs production","validated_mean","gpt41mini","ALL",190,0,0.5495979532,0.3846905936,4,0.9272388642
+"run2_vs_prod","Fresh vs production","validated_mean","sonnet","ALL",180,0,0.5915009337,0.2076126396,2,0.9601287055
+"run2_vs_prod","Fresh vs production","baseline_cwm","pooled","ALL",476,0,0.4816637684,0.496566018,4,0.9229040978
+"run2_vs_prod","Fresh vs production","validated_mean","pooled","ALL",531,0,0.4797284767,0.477415132,4,0.9245431732

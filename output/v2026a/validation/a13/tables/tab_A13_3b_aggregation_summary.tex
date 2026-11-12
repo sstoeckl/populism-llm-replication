@@ -1,0 +1,20 @@
+\begin{table}[ht]
+\centering
+\caption{Manifesto-level determinism by aggregation rule (all 10 dimensions, $n=20$)}
+\label{tab:verify_aggregation}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrrrrrrrrrr}
+\toprule
+ & & \multicolumn{3}{c}{Sonnet 4.6} & \multicolumn{3}{c}{GPT-4.1-mini} & \multicolumn{3}{c}{Gemini 3.5 Flash} & \multicolumn{3}{c}{Cross-model mean} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}\cmidrule(lr){9-11}\cmidrule(lr){12-14}
+Comparison & Aggr. & MAD & $r$ & Ident. & MAD & $r$ & Ident. & MAD & $r$ & Ident. & MAD & $r$ & Ident. \\
+\midrule
+Run 1 vs.\ 2 & Canonical & 0.155 & 0.977 & 70.5\% & 0.240 & 0.962 & 66.8\% & 0.333 & 0.967 & 53.5\% & 0.272 & 0.971 & 35.7\% \\
+Run 1 vs.\ 2 & No span check & 0.133 & 0.981 & 73.0\% & 0.245 & 0.951 & 67.9\% & 0.316 & 0.968 & 54.5\% & 0.208 & 0.981 & 38.5\% \\
+Fresh vs.\ prod. & Canonical & 0.254 & 0.951 & 60.6\% & 0.383 & 0.936 & 55.6\% & 0.829 & 0.889 & 31.1\% & 0.437 & 0.945 & 20.9\% \\
+Fresh vs.\ prod. & No span check & 0.214 & 0.959 & 61.4\% & 0.358 & 0.936 & 57.2\% & 0.816 & 0.890 & 30.5\% & 0.373 & 0.956 & 23.2\% \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{0.95\linewidth}{\scriptsize\textit{Notes:} Canonical: the paper's aggregation (own-block confidence-weighted mean over \texttt{verified} chunks whose quote passes the quote check; plain mean across models). No span check: confidence-weighted mean over all \texttt{verified} chunks with populism confidence as the weight for every dimension. Ident.: share of manifesto $\times$ dimension scores identical to $10^{-9}$. Fresh vs.\ prod.\ averages Run 1 and Run 2.}
+\end{table}

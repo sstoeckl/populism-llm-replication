@@ -1,0 +1,671 @@
+# MANIFEST.md5 — v2026a canonical chain (written by R/70_Manifest.R)
+# Paths: inputs relative to the project root; DERIVED/ = PIPE_DERIVED, OUT/ = PIPE_OUT.
+# INPUTS (read-only)
+18e60cbf3f158658103f7c6538852ab5  data/CMP/20251111-poplib_results.RData
+a553280c0eacb2444455972fbefab28b  data/CMP/argentina_oos/poplib_v4_claude_raw.parquet
+1818f19a7c8dc5dafa46025714c8aee2  data/CMP/argentina_oos/poplib_v4_claude_validated_spans.parquet
+e1f110eef3a0904c8e46bee5e08b4128  data/CMP/argentina_oos/poplib_v4_gemini_raw.parquet
+2a0a6595b566cf4ee866b8fe61aea2e3  data/CMP/argentina_oos/poplib_v4_gemini_validated_spans.parquet
+58c414480baea8de2ff737ad4e983542  data/CMP/argentina_oos/poplib_v4_gpt41mini_raw.parquet
+c767c640280a18de32dcd5de851dc17c  data/CMP/argentina_oos/poplib_v4_gpt41mini_validated_spans.parquet
+6db22f7d43d3b6dfd459c8bff6305e47  data/CMP/full_data_2026a_meta.parquet
+d7292f4a80a416da8c70b5c8673ed555  data/CMP/full_data.parquet
+24f3f33bf2143e523a1e6ec061d9ea1c  data/CMP/mpds_2026a_full.parquet
+2c249d809a0eec221879cd8f5f0121b4  data/CMP/poplib_v4_gemini_flash_latest_validated_spans.parquet
+965536bd1633638f8579783553068aa4  data/CMP/update_2026a/corpus_texts_20260904101355.parquet
+d995e63f71b26eb6722958f8c2cf0d41  data/CMP/v2026a/archive/dropped_rows_claude_rev2.parquet
+68b58216028a3ca2c5a1136b8459b066  data/CMP/v2026a/archive/dropped_rows_claude.parquet
+23f8f1fb0688d99a8a71cd74dd1e9a73  data/CMP/v2026a/archive/dropped_rows_gemini.parquet
+5cb40c2b238259c9c73d597080264aec  data/CMP/v2026a/archive/dropped_rows_gpt41mini.parquet
+8cc8fd86f952c03fc68e0015d77d0e31  data/CMP/v2026a/archive/dropped_spans_claude_rev2.parquet
+515e006598dbad7a03070a1999cb67be  data/CMP/v2026a/archive/gemini_june_superseded.parquet
+98fdb7ecb25d8f8ec2938353f3723033  data/CMP/v2026a/coverage.parquet
+8fd0b2b09e7974a8b1a173399211f25d  data/CMP/v2026a/gap_chunks.parquet
+4856a800b6bc5f18bc7d0211406e6ba7  data/CMP/v2026a/judge_topic_v2026a.parquet
+0f38b9cb368a2c4d67856fd00276eb5b  data/CMP/v2026a/paper_main_v2_1ca04ab71ce6ca111f1c0af62f51228a.csv
+71dafe110b5943434d6a8f8711cc3a8d  data/CMP/v2026a/raw_claude_rev2.parquet
+7e7e3b9d519c26b5c0bb25700eee6460  data/CMP/v2026a/raw_claude.parquet
+4889c7dbd9bd1ba3db595be839651171  data/CMP/v2026a/raw_gemini.parquet
+cd50376151267dc209a20e1aa2919d23  data/CMP/v2026a/raw_gpt41mini.parquet
+9e62550b836658c4be43d0087eeeb3cb  data/CMP/v2026a/validated_spans_claude_rev2.parquet
+6d97c5bece790f937d140f379f48f403  data/CMP/v2026a/validated_spans_claude.parquet
+e566d1af38caabcd64ddf8888c1aaae1  data/CMP/v2026a/validated_spans_gemini.parquet
+0b4420cf37c19ba1e219c11481281473  data/CMP/v2026a/validated_spans_gpt41mini.parquet
+59c2026538c6744ae3b94dd704c97ef9  data/external/argentina/_tessdata/clean_texts.py
+d2f435b0cfe865c97e80c56eb4ccf81d  data/external/argentina/_tessdata/ocr_tesseract.py
+fe6702ff94e1873c80775cef5e9e4a5d  data/external/argentina/_tessdata/spa.traineddata
+98aa2195d365ef452b70e8b676435a29  data/external/argentina/2021_generales/BA AVANZA LIBERTAD.pdf
+28a1aa82004806cf8388b592af551905  data/external/argentina/2021_generales/BA FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD.pdf
+1c65dc27b9e49ecd5acfd81a1939c988  data/external/argentina/2021_generales/BA FRENTE DE TODOS.pdf
+fec307987dcb010e10580bb50e19b4d0  data/external/argentina/2021_generales/BA JUNTOS.pdf
+70f446166222b75618b92727f554f790  data/external/argentina/2021_generales/BA VAMOS CON VOS.pdf
+1da244dc0f6eedb9e379aca773d0badd  data/external/argentina/2021_generales/CF FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD.pdf
+67ec334233e2a9eb670cb3e696851ecc  data/external/argentina/2021_generales/CF FRENTE DE TODOS.pdf
+df759fefd475abc088c381447ec56fa8  data/external/argentina/2021_generales/CF JUNTOS POR EL CAMBIO.pdf
+dfe796439cac1a0d9c643c72c4f4703e  data/external/argentina/2021_generales/CF LA LIBERTAD AVANZA.pdf
+fd800dd2654851e82ed945940dec9c95  data/external/argentina/2023_generales/ON 132 JUNTOS POR EL CAMBIO.pdf
+8a59228c9de15a2d4cce559a01ce0d14  data/external/argentina/2023_generales/ON 133 HACEMOS POR NUESTRO PAIS PLATAFORMA.pdf
+99119d471ab9934d8ce36f9f041ec5d7  data/external/argentina/2023_generales/ON 134 UNION POR LA PATRIA PLATAFORMA.pdf
+f9d4c4451ede937eeff545cc7d75c917  data/external/argentina/2023_generales/ON 135 LA LIBERTAD AVANZA PLATAFORMA.pdf
+6fc611e5b922d205b0465bef861a19e0  data/external/argentina/2023_generales/ON 136 FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD PLATAFORMA.pdf
+ba20b76b534b440de7fd621eae6d1e85  data/external/argentina/2023_paso/ON 13 MOVIMIENTO AL SOCIALISMO PLATAFORMA.pdf
+bd9bb9a21255613f142691469840ba71  data/external/argentina/2023_paso/ON 131 LIBER.AR PLATAFORMA.pdf
+fd800dd2654851e82ed945940dec9c95  data/external/argentina/2023_paso/ON 132 Plataforma Electoral Juntos por el Cambio Orden Nacional.pdf
+8663fc3f7134cdf509bb9fd54b40d09d  data/external/argentina/2023_paso/ON 133 HACEMOS POR NUESTRO PAIS PLATAFORMA.pdf
+1a96af74a414871f95b7d5f7fbe094ec  data/external/argentina/2023_paso/ON 134 UNION POR LA PATRIA PLATAFORMA.pdf
+bd68dac253363aff7d4bea971dd1002d  data/external/argentina/2023_paso/ON 135 LA LIBERTAD AVANZA PLATAFORMA.pdf
+2ae11cc74365f9fa436ad57486552d03  data/external/argentina/2023_paso/ON 136 FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD PLATAFORMA.pdf
+a5dbe7535e60372055925a6f6bd981dc  data/external/argentina/2023_paso/ON 137 PRINCIPIOS Y VALORES - POR TIERRA TECHO Y TRABAJO PLATAFORMA.pdf
+f8ec6b78595162b921772db598252624  data/external/argentina/2023_paso/ON 20 UNION DEL CENTRO DEMOCRATICO.pdf
+6f2140a3015cd9f128d4362659e6515e  data/external/argentina/2023_paso/ON 40 MOVIMIENTO LIBRES DEL SUR PLATAFORMA.pdf
+1742babd7d8b49dbbb361a1ec78bee62  data/external/argentina/2023_paso/ON 57 MOVIMIENTO DE ACCION VECINAL.pdf
+f532f71e44b21ac10c7d6a1101da9d11  data/external/argentina/2023_paso/ON 90 MOVIMIENTO IZQUIERDA JUVENTUD DIGNIDAD - PROGRAMA ELECTORAL.pdf
+b2350b2d67a9a5da2051e49b9b74f352  data/external/argentina/2023_paso/ON 92 POLITICA OBRERA PLATAFORMA.pdf
+5ddce3e7bd7a9a2b6d51b9042bb6e519  data/external/argentina/2023_paso/ON 94 PROYECTO JOVEN - LISTA COALICION PAZ DEMOCRACIA Y SOBERANIA.pdf
+030b3ee9d1ec9be9b9e08a735a6d5b66  data/external/argentina/2023_paso/ON 94 PROYECTO JOVEN - LISTA PATRIA UNIDA-1.pdf
+80241952b8484e3246686caf188996a4  data/external/argentina/2025_generales/01 501 CF ALIANZA LA LIBERTAD AVANZA.pdf
+876af614f856c42003d4f56418d47939  data/external/argentina/2025_generales/01 502 CF ALIANZA POTENCIA.pdf
+e29844d100a426189166ed6ef8d8f906  data/external/argentina/2025_generales/01 503 CF FUERZA PATRIA.pdf
+4bb86ca52d74916d109fccdbc01dc82a  data/external/argentina/2025_generales/01 504 CF CIUDADANOS UNIDOS.pdf
+d334bbb2ca725b45a28a504fbf034de7  data/external/argentina/2025_generales/01 506 CF FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD.pdf
+f5755150177d66cbcba54801ac66756f  data/external/argentina/2025_generales/02 503 BA ALIANZA LA LIBERTAD AVANZA.pdf
+6c4280c9116fac1015ed40a65a328b16  data/external/argentina/2025_generales/02 506 BA FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD.pdf
+d38390ad9c17ba7f053c2c640f9ae22f  data/external/argentina/2025_generales/02 507 BA FUERZA PATRIA.pdf
+c3731df1adb21c9c981d8e062cb275e2  data/external/argentina/2025_generales/02 508 BA PROVINCIAS UNIDAS.pdf
+6039f3daa453423179ff0a58cd15d6ce  data/external/argentina/argentina_docs.csv
+9d932b4e8e662fc203555a7dc8a03036  data/external/argentina/README.md
+a6eeaa0b5017ffc528dd1cbebc90487e  data/external/argentina/text_clean/2021_generales/BA AVANZA LIBERTAD.txt
+d8f18fe251583a68826b8576c0d96b5b  data/external/argentina/text_clean/2021_generales/BA FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD.txt
+fdef32c11caef6351094087ea50b11a4  data/external/argentina/text_clean/2021_generales/BA FRENTE DE TODOS.txt
+f6c467ef535b3676f8079c0968f7f038  data/external/argentina/text_clean/2021_generales/BA JUNTOS.txt
+19c3d4134937fbbaa5fdad77e24f4c0e  data/external/argentina/text_clean/2021_generales/BA VAMOS CON VOS.txt
+6c78ac8bc22d9c30d7ada796d5d73659  data/external/argentina/text_clean/2021_generales/CF FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD.txt
+1744bf86705213e08a9445807eaacb89  data/external/argentina/text_clean/2021_generales/CF FRENTE DE TODOS.txt
+176425ef04b3328549ff9cfda406c180  data/external/argentina/text_clean/2021_generales/CF JUNTOS POR EL CAMBIO.txt
+02e4604acb6e0b7123c66263ecfe0b10  data/external/argentina/text_clean/2021_generales/CF LA LIBERTAD AVANZA.txt
+9aa58db42c42df83ed59b5a79c98f324  data/external/argentina/text_clean/2023_generales/ON 132 JUNTOS POR EL CAMBIO.txt
+dd602001f7def67a7def80f264b6e3c0  data/external/argentina/text_clean/2023_generales/ON 133 HACEMOS POR NUESTRO PAIS PLATAFORMA.txt
+7b4c3e0d8081c4b776853f4c79fb8225  data/external/argentina/text_clean/2023_generales/ON 134 UNION POR LA PATRIA PLATAFORMA.txt
+c1b254efe31a535f0409155ba65f0620  data/external/argentina/text_clean/2023_generales/ON 135 LA LIBERTAD AVANZA PLATAFORMA.txt
+b85c5b9f452c5ffd7ce67c32ba51fa8c  data/external/argentina/text_clean/2023_generales/ON 136 FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD PLATAFORMA.txt
+7e741443c470829a1e8a8377aafb4362  data/external/argentina/text_clean/2023_paso/ON 13 MOVIMIENTO AL SOCIALISMO PLATAFORMA.txt
+02df5a18fee2909fe38bb2965cf7ed02  data/external/argentina/text_clean/2023_paso/ON 131 LIBER.AR PLATAFORMA.txt
+9aa58db42c42df83ed59b5a79c98f324  data/external/argentina/text_clean/2023_paso/ON 132 Plataforma Electoral Juntos por el Cambio Orden Nacional.txt
+993381d7cf67126309b7c2ff214fabc4  data/external/argentina/text_clean/2023_paso/ON 133 HACEMOS POR NUESTRO PAIS PLATAFORMA.txt
+5f687c20de3151c988d9bd70214de2fa  data/external/argentina/text_clean/2023_paso/ON 134 UNION POR LA PATRIA PLATAFORMA.txt
+4ce959ea008858b3fa33927cb2d92d49  data/external/argentina/text_clean/2023_paso/ON 135 LA LIBERTAD AVANZA PLATAFORMA.txt
+18f48b3098dbb50b806d91116f1ef53f  data/external/argentina/text_clean/2023_paso/ON 136 FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD PLATAFORMA.txt
+8340f1c7db0b327510101bcdc2c99448  data/external/argentina/text_clean/2023_paso/ON 137 PRINCIPIOS Y VALORES - POR TIERRA TECHO Y TRABAJO PLATAFORMA.txt
+62fda060eac6ab22327ff3c67b69e64d  data/external/argentina/text_clean/2023_paso/ON 20 UNION DEL CENTRO DEMOCRATICO.txt
+9b2d19cb69426556a28b2dc6767d4077  data/external/argentina/text_clean/2023_paso/ON 40 MOVIMIENTO LIBRES DEL SUR PLATAFORMA.txt
+782247c65eff630d8e13d779e6028d3f  data/external/argentina/text_clean/2023_paso/ON 57 MOVIMIENTO DE ACCION VECINAL.txt
+ee995b5d5073b90d38a335808d626c40  data/external/argentina/text_clean/2023_paso/ON 90 MOVIMIENTO IZQUIERDA JUVENTUD DIGNIDAD - PROGRAMA ELECTORAL.txt
+97af3b95a2aa875c39af721382035c96  data/external/argentina/text_clean/2023_paso/ON 92 POLITICA OBRERA PLATAFORMA.txt
+8d40a7c1ea2b03a9e5c1b898c2eb6e8e  data/external/argentina/text_clean/2023_paso/ON 94 PROYECTO JOVEN - LISTA COALICION PAZ DEMOCRACIA Y SOBERANIA.txt
+dde152630562ff06ebda1a8de8bdae67  data/external/argentina/text_clean/2023_paso/ON 94 PROYECTO JOVEN - LISTA PATRIA UNIDA-1.txt
+f9b12ca6173cba2b8c1da9be444ba3d7  data/external/argentina/text_clean/2025_generales/01 501 CF ALIANZA LA LIBERTAD AVANZA.txt
+7ad5a3b61c1dfb016ef550c24acd7ed0  data/external/argentina/text_clean/2025_generales/01 502 CF ALIANZA POTENCIA.txt
+0212070c95650d381e8b4e61d547a263  data/external/argentina/text_clean/2025_generales/01 503 CF FUERZA PATRIA.txt
+fbc8a3f011a215747583e4ab6e100260  data/external/argentina/text_clean/2025_generales/01 504 CF CIUDADANOS UNIDOS.txt
+07343c42c6f573ceeb45efafc917aa24  data/external/argentina/text_clean/2025_generales/01 506 CF FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD.txt
+1504cf3e49188f0ed01a66b05c2d91f3  data/external/argentina/text_clean/2025_generales/02 503 BA ALIANZA LA LIBERTAD AVANZA.txt
+aa7a012ecd26d48ee34220bc40baad12  data/external/argentina/text_clean/2025_generales/02 506 BA FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD.txt
+f1b2fba223942021a782e8dab2419cc7  data/external/argentina/text_clean/2025_generales/02 507 BA FUERZA PATRIA.txt
+a4d2c002e3548db8a42ce13fd3c73892  data/external/argentina/text_clean/2025_generales/02 508 BA PROVINCIAS UNIDAS.txt
+4ac069ae7e8f364898560bc51da76111  data/external/argentina/text/_ocr_manifest.jsonl
+951a6a4bae021f557063a147279509eb  data/external/argentina/text/2021_generales/BA AVANZA LIBERTAD.txt
+6dec3fb01d85f336ccf5668d4663ef9b  data/external/argentina/text/2021_generales/BA FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD.txt
+3067bb5bf46698185f551a4909b17492  data/external/argentina/text/2021_generales/BA FRENTE DE TODOS.txt
+955f070abee2b00672ddfa63718a5330  data/external/argentina/text/2021_generales/BA JUNTOS.txt
+f78473c09c3ceeaa66d4eb29aac9620a  data/external/argentina/text/2021_generales/BA VAMOS CON VOS.txt
+a2a5e318a20bda16a54020d845e48ed6  data/external/argentina/text/2021_generales/CF FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD.txt
+20b448cf5bed7cf40e972604631c1436  data/external/argentina/text/2021_generales/CF FRENTE DE TODOS.txt
+d1f3f82d8801781d4f01b59f7c23f1f7  data/external/argentina/text/2021_generales/CF JUNTOS POR EL CAMBIO.txt
+cbde8a8e521feb1770d215e2e9a348c1  data/external/argentina/text/2021_generales/CF LA LIBERTAD AVANZA.txt
+979ff38bc30ef5de3fa551cb8e5d5870  data/external/argentina/text/2023_generales/ON 132 JUNTOS POR EL CAMBIO.txt
+8237dbae08aa9f625338e4df4b02c052  data/external/argentina/text/2023_generales/ON 133 HACEMOS POR NUESTRO PAIS PLATAFORMA.txt
+30b4fc2adc1509b37be46bb7b241a13d  data/external/argentina/text/2023_generales/ON 134 UNION POR LA PATRIA PLATAFORMA.txt
+41865cd3ede61070956815dc25e6d9e8  data/external/argentina/text/2023_generales/ON 135 LA LIBERTAD AVANZA PLATAFORMA.txt
+2392cc89e27b7e008f71d2492efe36c9  data/external/argentina/text/2023_generales/ON 136 FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD PLATAFORMA.txt
+fc13bbef7506546e0e8b95fab4b08c7f  data/external/argentina/text/2023_paso/ON 13 MOVIMIENTO AL SOCIALISMO PLATAFORMA.txt
+c7eea5edf1dd39f0788e95f1c6a61bb3  data/external/argentina/text/2023_paso/ON 131 LIBER.AR PLATAFORMA.txt
+979ff38bc30ef5de3fa551cb8e5d5870  data/external/argentina/text/2023_paso/ON 132 Plataforma Electoral Juntos por el Cambio Orden Nacional.txt
+6e1d8a540dad75360f81cd10c4da2441  data/external/argentina/text/2023_paso/ON 133 HACEMOS POR NUESTRO PAIS PLATAFORMA.txt
+d62eb03d44b5f41e6180e9840378c986  data/external/argentina/text/2023_paso/ON 134 UNION POR LA PATRIA PLATAFORMA.txt
+42ec42200e40474a35529e09364662e1  data/external/argentina/text/2023_paso/ON 135 LA LIBERTAD AVANZA PLATAFORMA.txt
+57c72b40853758b3dd3fd4a72bce12bc  data/external/argentina/text/2023_paso/ON 136 FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD PLATAFORMA.txt
+816f06145954575db0504db520809aea  data/external/argentina/text/2023_paso/ON 137 PRINCIPIOS Y VALORES - POR TIERRA TECHO Y TRABAJO PLATAFORMA.txt
+62fda060eac6ab22327ff3c67b69e64d  data/external/argentina/text/2023_paso/ON 20 UNION DEL CENTRO DEMOCRATICO.txt
+28b5afca6d4dcdc65f3c3a48d7404303  data/external/argentina/text/2023_paso/ON 40 MOVIMIENTO LIBRES DEL SUR PLATAFORMA.txt
+6822f7a6028d5b5813cad421a2327811  data/external/argentina/text/2023_paso/ON 57 MOVIMIENTO DE ACCION VECINAL.txt
+b890352e9e1a7c6580334868737394dc  data/external/argentina/text/2023_paso/ON 90 MOVIMIENTO IZQUIERDA JUVENTUD DIGNIDAD - PROGRAMA ELECTORAL.txt
+a90dd20f6778ff7e4109b4256bed0d7f  data/external/argentina/text/2023_paso/ON 92 POLITICA OBRERA PLATAFORMA.txt
+74423b71e49d9ed837b98655effbd60c  data/external/argentina/text/2023_paso/ON 94 PROYECTO JOVEN - LISTA COALICION PAZ DEMOCRACIA Y SOBERANIA.txt
+dde152630562ff06ebda1a8de8bdae67  data/external/argentina/text/2023_paso/ON 94 PROYECTO JOVEN - LISTA PATRIA UNIDA-1.txt
+753897fe02e3d13876518415e6278d5c  data/external/argentina/text/2025_generales/01 501 CF ALIANZA LA LIBERTAD AVANZA.txt
+f3761960b2b832f4a8d75080e8fb3bc9  data/external/argentina/text/2025_generales/01 502 CF ALIANZA POTENCIA.txt
+d1f9cc6cefaf0775e1c13034d1fa8a46  data/external/argentina/text/2025_generales/01 503 CF FUERZA PATRIA.txt
+d4e83f234dcc6022b7e5eb17de371420  data/external/argentina/text/2025_generales/01 504 CF CIUDADANOS UNIDOS.txt
+07b00d09c1221ae77f9e008592bce762  data/external/argentina/text/2025_generales/01 506 CF FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD.txt
+f75f61929d3bd9e54f55f3649c831b48  data/external/argentina/text/2025_generales/02 503 BA ALIANZA LA LIBERTAD AVANZA.txt
+9d94de67552c4acd900fee3ba9cd113c  data/external/argentina/text/2025_generales/02 506 BA FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD.txt
+afe92e89bcc53a657da0367007158758  data/external/argentina/text/2025_generales/02 507 BA FUERZA PATRIA.txt
+314a9f8ac0bc01e76ef1c50f3f247adb  data/external/argentina/text/2025_generales/02 508 BA PROVINCIAS UNIDAS.txt
+90ffcf1d139fe80298053c3abe1cd434  data/external/ches_1999-2024_meansV2.csv
+ca51de0c088f58936e1b54ffb5e6080f  data/external/gps_2019_party_v2_1.tab
+e1eb903274ed7cc92a4d15543946bacf  data/external/parlgov_view_party.csv
+b6bf26ef84cc8d990812c40eef657ca4  data/external/poppa_2018_party_means.tab
+2ae7fa0b44a0fb384797e4381d8bc104  data/external/rfpopi_final_dataset.csv
+6c44f2bc784f312989e023c29820037e  data/external/SOURCES.csv
+d23859f5677007afc16a3ee7459db259  output/independence/cache/external/partyfacts_external.csv
+8a29772bcf8d8ca2e9328b6af7b26eb8  output/independence/cache/external/populist4.csv
+47a60da29d473b5833b2d5e9ee01f065  output/independence/tables/t3_slope_bootstrap.csv
+93aaf9b6c443992b7801dafbe6e9fb8b  output/independence/tables/t3_slopes_subdims.csv
+3eaebf4793dffd26adeaea1ebf1b1ca9  output/independence/tables/t3_slopes.csv
+5da99dd85b0f734cf5058f906b11e46c  output/reproducibility_v4/checkpoints/fresh_validated_spans.rds
+f482f31d34479ad1ab636480dd80e58a  output/reproducibility_v4/checkpoints/gemini_run1_11420_199109.rds
+f2d207ae060ca275eb28209fcaa0b042  output/reproducibility_v4/checkpoints/gemini_run1_11520_201809.rds
+62a286be758f22b2f58accf38e83a7fc  output/reproducibility_v4/checkpoints/gemini_run1_150025_200710.rds
+30576875b9b184b4b580cef767818740  output/reproducibility_v4/checkpoints/gemini_run1_22235_202103.rds
+d8bbefc979d8a4cfce1f891be08a278a  output/reproducibility_v4/checkpoints/gemini_run1_22722_200611.rds
+763aa94f575ba5639f10b2c7ea5a5820  output/reproducibility_v4/checkpoints/gemini_run1_31320_198106.rds
+02a0063e62a638cd2ebe16b3377a4ad5  output/reproducibility_v4/checkpoints/gemini_run1_31626_201206.rds
+4176e35d3e0193f42cfb6fdc65dc5799  output/reproducibility_v4/checkpoints/gemini_run1_32061_200804.rds
+0350d9d925aa8f6dc29bc561a53affde  output/reproducibility_v4/checkpoints/gemini_run1_32630_201803.rds
+97dc0904abbf88cd4687af9dee6cff77  output/reproducibility_v4/checkpoints/gemini_run1_33610_201904.rds
+9436ad70d4875ea6c55aa08c8eb92315  output/reproducibility_v4/checkpoints/gemini_run1_34340_201501.rds
+ca28666b0e16c8d331168a2128f83596  output/reproducibility_v4/checkpoints/gemini_run1_41222_200509.rds
+2655007464f02a6f49b8c6250ab14a14  output/reproducibility_v4/checkpoints/gemini_run1_41953_202109.rds
+91c5d89daddd3f2348417dae8a69d606  output/reproducibility_v4/checkpoints/gemini_run1_55422_200605.rds
+7ba52b0715acf6c162d2df003bbaaeb7  output/reproducibility_v4/checkpoints/gemini_run1_63810_196611.rds
+7994d9d0b229fb41d83c0ee4a7fd6b4f  output/reproducibility_v4/checkpoints/gemini_run1_64620_202010.rds
+8d1e0f9ddb1eb3e0af7d3e8763f636db  output/reproducibility_v4/checkpoints/gemini_run1_86110_201804.rds
+fb5fcf86027f97f23debcdcb017565cd  output/reproducibility_v4/checkpoints/gemini_run1_86320_199405.rds
+76a4c16d71654402ae544cc0ee97c9ae  output/reproducibility_v4/checkpoints/gemini_run1_92431_199110.rds
+a40854dd69ec51c46eeb9df7a328cfa2  output/reproducibility_v4/checkpoints/gemini_run1_92811_201110.rds
+b62a11b06630439fb33b278ec39f8df2  output/reproducibility_v4/checkpoints/gemini_run2_11420_199109.rds
+f218c05e72cea5498671c9a5dff3cea1  output/reproducibility_v4/checkpoints/gemini_run2_11520_201809.rds
+09135da5f79b6790e0a6147c26c28ce8  output/reproducibility_v4/checkpoints/gemini_run2_150025_200710.rds
+d5ed7e351a6f56c5825401d631b5910e  output/reproducibility_v4/checkpoints/gemini_run2_22235_202103.rds
+738588a7dcbf15b1949983c5fbf2fd21  output/reproducibility_v4/checkpoints/gemini_run2_22722_200611.rds
+75c029b0b268c58692cce907584a62b8  output/reproducibility_v4/checkpoints/gemini_run2_31320_198106.rds
+4ae816ebdffa6f91324f26fd2322b720  output/reproducibility_v4/checkpoints/gemini_run2_31626_201206.rds
+818998be87c212e032b89c0fb730ea9c  output/reproducibility_v4/checkpoints/gemini_run2_32061_200804.rds
+e6f419c23a184ff7729a65236b149a43  output/reproducibility_v4/checkpoints/gemini_run2_32630_201803.rds
+dac8dfa657b721ae39a43231ca070f40  output/reproducibility_v4/checkpoints/gemini_run2_33610_201904.rds
+3c4114816125b299621c9c934ffd6c3c  output/reproducibility_v4/checkpoints/gemini_run2_34340_201501.rds
+8a3b873da6ffcfaa799e311c1e6793b5  output/reproducibility_v4/checkpoints/gemini_run2_41222_200509.rds
+a468ec1789e36a492df55c0514c12c03  output/reproducibility_v4/checkpoints/gemini_run2_41953_202109.rds
+9e85142e95bc0483a57846f58c14b429  output/reproducibility_v4/checkpoints/gemini_run2_55422_200605.rds
+2cb995a24688cbe8e54d63652e2a1fd8  output/reproducibility_v4/checkpoints/gemini_run2_63810_196611.rds
+196d3f252120a531b6a00aa4d603984f  output/reproducibility_v4/checkpoints/gemini_run2_64620_202010.rds
+30be211b1ac1b2cbd306c5bd95bc6d30  output/reproducibility_v4/checkpoints/gemini_run2_86110_201804.rds
+1ad7329085a22d99221cc6286fc73020  output/reproducibility_v4/checkpoints/gemini_run2_86320_199405.rds
+9ed4aefda010b78aa879c8a05f01af17  output/reproducibility_v4/checkpoints/gemini_run2_92431_199110.rds
+45664f524e906df56c52564e4e590bfe  output/reproducibility_v4/checkpoints/gemini_run2_92811_201110.rds
+75908294b2364cefacbad1301ae6c356  output/reproducibility_v4/checkpoints/gpt41mini_run1_11420_199109.rds
+16c23f31dc57f53431bfd33487c4091b  output/reproducibility_v4/checkpoints/gpt41mini_run1_11520_201809.rds
+af34a5ba4dae43c8d3404cd05ff49e38  output/reproducibility_v4/checkpoints/gpt41mini_run1_150025_200710.rds
+2a0a289dc813649aa032ba00233ec07f  output/reproducibility_v4/checkpoints/gpt41mini_run1_22235_202103.rds
+70d223a589024c09ad8154f916fff7ae  output/reproducibility_v4/checkpoints/gpt41mini_run1_22722_200611.rds
+9a68e34dbd776f59880930f8fc851f8a  output/reproducibility_v4/checkpoints/gpt41mini_run1_31320_198106.rds
+fc65594f2e31f3331cbf4ecd8ba52ec5  output/reproducibility_v4/checkpoints/gpt41mini_run1_31626_201206.rds
+6815f2973e84f9bc224c4c157994989c  output/reproducibility_v4/checkpoints/gpt41mini_run1_32061_200804.rds
+ee39aa24cec3145e941acdec1e04c4b2  output/reproducibility_v4/checkpoints/gpt41mini_run1_32630_201803.rds
+75346ae526b866f85c816fa2ce7bfbf0  output/reproducibility_v4/checkpoints/gpt41mini_run1_33610_201904.rds
+b2249658577576161a5b87c62f37dd1b  output/reproducibility_v4/checkpoints/gpt41mini_run1_34340_201501.rds
+cc789b413c5a09d5b86aa7360b1e54c3  output/reproducibility_v4/checkpoints/gpt41mini_run1_41222_200509.rds
+7a1901324b6b7eb60db9f45e0c2971c8  output/reproducibility_v4/checkpoints/gpt41mini_run1_41953_202109.rds
+551045de13d25953386e17c9a6ebc324  output/reproducibility_v4/checkpoints/gpt41mini_run1_55422_200605.rds
+f0663dab592ad1a7d93f2b8c67730758  output/reproducibility_v4/checkpoints/gpt41mini_run1_63810_196611.rds
+9c90f3c54ef8bf22b728c20c4c6b2403  output/reproducibility_v4/checkpoints/gpt41mini_run1_64620_202010.rds
+54219e1a246a8a523b698a1ca575345e  output/reproducibility_v4/checkpoints/gpt41mini_run1_86110_201804.rds
+2feb3889e1ec3eb7f3462efbd6aaae77  output/reproducibility_v4/checkpoints/gpt41mini_run1_86320_199405.rds
+a7f4c1fb6d2b10cc035c049d5dc13a31  output/reproducibility_v4/checkpoints/gpt41mini_run1_92431_199110.rds
+e20d517c5b3d846c050c55b742a5ab1e  output/reproducibility_v4/checkpoints/gpt41mini_run1_92811_201110.rds
+dba82ef8e30796fd20aafef535407704  output/reproducibility_v4/checkpoints/gpt41mini_run2_11420_199109.rds
+af150336a79afdff2af7b10db8bad7f5  output/reproducibility_v4/checkpoints/gpt41mini_run2_11520_201809.rds
+ec4bbeea3a7693a198f70d7e26091f15  output/reproducibility_v4/checkpoints/gpt41mini_run2_150025_200710.rds
+0a08a18bcdc26d689d48a4495f80794f  output/reproducibility_v4/checkpoints/gpt41mini_run2_22235_202103.rds
+c0136335dd55ff74be8418a82b55b025  output/reproducibility_v4/checkpoints/gpt41mini_run2_22722_200611.rds
+429139159df179f9bb068297bfe127b8  output/reproducibility_v4/checkpoints/gpt41mini_run2_31320_198106.rds
+a2fb2b216448297f174254011995c799  output/reproducibility_v4/checkpoints/gpt41mini_run2_31626_201206.rds
+3fe05ba237a55f70151a8c740e39c7c3  output/reproducibility_v4/checkpoints/gpt41mini_run2_32061_200804.rds
+2571c028b2e4c2c211c61eb47b0a7bf0  output/reproducibility_v4/checkpoints/gpt41mini_run2_32630_201803.rds
+ed1a6835a0e066bbe19a65ed2e623d83  output/reproducibility_v4/checkpoints/gpt41mini_run2_33610_201904.rds
+ea3af82c904451b87b491a5fcc7862a1  output/reproducibility_v4/checkpoints/gpt41mini_run2_34340_201501.rds
+46683db6f2a69a1214c38f8ee34ba6d4  output/reproducibility_v4/checkpoints/gpt41mini_run2_41222_200509.rds
+9098aea1c0dac61f7d932054e2b797d9  output/reproducibility_v4/checkpoints/gpt41mini_run2_41953_202109.rds
+17b8962d57e11071b6d1a790f93a68ca  output/reproducibility_v4/checkpoints/gpt41mini_run2_55422_200605.rds
+89c1e40f78bd3d692daba16533c77453  output/reproducibility_v4/checkpoints/gpt41mini_run2_63810_196611.rds
+72f03bda1a3baa13dfb8ba99bd233fe1  output/reproducibility_v4/checkpoints/gpt41mini_run2_64620_202010.rds
+d0070fd992bc9638aa04784c10e94a24  output/reproducibility_v4/checkpoints/gpt41mini_run2_86110_201804.rds
+151652b95af1fa70b039313e88abb82c  output/reproducibility_v4/checkpoints/gpt41mini_run2_86320_199405.rds
+36bf45e2508f216e5cf52663a24465aa  output/reproducibility_v4/checkpoints/gpt41mini_run2_92431_199110.rds
+48b35c1275aa54c0132ce7ef764a9596  output/reproducibility_v4/checkpoints/gpt41mini_run2_92811_201110.rds
+27a09aea9e86be31609d52d323e3d8c9  output/reproducibility_v4/checkpoints/judge_calls.rds
+2b3a85679085b7f0c747226097f852e9  output/reproducibility_v4/checkpoints/sample.rds
+1910bd683d6625bc022040dbb46e5d93  output/reproducibility_v4/checkpoints/sonnet_run1_11420_199109.rds
+072893ca3d5a2b07b7505187cfa77a57  output/reproducibility_v4/checkpoints/sonnet_run1_11520_201809.rds
+19835ae6380b628fb03558ad672f9d41  output/reproducibility_v4/checkpoints/sonnet_run1_150025_200710.rds
+2efcd73766c127f1afa9bfd75d622152  output/reproducibility_v4/checkpoints/sonnet_run1_22235_202103.rds
+a437a2bdde61d8ddfabce4f9acde2e26  output/reproducibility_v4/checkpoints/sonnet_run1_22722_200611.rds
+6c29ea921a9d81862c350bac41430b0f  output/reproducibility_v4/checkpoints/sonnet_run1_31320_198106.rds
+d50b2e2d7b5428051a911827085ae841  output/reproducibility_v4/checkpoints/sonnet_run1_31626_201206.rds
+44de84cc90158246e5c40f1a99e028ac  output/reproducibility_v4/checkpoints/sonnet_run1_32061_200804.rds
+2631ab3595095933513136c0516cad59  output/reproducibility_v4/checkpoints/sonnet_run1_32630_201803.rds
+533335b308662ff6f2d53c126e2ca287  output/reproducibility_v4/checkpoints/sonnet_run1_33610_201904.rds
+6b7aa7c814893c3881b19f0c08163ece  output/reproducibility_v4/checkpoints/sonnet_run1_34340_201501.rds
+4d00d412d5bf2a6abb07ea4de36dc335  output/reproducibility_v4/checkpoints/sonnet_run1_41222_200509.rds
+4887e1030a919e210e868f5e10ada11c  output/reproducibility_v4/checkpoints/sonnet_run1_41953_202109.rds
+e9735176021b0737935a38d367f0350c  output/reproducibility_v4/checkpoints/sonnet_run1_55422_200605.rds
+f2c15201a11aed10a05f92737d9b5fc6  output/reproducibility_v4/checkpoints/sonnet_run1_63810_196611.rds
+d428487a0824affc6beaf3a5ccce1be5  output/reproducibility_v4/checkpoints/sonnet_run1_64620_202010.rds
+028be8dc3517c6d76a24f1f6df3fa308  output/reproducibility_v4/checkpoints/sonnet_run1_86110_201804.rds
+5c66b235df28a808d21afc6eb58ac046  output/reproducibility_v4/checkpoints/sonnet_run1_86320_199405.rds
+918fe2cee549be50ef7e82498478a032  output/reproducibility_v4/checkpoints/sonnet_run1_92431_199110.rds
+1dcfbd0dad0957e3103bd62943f335b7  output/reproducibility_v4/checkpoints/sonnet_run1_92811_201110.rds
+8fe3768a0064e5528dc06854df25af6a  output/reproducibility_v4/checkpoints/sonnet_run2_11420_199109.rds
+0c5d1de59a8b1b8b880cb6c5a1da6876  output/reproducibility_v4/checkpoints/sonnet_run2_11520_201809.rds
+c19d1909b47ba979477b6064745f9ec6  output/reproducibility_v4/checkpoints/sonnet_run2_150025_200710.rds
+5557541334551e676ba189f2dd366f9b  output/reproducibility_v4/checkpoints/sonnet_run2_22235_202103.rds
+9d1cc30a1d086b6f5069baab64508b2c  output/reproducibility_v4/checkpoints/sonnet_run2_22722_200611.rds
+d9133fa8ac2c4e2c53097f4cffe79af0  output/reproducibility_v4/checkpoints/sonnet_run2_31320_198106.rds
+ecef19b655f4e56f6b5f4d565396baea  output/reproducibility_v4/checkpoints/sonnet_run2_31626_201206.rds
+b3db709923dcb9bde6fffb97084882ba  output/reproducibility_v4/checkpoints/sonnet_run2_32061_200804.rds
+4518c5feeaed2515c275cab6a471a9ce  output/reproducibility_v4/checkpoints/sonnet_run2_32630_201803.rds
+7638bf0a7b565e8c1230669f49a9535d  output/reproducibility_v4/checkpoints/sonnet_run2_33610_201904.rds
+856d80c6a9a56140d72af6fdff1238ed  output/reproducibility_v4/checkpoints/sonnet_run2_34340_201501.rds
+8cb0d6e52fc23d5d4c26eb848189b53d  output/reproducibility_v4/checkpoints/sonnet_run2_41222_200509.rds
+4a984df01efb0959a7d7c2f43de5ff58  output/reproducibility_v4/checkpoints/sonnet_run2_41953_202109.rds
+7707cb715b535198d3c56de486fa490a  output/reproducibility_v4/checkpoints/sonnet_run2_55422_200605.rds
+1b7e23fd4720e30b7b66baf56a2e2b79  output/reproducibility_v4/checkpoints/sonnet_run2_63810_196611.rds
+6b99c2f61ccb4693b7d1881ff4787535  output/reproducibility_v4/checkpoints/sonnet_run2_64620_202010.rds
+b16bbc62802caaddeda64080eb44fa6f  output/reproducibility_v4/checkpoints/sonnet_run2_86110_201804.rds
+78f600646cff14eccaf1c15dbb0718a2  output/reproducibility_v4/checkpoints/sonnet_run2_86320_199405.rds
+1b5e1e70a8edbb1bf644735df7af44d2  output/reproducibility_v4/checkpoints/sonnet_run2_92431_199110.rds
+1814d5892385c1c77dbf03e3df27f18a  output/reproducibility_v4/checkpoints/sonnet_run2_92811_201110.rds
+2fb5a8f58e86eb17e78e749f2201a8e6  output/v2026a/env/packages.csv
+ddd589f12cf974a0f4103e753ed7ca26  R/_archive/3_Populism.R
+f54d14ee08f19de0536864afb1406c96  R/0_Config.R
+058718a79b43447cd89a84fc9d8ee0a3  R/1_Aggregation.R
+63122b8483274dfae1cba18989cbe5c6  R/1_Functions.R
+5f062cb2bd81dfffb79d4c981208ff74  R/12_Validate_Span_Quality.R
+8f138dd011973c8b1b2dd30dea9fd970  R/15b_Claude_Full_Corpus.R
+0843d70002ac81247b75828ae975e8f6  R/16_Score_Full_Corpus_gpt41mini.R
+e2ad74e139b6dc6498e1fa2a8ab71ed7  R/18_Score_Full_Corpus_Gemini_flash_latest.R
+f544c11f71d2444954888e399130f0cf  R/19_Materialize_Gemini_Partial.R
+f1a107e946de2c33f56905d4c3239dc8  R/2_Helpers.R
+613eb129b8ae5440fdc7c983e6472e13  R/2_Manifesto_Prep.R
+6110cb535907c47c06b6e8f2d96afd9f  R/30_CMP2026a_Prep.R
+7dddfe404c894a35e45b3d40e1e35c84  R/31_CMP2026a_Model_Probe.R
+94a2b24f608a001b055168bac8d49a84  R/32_CMP2026a_Score.R
+caf0f2c4a8f00095afb3b41d03e0381f  R/33_CMP2026a_Merge.R
+61b77ea7e7910ef20bc781eb6cb61909  R/34_Span_Checks_v2026a.R
+776f6a1c8bec050ea83291f238b36a7f  R/34b_Span_Checks_Public.R
+9d8c4f0069bc0548123520367b5d6499  R/35_Merge_ParseLoss_v2026a.R
+31287eb13976d6899832dde02453462f  R/36_Recheck_Spans.R
+35c13ea9475bee793368ee67655275cc  R/3c_Populism_v4_safe.R
+5d5499cc510371ff5b19a061ee575e23  R/40_Baseline.R
+d152699fc26190f61b10732080f02f4a  R/41_Paper_Tables.R
+3c227a64b3eb3ae69eabc0451fd49497  R/42_Spec_Curve.R
+4bdf87911d096fa43736206ad2137464  R/43_NSE.R
+ca0512c3c702270fda141a3e55062336  R/44_Ideology_Diagnosis.R
+ab1ddc5bd1ca1faa4058c33fa476c458  R/44a_Fetch_External.R
+60609409b1306dc78deb73825c6a5974  R/45_OA_Ideology.R
+180ea5f5c9675a589abc1b72c97429a7  R/46_Numbers.R
+7459b9876f140072449594e16b88556b  R/47_OA_Examples.R
+e4ee90b6372850b28b3d6799d0e0b6db  R/48_Freeze_Paper.R
+f3791de3f2df002b63e1938ef98fd5cc  R/49_Comparison.R
+ce75c510f11e16635b7cf7dfadee722b  R/50_Independence_0_Setup.R
+b72418fc72f0257c31d5ace48a89093a  R/50_Independence_1_CMP.R
+7bd3c5cea369414d8d712378df3eced7  R/50_Independence_2_Overlap.R
+cf7b8dd75c683b6117a3a87c17c8dd2b  R/50_Independence_3_Prompts.R
+940063bdc07d3c7ca92108f99b7f32b2  R/50_Independence_3a_Sample.R
+759c653547a089984c478c66dda78d8d  R/50_Independence_3b_Score.R
+aa097c613fd45bd166718a2949bdc164  R/50_Independence_3c_Compare.R
+55c2de4382fe987c663e8d94e11c5e10  R/50_Independence_4_External.R
+ee9cde3a3a15dd40a336cc28b17a2be4  R/51_A13_Reproducibility.R
+2f2e4b5b6ca9641433f310559f3ae5e1  R/52_Argentina_Score.R
+d6365e1a27a68fae527ad9e30a0fde81  R/53_Argentina_Baseline.R
+2a1475a3e4dabadc86c2afe98dfec40f  R/54_Argentina_Figures.R
+b3926bb7ca15ccc4306180cdb920af08  R/56_Spec_Curve_Inference.R
+e80a5954a791e6610244a0ad3f7badb9  R/57_Leakage_Test.R
+7377d9df6b0ad25b175a18c445ed0fca  R/58_Ideology_Variant.R
+3ea7ce63ff28fe7b7190bfd922d3d949  R/60_Website_Data.R
+dd9f54b69a5ad4eea1ff9d73b9af75bc  R/70_Manifest.R
+663510f4f11b6002146a223e0db23779  R/71_Verify.R
+a295164ff396f04fd6e147c8b791facd  R/72_Public_Export.R
+4d5b2053d2dfd6d95587cac16affe1d9  R/73_Fetch_MPDS.R
+8fb8007ebcc5f57c90f7dcb12f78f8a4  run_all.R
+90c8d4cbbb87a18ebb20953ebff4de80  website/data/manifesto_scores.parquet
+# DERIVED
+82ced32f632355a91a3d5245b4a3bfd4  DERIVED/argentina_scores_oos.csv
+52e760d194a12dd856448aea6af71204  DERIVED/argentina_scores_oos.parquet
+153ed41685e6f7d8d99e8be0589b06ea  DERIVED/manifesto_scores_v2026a.csv
+deeb7a90bb064d238d2f1160528fab8f  DERIVED/manifesto_scores_v2026a.parquet
+312f4471a99b354471bbe21208215be0  DERIVED/span_checks_claude.parquet
+2f73a9e83a7008e2aac9ae11a560a73d  DERIVED/span_checks_gemini_june_superseded.parquet
+5a7a7e03e62bac5033ee368a4ece07de  DERIVED/span_checks_gemini.parquet
+9c8b4d55153040c9aeafcd1469dc36d6  DERIVED/span_checks_gpt41mini.parquet
+# OUTPUTS
+f8c1df8a5137ede6065000220f1db3a1  OUT/argentina/csv/53_argentina_all38_summary.csv
+9f6529b61bdc1a08ea4297d323a290ab  OUT/argentina/csv/53_argentina_all38.csv
+82ced32f632355a91a3d5245b4a3bfd4  OUT/argentina/csv/53_argentina_scores.csv
+3ad4cfac050e45d5b7358926f27ba3c9  OUT/argentina/csv/53_chunk_status_by_model_dim.csv
+368504caa4a4706f2d49d1ec74e46f3a  OUT/argentina/csv/53_fe_support.csv
+961489f8dfd9e97017120b672a7af366  OUT/argentina/csv/53_group_means.csv
+9093dbfeec7ba150b9aa2832df85afd9  OUT/argentina/csv/53_lla_reference_rows.csv
+a744b4d09cbd2e64ecdd4d8ad21664b4  OUT/argentina/csv/53_lla_table.csv
+6f88e78000b8748901c9b495368129e4  OUT/argentina/csv/53_model_versions.csv
+1083fef2eb31bf7fb368bc3a6afe43e9  OUT/argentina/csv/53_predicted_liberalism.csv
+9af297b364a4f5b66064b4eaeae83342  OUT/argentina/csv/53_prediction_intervals.csv
+c81e0209d624b0068f7d6f8334e5a8c4  OUT/argentina/csv/53_us_republican.csv
+3adf5d0e127dd559b30dd8250f453f58  OUT/argentina/figures/Milei_Predicted_note.tex
+5eabb95fe6a28acc30d98149481b897b  OUT/argentina/figures/Milei_Predicted.pdf
+ce7aad44354bb92b2738a401a4f4de88  OUT/argentina/figures/Milei_Scatter_note.tex
+55e393e685f3732fbbcc4a1ea343c780  OUT/argentina/figures/Milei_Scatter_US_note.tex
+3856b5e20e19ad7a098db1a4d656eb05  OUT/argentina/figures/Milei_Scatter_US.pdf
+a18123bfc1834d8c7e8b1b8bcbd8ecc8  OUT/argentina/figures/Milei_Scatter.pdf
+d9a006a8639b302397ad463de4c2f47b  OUT/argentina/figures/Milei_Trajectory_note.tex
+608fdb081d526115e0c07f2a45284271  OUT/argentina/figures/Milei_Trajectory_US_note.tex
+6548af86bc3c3a017d40b0279bd7c471  OUT/argentina/figures/Milei_Trajectory_US.pdf
+d94494382d937d7bd6037e753b1d15a6  OUT/argentina/figures/Milei_Trajectory.pdf
+49dd4f5ea9c5c80310f094b436116906  OUT/argentina/figures/Milei_vs_Averages_note.tex
+d06fbf24160e2c717baa1978e4cea7eb  OUT/argentina/figures/Milei_vs_Averages_US_note.tex
+e34164a13db1f3cd0b40951b2a4737ed  OUT/argentina/figures/Milei_vs_Averages_US.pdf
+f0f6a47b5677d2646090f836a5b0d314  OUT/argentina/figures/Milei_vs_Averages.pdf
+48652d370873c0224b06e853c7e596f9  OUT/argentina/tables/tab_argentina_all38.tex
+922af5aa5532a1740608f8558f0f6fe9  OUT/argentina/tables/tab_argentina_lla_intervals_US.tex
+e96d49ab2df5149b0081192c45fedeed  OUT/argentina/tables/tab_argentina_lla_intervals.tex
+9e3db58c36c4d245a2d8e905bcb25877  OUT/argentina/tables/tab_argentina_lla_US.tex
+747e8bb0dfcb4611a3951545e56d1dde  OUT/argentina/tables/tab_argentina_lla.tex
+2fb21f9a6bbde78150050c21d5734e6d  OUT/COMPARISON_v2026a.md
+98d10cb28f53b9cd888e8d3f3972429a  OUT/csv/36_parse_decoder_test.csv
+4dbcab9b18fd2e834f1069a552a82a66  OUT/csv/36_parse_loss_counts.csv
+d6d0c642df0eb0d6bf406754b0de1465  OUT/csv/36_quote_check_disagreements.csv
+ca8e13cb8f1df767c69efe8b52d6bd67  OUT/csv/36_quote_check_recomputed.csv
+9fbb98b8c7021ebcd41f7ba8eadff2bc  OUT/csv/36_quote_length_audit.csv
+ec419da75c9334ec2a8f08b838152cad  OUT/csv/40_baseline_coverage.csv
+d16d993a8a4e38c7319e8d738f23baed  OUT/csv/40_baseline_old_vs_new.csv
+bc8c1895d47e36ec5bf52694c8862877  OUT/csv/40_chunk_status_by_model_dim.csv
+8d3b8a86559350b1184be090e1b4659b  OUT/csv/40_model_provenance.csv
+b8b9dd8ec71eeea44077c4687f18239b  OUT/csv/40_rule_decomposition.csv
+8cb6d18308d204198e1747614932142c  OUT/csv/40_topic_check_diagnostic.csv
+228a6e9b373f1adaa176485f1aba1d81  OUT/csv/41_A10_computational_summary.csv
+f03fad0c43c25e0be5d3418ec61b6cf7  OUT/csv/41_baseline_variants.csv
+99f473e891a1fe72e7e9ef641861141f  OUT/csv/41_chunk_subset_share.csv
+4be0f05cd9d60a95e708753d913eee01  OUT/csv/41_corpus_counts.csv
+8fd752dd675eefbe5a1486efb9224132  OUT/csv/41_fig_country_points.csv
+3466247627cc5adcdba666e8fb4f57b1  OUT/csv/41_fig_june_axes_limits.csv
+a28530dd6c30d56fa5af9eb752ad08c3  OUT/csv/41_fig_me_points.csv
+42620ddbaaeae8757323b55f6301513c  OUT/csv/41_fig_predicted_liberalism.csv
+f16e89bbfee8525d312ed29c8f4c7f17  OUT/csv/41_fig_trends_by_ideology.csv
+f3c6d3b4f30d98b2463a29a6b129378d  OUT/csv/41_fig4_5_trend_slopes.csv
+8770cec63a070f8c0efc737a27ab2615  OUT/csv/41_fig4_year_means.csv
+44508a14ae83fd44644e9560edad735a  OUT/csv/41_fig5_year_means_by_ideology.csv
+745c59465a7ef573f253a8e7210448aa  OUT/csv/41_fig6_10_interaction_tests.csv
+7c120e81f79aba414e82c11bc203f87d  OUT/csv/41_fin_missingness.csv
+a606e09d698d071d7da19cd1afbe6cb8  OUT/csv/41_pop_subdims.csv
+01ee9d1c2e501ca9541bed71e03c53f2  OUT/csv/41_tab1_sumstats.csv
+4daf329d98c3c73a673d672997da810c  OUT/csv/41_tab2_cormatrix.csv
+a856ea4cb2b1dfcb96f02fe932d1d98f  OUT/csv/41_tab3_cormatrix2_partial.csv
+ca62a1c652683684b703c55aaf47ee86  OUT/csv/41_tab4_8_regressions_long.csv
+8fc9f8b13659bc10e829dd75b8fa8750  OUT/csv/41_tabA1_stat1.csv
+7c1187c1296202bf6de9c6d0a9be12ee  OUT/csv/41_tabA10_evidence_shares.csv
+d268df209d6dfc8a6c20918b857f3ef1  OUT/csv/42_europe_definition.csv
+904fc53c441f6a3f6ff2478e95d25099  OUT/csv/42_failed_cells.csv
+d865e5f50f81fa50b3325e24aad35e3d  OUT/csv/42_grid_accounting.csv
+a51fbc6657dcfe368ded620f99f17876  OUT/csv/42_headline_distribution.csv
+f12ec8381f7ef76f2b4cfa9774ea0a34  OUT/csv/42_per_fork.csv
+e4ef8412538f4178c62090fd70568116  OUT/csv/43_nse_distribution.csv
+2b25d05b37492579ffd49d9aeca7836d  OUT/csv/43_nse_rules_by_outcome.csv
+c4ecf01336a201d1b3d3aa506065b9b4  OUT/csv/43_nse_rules.csv
+063533cfa122e56cb7e5be12c7ace721  OUT/csv/44_bridge_cells.csv
+8635a039c46e111a5531306239e81e90  OUT/csv/44_bridge_claims.csv
+e42f880abe058edf8bb088361619e2a2  OUT/csv/44_bridge_ideo_correlations.csv
+cc3e838760ce4b53c2a19e7a1d50b654  OUT/csv/44_bridge_S0_vs_printed.csv
+61f5fff342724d279338046f2495ceae  OUT/csv/44_concept_stats.csv
+5a5d7399e7f6173c1c70e186988e20bf  OUT/csv/44_external_matches.csv
+d309bbf3b89ca8bbb40c1454e7e163da  OUT/csv/44_external_validity_by_model.csv
+9eeb88c06d3bc90c55b959d6f9c8d884  OUT/csv/44_external_validity_table.csv
+1f66c7a94fcf6baf86607595bbb22769  OUT/csv/44_external_validity.csv
+a71a6ee3797f1d1efc2498ae972b33b1  OUT/csv/44_ideo_agreement.csv
+9423567c6ef6be5503bfb557bb0ba325  OUT/csv/44_ideo_alt_constructions_cor.csv
+806580942c6d69312449cf58ef6ca6de  OUT/csv/44_ideo_denominator.csv
+02632da21953331b96d77afcc74eaa56  OUT/csv/44_ideo_forks.csv
+4ac54c632029dc78a2cc37cca0596226  OUT/csv/44_ideo_host_by_pop.csv
+1e1d831300d6de43c8898dbfce12409f  OUT/csv/44_ideo_levels_external.csv
+1f835e582d7473dcf3e9f82c7d83cdc1  OUT/csv/44_ideo_na_shares.csv
+de37bf373b6a8141879ca287ecb44d32  OUT/csv/44_ideo_selection.csv
+9aa6d5dd35c72fe781ec756a8ed1a196  OUT/csv/44_interaction_robustness_long.csv
+c8db94fc5da83d6b5abcd239147268a3  OUT/csv/44_interaction_robustness.csv
+121d839f52abd729d6d7300bc52f11f7  OUT/csv/44_lib_structure_old_new.csv
+b2a2c25de96ba59f163638f5369f6b77  OUT/csv/44_lib_validity_old_new.csv
+a8de23df951510883c4b2a96a3ecdfc4  OUT/csv/44_pop_ideo_joint.csv
+ff82f692517a33dcf2a3b500451f91a8  OUT/csv/44_populist_far_groups.csv
+45fe2464757e7ac61acbfc6d8aa765fb  OUT/csv/44_reestimate_external.csv
+a453ca42ba4818877f789ddedda19a0a  OUT/csv/44_reestimate_ideo_same_sample.csv
+ef987947d4edad31875f31b9043126fa  OUT/csv/44_reestimate_populist_dummies.csv
+ecc9467aa1d3d3d254e451b268b743ff  OUT/csv/45_abs_ideo_cor.csv
+fc3839be56532c23352470d29e3f06f4  OUT/csv/45_abs_ideo_regs.csv
+37e70e872cad7a96da75b642a6c03616  OUT/csv/45_centrist_bite_by_pop.csv
+68bf7d9f81557e1fdc5cfb9070e75ee7  OUT/csv/45_centrist_cor_by_model.csv
+2a184628eb8b8e9f82279212ff065275  OUT/csv/45_centrist_cor.csv
+5e46df3664987569a5e8cd3b10b54175  OUT/csv/45_centrist_desc.csv
+2f1b0bd78330cd61f7012555ea9d93ec  OUT/csv/45_cmp_category_cor.csv
+1e9ea5fe4c308c1a3231c7c9ef3c9cd6  OUT/csv/45_eiv.csv
+646c07a1c470af7f8ef80be3e429817d  OUT/csv/45_ideo_alt_regs.csv
+8a0cd230d2cecdd0d718a2aaac784f87  OUT/csv/45_ideo_alt_validity.csv
+71f4aeb8ed309236d046d2dbd341ba05  OUT/csv/45_ideo_vs_ideo_c.csv
+0df9f4f5cefe23c91dc4b53450f28f44  OUT/csv/45_mpds_merge.csv
+a6c5cf920f5600c312e7e17b4e346b5b  OUT/csv/45_partyfe_decomposition.csv
+fdad0fc15c7327fb7c861555efed6bf1  OUT/csv/45_partyfe_sample.csv
+b4cfe50bf577044607a8cf4911b37c7f  OUT/csv/45_partyfe.csv
+a17539c24afe971f7de1d1a1f47ff3ee  OUT/csv/45_right_protect_quotes.csv
+9ec6fa7b62b715b1a6bb4cc6e1b86eb8  OUT/csv/45_right_quote_classes.csv
+eba855bc21f7ee6142bf7c81ecc63a42  OUT/csv/45_right_regs.csv
+56f965090af5dcb7ee6e1d88f1fa5eed  OUT/csv/45_right_score_by_class.csv
+c39f98ce05ef607931b8d0db2fad386f  OUT/csv/45_right_vs_lib_by_model.csv
+5cb4dc9b455648d7247437f456b5d6bc  OUT/csv/45_right_vs_lib.csv
+b5fde7454dc609125174e9d42bc68417  OUT/csv/45_top_right_parties.csv
+233cfa2e782d134f06254bd39d78285d  OUT/csv/46_numbers_public.csv
+6908cc49a5b3e434fb0cbc7a68d4f92a  OUT/csv/46_numbers.csv
+f13b500535933c82597671ec09694577  OUT/csv/47_oa10_model_diff.csv
+2aa6e0b7ebcd916e2705a9bb5f7754ff  OUT/csv/47_oa9_examples.csv
+c62577b76868807236e21135282f49ac  OUT/csv/47_quote_length_dist.csv
+75e8010dea020e9d20e23c62ef197f37  OUT/csv/47_validation_by_model.csv
+6282891f28382f218030cb2f6e8c1510  OUT/csv/49_claims.csv
+a2b3d2e5b266cf5b17c35c12d69855c0  OUT/csv/49_tab4_8_old_new.csv
+6eb3ec5e29afb76cca8da0bece7c2e13  OUT/csv/56_bootstrap_draws.csv
+71db04b54bc907150331aabf906d4d47  OUT/csv/56_joint_inference.csv
+a374bfa7f41baaface89d59c822bb68e  OUT/csv/56_model_fork_decomposition.csv
+19ddfd5d9869fa2dbee5ac3bbb8e2100  OUT/csv/58_ideo_variant_coverage.csv
+89751af07c23d57577664c0ad14f44d1  OUT/csv/58_ideo_variant_regressions.csv
+bb0ddbac0da3e5dfb20a6a44554e4839  OUT/csv/58_ideo_variant_scores.csv
+458b3d5e949f509f6c592e75d1d6f227  OUT/figures/Austria_Economic_Liberalism_vs_Populism.pdf
+46edcc1cc8361a7acb14e02377fd18cf  OUT/figures/Austria_Economic_Liberalism_vs_Populist_Ideology.pdf
+b229773375357bb2a7cef518ecb76b5b  OUT/figures/Austria_Liberalism_vs_Populism.pdf
+16aefcfface6ef6960675f15dcbd56c4  OUT/figures/Austria_Liberalism_vs_Populist_Ideology.pdf
+91e30a9aef18962bbc33f4e05adb05be  OUT/figures/Austria_Populism_vs_Populist_Ideology_note.tex
+cf0cc0bb7005b75e4af7e5467ff577a4  OUT/figures/Austria_Populism_vs_Populist_Ideology.pdf
+1de81dc3bc065fa58f5fd01e69f49657  OUT/figures/Germany_Economic_Liberalism_vs_Populism.pdf
+68687d853cf7046d20fe99b1d0e3770c  OUT/figures/Germany_Economic_Liberalism_vs_Populist_Ideology.pdf
+1c797e1819a64f4758c362236fffbcea  OUT/figures/Germany_Liberalism_vs_Populism.pdf
+b4a3a91851887f91a99624139bbe816d  OUT/figures/Germany_Liberalism_vs_Populist_Ideology.pdf
+b79dce030280c13520ae51f8eb58157b  OUT/figures/Germany_Populism_vs_Populist_Ideology_note.tex
+c77c06ab05fc5307580c6cfe19297605  OUT/figures/Germany_Populism_vs_Populist_Ideology.pdf
+7fd96b4693c95ca7908a17dc17659482  OUT/figures/ideo_pop_joint.pdf
+903db3a237e4243d569b70fb6b4b68ed  OUT/figures/june_axes/Austria_Populism_vs_Populist_Ideology.pdf
+f065cb4d8c7fdfe1b7bf2820dae4c01e  OUT/figures/june_axes/Germany_Economic_Liberalism_vs_Populism.pdf
+8cebb1b84043107405e2642cca66d577  OUT/figures/june_axes/Germany_Populism_vs_Populist_Ideology.pdf
+8ac3483ca95e92743a0e05034cafdbb3  OUT/figures/june_axes/Marginal_Effect_Populism_on_Economic_Liberalism_by_Ideology.pdf
+07f1adbe410aa0f6933b1c8484d9b523  OUT/figures/june_axes/Marginal_Effect_Populism_on_Financial_Market_Liberalism_by_Ideology.pdf
+64c39020e610f6d401252aadc786db5a  OUT/figures/june_axes/Marginal_Effect_Populism_on_Liberalism_by_Ideology.pdf
+cfeb5ca8267b014a79768fa2584edc7b  OUT/figures/june_axes/Marginal_Effect_Populism_on_Political_Liberalism_by_Ideology.pdf
+35349901307e8fb6ceb37ec9d26f347f  OUT/figures/june_axes/Marginal_Effect_Populism_on_Social_Liberalism_by_Ideology.pdf
+4efed55b1c1d7e6371aa73bcb0c6bb5b  OUT/figures/june_axes/Populism_Over_Time.pdf
+6da44480e2fd681791a1fdb6fd2bca30  OUT/figures/june_axes/Spain_Populism_vs_Populist_Ideology.pdf
+6e57d2c2fd6b6081a0663cca8cb4435b  OUT/figures/Liberalism_Over_Time_by_Ideology.pdf
+363ea612fb4675de23e42a28badbc340  OUT/figures/Liberalism_Over_Time.pdf
+65b367e2473f6d6ceff95d666383b244  OUT/figures/Marginal_Effect_Populism_on_Economic_Liberalism_by_Ideology_clcountry.pdf
+73209e8edbbf0372d3c8d8d8548bbc6f  OUT/figures/Marginal_Effect_Populism_on_Economic_Liberalism_by_Ideology.pdf
+72b972dfad24e9957406a6b88d1b6ef7  OUT/figures/Marginal_Effect_Populism_on_Financial_Market_Liberalism_by_Ideology_clcountry.pdf
+b15148165a64cfbdd5ab20fcf85a32ed  OUT/figures/Marginal_Effect_Populism_on_Financial_Market_Liberalism_by_Ideology.pdf
+ec7a4cc72f8e8f8305b837f704a1b78e  OUT/figures/Marginal_Effect_Populism_on_Liberalism_by_Ideology_clcountry.pdf
+5b1964789aa806d5a379ef973ac1d298  OUT/figures/Marginal_Effect_Populism_on_Liberalism_by_Ideology.pdf
+170745061c39b60959703d13bc9587ae  OUT/figures/Marginal_Effect_Populism_on_Political_Liberalism_by_Ideology_clcountry.pdf
+0582f25e797e10e9de7840b6eed84dec  OUT/figures/Marginal_Effect_Populism_on_Political_Liberalism_by_Ideology.pdf
+af4bcbc2988dd04e93d4ec8718ca683c  OUT/figures/Marginal_Effect_Populism_on_Social_Liberalism_by_Ideology_clcountry.pdf
+c5912f48bfe737b2982243ad2d4ee839  OUT/figures/Marginal_Effect_Populism_on_Social_Liberalism_by_Ideology.pdf
+456b57e550eb7a3d84d45f039a99d28a  OUT/figures/paper_v2026a/Marginal_Effects_Dots_note.tex
+8bc9485b849851dc97b4759870523548  OUT/figures/paper_v2026a/Marginal_Effects_Dots.pdf
+f37ffd745b4bde188873b86ce04c69a6  OUT/figures/paper_v2026a/Marginal_Effects_Panels_note.tex
+7ffc51de4a60dacc8bf28bb3a26a5447  OUT/figures/paper_v2026a/Marginal_Effects_Panels.pdf
+9b69e6db83dd19932815e97afafeb0d1  OUT/figures/paper_v2026a/Predicted_Liberalism_by_Ideology_note.tex
+3e44be22c86658ab4a571212f723f399  OUT/figures/paper_v2026a/Predicted_Liberalism_by_Ideology.pdf
+2fbef4edaec22b46695eeca2e119148d  OUT/figures/paper_v2026a/Trends_by_Ideology_note.tex
+a569d310b03d3a3b09e5b2ba958c2876  OUT/figures/paper_v2026a/Trends_by_Ideology.pdf
+2652bdd4f307480254a99e44ae0102ed  OUT/figures/Poland_Economic_Liberalism_vs_Populism.pdf
+c85fe8d24e4bc7fdd6e2905223b2cc07  OUT/figures/Poland_Economic_Liberalism_vs_Populist_Ideology.pdf
+93c261e836c5eb10b7ced88ff42a59ae  OUT/figures/Poland_Liberalism_vs_Populism.pdf
+2e5680612c8672fa3d57b6a148b34f82  OUT/figures/Poland_Liberalism_vs_Populist_Ideology.pdf
+a629044397ea82045a1e04af4f996b3c  OUT/figures/Poland_Populism_vs_Populist_Ideology.pdf
+a891a0de59ec12b9cb7538b8b94d3ed4  OUT/figures/Populism_Over_Time_by_Ideology.pdf
+0449137ff27ff38636f20e3e85cc42f1  OUT/figures/Populism_Over_Time.pdf
+233554ad7625aff9ea3e38e87ea2ef7a  OUT/figures/Spain_Economic_Liberalism_vs_Populism.pdf
+c80af18999152dd84a09f92994c70184  OUT/figures/Spain_Economic_Liberalism_vs_Populist_Ideology.pdf
+aa6e96da0b10ca9739889af2720ea0a0  OUT/figures/Spain_Liberalism_vs_Populism.pdf
+fc35d71666e16303483c1580ee3c3892  OUT/figures/Spain_Liberalism_vs_Populist_Ideology.pdf
+e0604c3519f98fb043d3bacb11e9684d  OUT/figures/Spain_Populism_vs_Populist_Ideology_note.tex
+306849df8a177312ce866e7ad57cc58d  OUT/figures/Spain_Populism_vs_Populist_Ideology.pdf
+8fed22b48fee813205cf22a5cbb329e9  OUT/figures/spec_curve_hist_interaction.pdf
+944abcb95c79830106e62ee699c23877  OUT/figures/spec_curve_hist.pdf
+c4835a9cd47b651c56710b35077d98fd  OUT/figures/spec_curve_interaction.pdf
+d75fc362163885e89abe4aafc43ec2cf  OUT/figures/spec_curve_null_distribution.pdf
+fe57e31b0238071f7121322d6e9ecbe5  OUT/figures/spec_curve.pdf
+9a77d065d83f28d49a76c758349ce404  OUT/IDEOLOGY_DIAGNOSIS.md
+75a49b5e1c26d840aefd7e3d53a161e8  OUT/numbers_public.tex
+f9f2bb488966b1bd7f1fa2b452f1477c  OUT/numbers.tex
+b5adab6f3208bfa94d07b09bfabe495f  OUT/spec_curve/datasets_v2026a.parquet
+d0e1258a8048dca35e5cc366c2883c40  OUT/spec_curve/specs_distinct_v2026a.parquet
+d565aea3a21746ea2048889ec140d550  OUT/spec_curve/specs_grid_v2026a.parquet
+f355ac69f60d1b89963eb413e722e160  OUT/tables/oa_abs_ideo.tex
+a2a90d060c869e730f37506b458e4ab6  OUT/tables/oa_centrist_cor.tex
+ad0031c71e59be298094b96e21328260  OUT/tables/oa_centrist_desc.tex
+749487c51e2a3f6acc0158a972fd1177  OUT/tables/oa_eiv.tex
+2a785ea8afa96ec3025fd47be0f74e69  OUT/tables/oa_ideo_alt_regs.tex
+ff38d97634c51e7477fdcee134b44bbf  OUT/tables/oa_ideo_alt_validity.tex
+7b7b7951bfdd3c81de262beb079c3633  OUT/tables/oa_ideo_levels_external.tex
+4318555b09ff4508b2283a1059b0840a  OUT/tables/oa_ideo_variant_coverage.tex
+5dd364b53708f316cd498eced6c0980a  OUT/tables/oa_ideo_variant_regs.tex
+df92580ff3d6869b299e2d0a248bcda1  OUT/tables/oa_interaction_robustness.tex
+a16c4bb29b832543c695a0bbf8b1d605  OUT/tables/oa_model_provenance.tex
+b7130643cce312a68dbc285b36da3907  OUT/tables/oa_partyfe.tex
+0e3e67cbb004152e31c6ea77eb1a5e34  OUT/tables/oa_quote_lengths.tex
+c9dd22faabc01a58bf1d559d70f7ca4e  OUT/tables/oa_right_cmp_cor.tex
+f5d6b5f9008640aa1a07a462d7c2c26d  OUT/tables/oa_right_quotes.tex
+cd8188c53d001f918fbe17acef25f58e  OUT/tables/oa_right_regs.tex
+ab9afd67d8b63863e432ad09e86ea405  OUT/tables/oa_right_vs_lib.tex
+7de99073a971fe8b9babf0407823917c  OUT/tables/oa_speccurve_forks.tex
+f69d9b024973c14b4994636c1ec31720  OUT/tables/oa_top_right_parties.tex
+6c6e9e962b7fb218316b320f2cf46348  OUT/tables/oa_validation_by_model.tex
+274de4f1205665f2dd9baf60acab20e4  OUT/tables/oa10_model_diff.tex
+087ea98424d88fd7f4b12a897329e113  OUT/tables/oa9_examples_ideology.tex
+e8d7bb4c11189531e77bd12dcc75dbcc  OUT/tables/oa9_examples_liberalism.tex
+34773b132e51470538eb3fc21a1cf189  OUT/tables/oa9_examples_populism.tex
+344af464b536740e61cba74539771f26  OUT/tables/tab_baseline_variants.tex
+9dc2a8490597cbd715b2e444c7339b92  OUT/tables/tab_cormatrix.tex
+d19a3d21ac479783a54ad8804e8bab23  OUT/tables/tab_cormatrix2_partial.tex
+9c7b70bb873f69d2e9feb087e995c006  OUT/tables/tab_evidence_shares.tex
+abd1d570d219cdcc935b05b0ecc6f28e  OUT/tables/tab_external_matches.tex
+55dc9a83111435c40a2149dce2788c09  OUT/tables/tab_external_validity_by_model.tex
+c9df43ef962cd0540c5bbe987fa686df  OUT/tables/tab_external_validity.tex
+2cedac943f375e376a46cd6c98b0d6b0  OUT/tables/tab_ideo_external.tex
+997294c96f8d6bdfe845ba56dbb80fdc  OUT/tables/tab_nse.tex
+4250e13d6924e30a7bb155b64adaa8c5  OUT/tables/tab_pop_subdims.tex
+1caf536e7869d6d53266a6f360393286  OUT/tables/tab_reg_4_liberalism_overall_clcountry.tex
+e87b60ae1bde5bf8f0564faf7bae81ae  OUT/tables/tab_reg_4_liberalism_overall_clparty.tex
+4f3f25abf64cb9a3345cd69944830490  OUT/tables/tab_reg_5_lib_political_clcountry.tex
+f5d610f0d9745b3c76983e98f2264caf  OUT/tables/tab_reg_5_lib_political_clparty.tex
+d0005bf9211f11e8edb51784014e8921  OUT/tables/tab_reg_6_lib_social_clcountry.tex
+8524ce18c79b614e1bb66d47245b00c2  OUT/tables/tab_reg_6_lib_social_clparty.tex
+d339790fecf50d8bd4a870d346905e78  OUT/tables/tab_reg_7_lib_economic_clcountry.tex
+c13325ad7ecbaa1914598cd1d27553c2  OUT/tables/tab_reg_7_lib_economic_clparty.tex
+cbfa30838a9960b17a2f462019606b82  OUT/tables/tab_reg_8_lib_financial_market_clcountry.tex
+d78a797e21ff68773588e9354b80ef7e  OUT/tables/tab_reg_8_lib_financial_market_clparty.tex
+65448a4de255d893abf2f8cb1bd84375  OUT/tables/tab_speccurve_headline.tex
+9818c14d0430c173c56832e098f54aed  OUT/tables/tab_speccurve_joint_inference.tex
+ed00b0a4c0cf6e696689a639023a323b  OUT/tables/tab_speccurve_model_decomposition.tex
+37d596b172515a661b41fb862cc50bf1  OUT/tables/tab_speccurve_perfork.tex
+b336fc412a94958038ef0813cb795599  OUT/tables/tab_stat1.tex
+5af1275f1dd2d7bc6c91254fea506a39  OUT/tables/tab_sumstats.tex
+2d421b5d3e1c4688660afb58fbd577d4  OUT/validation/a13/csv/api_calls.csv
+0da940bd5e5695deeb280d8220529f5c  OUT/validation/a13/csv/chunk_level_confidence.csv
+7fb40de1e6c0e552333582a2778ba6a2  OUT/validation/a13/csv/chunk_level_determinism_by_dim.csv
+3a0b92ab73ea81e2c9b22ad9e7f2ff29  OUT/validation/a13/csv/chunk_level_determinism.csv
+951ae578e3984841616862fdb5308e7d  OUT/validation/a13/csv/chunk_structure.csv
+f78efd187b46bbdf9b1d661f3fbd8807  OUT/validation/a13/csv/cost_estimate.csv
+555afdfbf69901a4a619fdd2c91cd56e  OUT/validation/a13/csv/crossfamily_agreement_fullcorpus.csv
+2495848023abd1cd1bcb3ab56ecd4959  OUT/validation/a13/csv/drift_test.csv
+9723d0545b76ede433b0d8618a1141d0  OUT/validation/a13/csv/manifesto_level_determinism.csv
+49cb2fc7001b9ff880a7c42eba3dbfcb  OUT/validation/a13/csv/manifesto_scores_runs.csv
+2fc4581860bb472ab89102799c3d421b  OUT/validation/a13/csv/model_versions.csv
+602d6c48fa5b7619a51ec23df3c78b1f  OUT/validation/a13/csv/sample.csv
+60f300a6de08fd2fa6f936dbecc90d6e  OUT/validation/a13/fresh_raw_chunks.parquet
+51ac4233cb60d48ab8628583cc617da1  OUT/validation/a13/fresh_validated_spans.parquet
+d33be039ccc6502c41120e9d33ed20ee  OUT/validation/a13/tables/tab_A13_1_sample.tex
+51fadc586ae6e0b535fd1b1182e41493  OUT/validation/a13/tables/tab_A13_2_chunk_determinism.tex
+7dbbae2d4ba6a05a404d170265889168  OUT/validation/a13/tables/tab_A13_3_manifesto_determinism.tex
+863668602a4f3ec2e04519e5ded5c6b7  OUT/validation/a13/tables/tab_A13_3b_aggregation_summary.tex
+725c955d5735e024671e698cf52c78f1  OUT/validation/a13/tables/tab_A13_4_sidebyside.tex
+53a6dbae73dacccc543da4597aa74f29  OUT/validation/a13/tables/tab_A13_5_crossfamily_corpus.tex
+45e6122a4f4e0638223766b5953d062f  OUT/validation/independence/cache/t1_results.rds
+d378e4216c95b4f0c5ab61890aee10cd  OUT/validation/independence/cache/t2_results.rds
+b2a563cddeeb961b854789abf0e5a2b5  OUT/validation/independence/cache/t4_results.rds
+60036eb33b9c59006137e73004b08b6b  OUT/validation/independence/tables/t1_attenuation_benchmark.csv
+37a9bc954d744a085428098bf057eae1  OUT/validation/independence/tables/t1_attenuation_benchmark.tex
+3ab96d1b1cacdefcccc7916de80ac4b7  OUT/validation/independence/tables/t1_cmp_dv_modelsummary.tex
+233268c12b9a9a66e8942fb980e3a632  OUT/validation/independence/tables/t1_cmp_dv_regressions.csv
+cbc54ef2f4fd3929963b6e87e2028441  OUT/validation/independence/tables/t1_cmp_dv_regressions.tex
+52c643c6647a1e508f8f6511d8b21bf5  OUT/validation/independence/tables/t1_cmp_index_definitions.csv
+b9e1d22e6b3bbea0974b683dfc4d2cba  OUT/validation/independence/tables/t1_cmp_index_definitions.tex
+f4502158df4b0b21ee6f832bc63c7a36  OUT/validation/independence/tables/t1_convergent_validity_long.csv
+5b064d25c0131224666590f965ccac94  OUT/validation/independence/tables/t1_convergent_validity_long.tex
+06200135a3041425121cdba2df28dcae  OUT/validation/independence/tables/t1_convergent_validity.csv
+f4a10017132b7adfb56f279e27f99e72  OUT/validation/independence/tables/t1_convergent_validity.tex
+48c659e86b78d660eca807de0af7a1de  OUT/validation/independence/tables/t1_political_v5_subcats.csv
+11a6d530787557160b45f75bcdcd4c8f  OUT/validation/independence/tables/t1_political_v5_subcats.tex
+e00f4d22f0255bf3592f79e3bbe6d9b0  OUT/validation/independence/tables/t2a_evidence_overlap_by_dim.csv
+ef7a8904267dcc3c69c9f5c07c19bd27  OUT/validation/independence/tables/t2a_evidence_overlap_by_dim.tex
+bb013bef388345dee384f9894c7ab239  OUT/validation/independence/tables/t2a_evidence_overlap.csv
+da82304f2000b958e1f6498946faf388  OUT/validation/independence/tables/t2a_evidence_overlap.tex
+4c34880c391f18bd8843e11119a77256  OUT/validation/independence/tables/t2b_cross_model_reliability.csv
+e346bc2bf6ad0b6ef2373eb254cb25b5  OUT/validation/independence/tables/t2b_cross_model_reliability.tex
+7a047bc877667d7629eccacc311e03ef  OUT/validation/independence/tables/t2b_mtmm_full.csv
+5c40eddfe52fa73512b9e98fd53cb66d  OUT/validation/independence/tables/t2b_mtmm_full.tex
+338e1b61f2f671ba53640322c7e05882  OUT/validation/independence/tables/t2b_mtmm_summary.csv
+967dc3e023f774189ef3e4b181851c39  OUT/validation/independence/tables/t2b_mtmm_summary.tex
+ce3b642c8c1bb39b6c0d598e4de1c12c  OUT/validation/independence/tables/t2c_cross_rater_regressions.csv
+70febffb3ee769cd0559abf55058efb8  OUT/validation/independence/tables/t2c_cross_rater_regressions.tex
+f8abf2aeae2dc1f10cad10921b36f060  OUT/validation/independence/tables/t2d_within_between.csv
+183d41123c2722f09d98c9e4ac2cfbcf  OUT/validation/independence/tables/t2d_within_between.tex
+e241a4debe8f8d4b6fc8cd80a065b71e  OUT/validation/independence/tables/t3_slope_bootstrap.csv
+c9025e5a985bf9de036e87229088df28  OUT/validation/independence/tables/t3_slope_bootstrap.tex
+a805a3f81244d97b24c7fd4b6f00244d  OUT/validation/independence/tables/t3_slopes.csv
+dacbd3c62a4273013e862b9c6f510f8a  OUT/validation/independence/tables/t3_slopes.tex
+1fb2c3465d7d745e9c5ae44991be70ee  OUT/validation/independence/tables/t4_gradient_within_groups.csv
+2798f3fdf94e7269d4e8dc38ae79cff9  OUT/validation/independence/tables/t4_gradient_within_groups.tex
+fd3ae37a522d41a922962fd765e6de46  OUT/validation/independence/tables/t4_populist_modelsummary.tex
+5bcfa91cf572b613ea924aa8907b767f  OUT/validation/independence/tables/t4_populist_regressions.csv
+bd0c49192c4ec757f85b02d9826ad0bf  OUT/validation/independence/tables/t4_populist_regressions.tex
+fe6259a6f18dfe67327e90c75eaaac14  OUT/validation/independence/tables/t4_populist_validity.csv
+cbba5804feb51b890eaed5d75708c836  OUT/validation/independence/tables/t4_populist_validity.tex
+00ca6bc3db1b7c62b165eafd5167a769  OUT/website_data/agg_long.parquet
+fb718675e95161bbb3d69db1a0367a73  OUT/website_data/baselines.parquet
+153ed41685e6f7d8d99e8be0589b06ea  OUT/website_data/manifesto_scores.csv
+deeb7a90bb064d238d2f1160528fab8f  OUT/website_data/manifesto_scores.parquet
+1388961add7dc3cbf2a6fcfcc1806bb5  OUT/website_data/manifestos_meta.parquet
+d0e1258a8048dca35e5cc366c2883c40  OUT/website_data/specs_distinct.parquet
+eed603d1d14523732be8366e058c4e1e  OUT/website_data/specs_grid.parquet
+649d3f303b7f38c80b2588d4e13e8dc4  OUT/website_data/version.json

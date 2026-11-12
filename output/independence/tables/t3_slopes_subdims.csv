@@ -1,0 +1,61 @@
+model,lib_dim,source,b,se,n,spec
+gpt41mini,liberalism_overall,joint,-0.23939782027111,0.05643361707845029,180,OLS
+gpt41mini,liberalism_overall,joint,-0.19989755005242832,0.06280830051611701,170,country + decade FE
+gpt41mini,liberalism_overall,separate,-0.33977947975098566,0.053582265023483865,180,OLS
+gpt41mini,liberalism_overall,separate,-0.31540756739315995,0.05824349930051705,170,country + decade FE
+gpt41mini,liberalism_overall,production,-0.23954815125926032,0.059054295102523496,180,OLS
+gpt41mini,liberalism_overall,production,-0.18262097544091307,0.06760346580557432,170,country + decade FE
+gpt41mini,lib_political,joint,-0.22566369600694713,0.05694921131681013,180,OLS
+gpt41mini,lib_political,joint,-0.17781238100047503,0.061934810405987965,170,country + decade FE
+gpt41mini,lib_political,separate,-0.2813563285622447,0.06324745946672501,180,OLS
+gpt41mini,lib_political,separate,-0.26691917008341637,0.06015109054221265,170,country + decade FE
+gpt41mini,lib_political,production,-0.2230281170857804,0.06242531973143637,180,OLS
+gpt41mini,lib_political,production,-0.14119716541202276,0.06566103148971662,170,country + decade FE
+gpt41mini,lib_social,joint,-0.11343325297832685,0.0722512824164486,179,OLS
+gpt41mini,lib_social,joint,-0.06133404575437914,0.08815895478305055,169,country + decade FE
+gpt41mini,lib_social,separate,-0.1963173585226503,0.0769029761898753,174,OLS
+gpt41mini,lib_social,separate,-0.19540023826454897,0.07809367462680207,165,country + decade FE
+gpt41mini,lib_social,production,-0.08041775596215928,0.07709411961164886,179,OLS
+gpt41mini,lib_social,production,-0.02438601700459152,0.08845377832622638,169,country + decade FE
+gpt41mini,lib_economic,joint,-0.3305777047892917,0.056987363770828726,179,OLS
+gpt41mini,lib_economic,joint,-0.30956375920226603,0.06699668880839926,169,country + decade FE
+gpt41mini,lib_economic,separate,-0.4306315206203397,0.0594561524267711,168,OLS
+gpt41mini,lib_economic,separate,-0.39852576465613565,0.06811763461790601,158,country + decade FE
+gpt41mini,lib_economic,production,-0.30301923256150154,0.06459080758502908,179,OLS
+gpt41mini,lib_economic,production,-0.2654496851744981,0.07843705971832787,169,country + decade FE
+gpt41mini,lib_financial_market,joint,-0.3776965825552301,0.07081014696035852,148,OLS
+gpt41mini,lib_financial_market,joint,-0.4037263321206145,0.08094976235653512,138,country + decade FE
+gpt41mini,lib_financial_market,separate,-0.4282649559815468,0.06437688893727216,131,OLS
+gpt41mini,lib_financial_market,separate,-0.3700597011341293,0.07686076756581971,120,country + decade FE
+gpt41mini,lib_financial_market,production,-0.36689510946276904,0.07078461418081397,151,OLS
+gpt41mini,lib_financial_market,production,-0.30226064346488574,0.08725922695739194,142,country + decade FE
+sonnet,liberalism_overall,joint,-0.5568968158503242,0.07763236406455302,47,OLS
+sonnet,liberalism_overall,joint,-0.41059973909017905,0.14052353599645415,22,country + decade FE
+sonnet,liberalism_overall,separate,-0.6142413805256952,0.07720902812940537,47,OLS
+sonnet,liberalism_overall,separate,-0.3603509826062686,0.2561503873365247,22,country + decade FE
+sonnet,liberalism_overall,production,-0.5702334058742293,0.08625356471638157,47,OLS
+sonnet,liberalism_overall,production,-0.4517171318474325,0.22356949076604662,22,country + decade FE
+sonnet,lib_political,joint,-0.5913509712859506,0.09615265701250485,47,OLS
+sonnet,lib_political,joint,-0.27820288817633815,0.18019392071426032,22,country + decade FE
+sonnet,lib_political,separate,-0.5421119623857455,0.15834146652148454,45,OLS
+sonnet,lib_political,separate,-0.20734682310811364,0.35256550935454706,22,country + decade FE
+sonnet,lib_political,production,-0.5284494125260304,0.12423120797018503,46,OLS
+sonnet,lib_political,production,-0.2040914311769451,0.2893716569753978,22,country + decade FE
+sonnet,lib_social,joint,-0.34795794125758484,0.1834099353160988,45,OLS
+sonnet,lib_social,joint,0.21492407035911754,0.35552147606755324,19,country + decade FE
+sonnet,lib_social,separate,-0.4753988626257044,0.2189587308035465,40,OLS
+sonnet,lib_social,separate,0.23142888795085834,0.3581957711214811,18,country + decade FE
+sonnet,lib_social,production,-0.3959625897789625,0.18575662519476469,43,OLS
+sonnet,lib_social,production,0.19557151738405526,0.36233203846014805,18,country + decade FE
+sonnet,lib_economic,joint,-0.6910293514764545,0.06140348104396039,43,OLS
+sonnet,lib_economic,joint,-0.6099768462135411,0.2655172878168348,18,country + decade FE
+sonnet,lib_economic,separate,-0.8814247829138062,0.08600134638171478,39,OLS
+sonnet,lib_economic,separate,-0.1837511409025793,0.7376767513289776,16,country + decade FE
+sonnet,lib_economic,production,-0.706395983246634,0.07334162175702975,43,OLS
+sonnet,lib_economic,production,-0.727494287988669,0.311096328730183,18,country + decade FE
+sonnet,lib_financial_market,joint,-0.710364739844815,0.05998285383397064,44,OLS
+sonnet,lib_financial_market,joint,-0.9539090490170057,0.20334809183429492,19,country + decade FE
+sonnet,lib_financial_market,separate,-0.8938028228505135,0.07687982334075302,39,OLS
+sonnet,lib_financial_market,separate,-1.9614769034840391,0.8570512077516139,12,country + decade FE
+sonnet,lib_financial_market,production,-0.7450899884102031,0.07047692171628879,42,OLS
+sonnet,lib_financial_market,production,-0.7348426874487942,0.2210598121418003,18,country + decade FE

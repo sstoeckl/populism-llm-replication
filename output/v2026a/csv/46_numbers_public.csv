@@ -1,0 +1,977 @@
+"macro","value","formatted","source_file","source_field","public"
+"numCorpusManifestos",3371,"3{,}371","csv/41_corpus_counts.csv","sample=corpus (scoring pool) -> manifestos",TRUE
+"numCorpusParties",995,"995","csv/41_corpus_counts.csv","sample=corpus (scoring pool) -> parties",TRUE
+"numCorpusCountries",62,"62","csv/41_corpus_counts.csv","sample=corpus (scoring pool) -> countries",TRUE
+"numCorpusElections",607,"607","csv/41_corpus_counts.csv","sample=corpus (scoring pool) -> elections",TRUE
+"numCorpusFirstYear",1945,"1945","csv/41_corpus_counts.csv","sample=corpus (scoring pool) -> first_year",TRUE
+"numCorpusLastYear",2025,"2025","csv/41_corpus_counts.csv","sample=corpus (scoring pool) -> last_year",TRUE
+"numAnalysisManifestos",3342,"3{,}342","csv/41_corpus_counts.csv","sample=analysis (POP and LIB overall non-missing) -> manifestos",TRUE
+"numAnalysisParties",989,"989","csv/41_corpus_counts.csv","sample=analysis (POP and LIB overall non-missing) -> parties",TRUE
+"numAnalysisCountries",62,"62","csv/41_corpus_counts.csv","sample=analysis (POP and LIB overall non-missing) -> countries",TRUE
+"numAnalysisElections",607,"607","csv/41_corpus_counts.csv","sample=analysis (POP and LIB overall non-missing) -> elections",TRUE
+"numAnalysisFirstYear",1945,"1945","csv/41_corpus_counts.csv","sample=analysis (POP and LIB overall non-missing) -> first_year",TRUE
+"numAnalysisLastYear",2025,"2025","csv/41_corpus_counts.csv","sample=analysis (POP and LIB overall non-missing) -> last_year",TRUE
+"numIdeoManifestos",3195,"3{,}195","csv/41_corpus_counts.csv","sample=with IDEO as well -> manifestos",TRUE
+"numIdeoParties",968,"968","csv/41_corpus_counts.csv","sample=with IDEO as well -> parties",TRUE
+"numIdeoCountries",62,"62","csv/41_corpus_counts.csv","sample=with IDEO as well -> countries",TRUE
+"numIdeoElections",606,"606","csv/41_corpus_counts.csv","sample=with IDEO as well -> elections",TRUE
+"numIdeoFirstYear",1945,"1945","csv/41_corpus_counts.csv","sample=with IDEO as well -> first_year",TRUE
+"numIdeoLastYear",2025,"2025","csv/41_corpus_counts.csv","sample=with IDEO as well -> last_year",TRUE
+"numHeadBeta",-0.4592887247,"\ensuremath{-}0.459","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m1; term=populism_overall -> estimate",TRUE
+"numHeadSe",0.01803940709,"0.018","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m1; term=populism_overall -> se",TRUE
+"numHeadT",-25.46030046,"\ensuremath{-}25.46","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m1; term=populism_overall -> t",TRUE
+"numHeadN",3340,"3{,}340","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m1; term=populism_overall -> nobs",TRUE
+"numHeadClusters",988,"988","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m1; term=populism_overall -> n_clusters",TRUE
+"numHeadSeCountry",0.01857977639,"0.019","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clcountry; model=m1; term=populism_overall -> se",TRUE
+"numHeadCountryClusters",62,"62","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clcountry; model=m1; term=populism_overall -> n_clusters",TRUE
+"numColOneBetaLib",-0.4592887247,"\ensuremath{-}0.459","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m1; term=populism_overall -> estimate",TRUE
+"numColOneBetaLibSe",0.01803940709,"0.018","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m1; term=populism_overall -> se",TRUE
+"numColOneBetaLibT",-25.46030046,"\ensuremath{-}25.46","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m1; term=populism_overall -> t",TRUE
+"numColOneBetaLibP",2.510103108e-110,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m1; term=populism_overall -> p",TRUE
+"numColFourBetaLib",-0.4591141063,"\ensuremath{-}0.459","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m4; term=populism_overall -> estimate",TRUE
+"numColFourBetaLibSe",0.01758145914,"0.018","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m4; term=populism_overall -> se",TRUE
+"numColFourBetaLibT",-26.11353829,"\ensuremath{-}26.11","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m4; term=populism_overall -> t",TRUE
+"numColFourBetaLibP",3.453922414e-114,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m4; term=populism_overall -> p",TRUE
+"numColFourIdeoLib",0.06003502296,"0.060","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m4; term=IDEO -> estimate",TRUE
+"numColFourIdeoLibSe",0.07673316622,"0.077","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m4; term=IDEO -> se",TRUE
+"numColFourIdeoLibT",0.7823868858,"0.78","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m4; term=IDEO -> t",TRUE
+"numColFourIdeoLibP",0.4341787787,"0.434","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m4; term=IDEO -> p",TRUE
+"numColFiveInterLib",-0.07211736211,"\ensuremath{-}0.072","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m5; term=populism_overall:IDEO -> estimate",TRUE
+"numColFiveInterLibSe",0.04310632124,"0.043","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m5; term=populism_overall:IDEO -> se",TRUE
+"numColFiveInterLibT",-1.67301129,"\ensuremath{-}1.67","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m5; term=populism_overall:IDEO -> t",TRUE
+"numColFiveInterLibP",0.09464851811,"0.095","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m5; term=populism_overall:IDEO -> p",TRUE
+"numColSixBetaLib",-0.1814043479,"\ensuremath{-}0.181","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m6; term=populism_overall -> estimate",TRUE
+"numColSixBetaLibSe",0.01698094649,"0.017","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m6; term=populism_overall -> se",TRUE
+"numColSixBetaLibT",-10.68281724,"\ensuremath{-}10.68","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m6; term=populism_overall -> t",TRUE
+"numColSixBetaLibP",4.292042123e-24,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m6; term=populism_overall -> p",TRUE
+"numColSixIdeoLib",-0.006888601973,"\ensuremath{-}0.007","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m6; term=IDEO -> estimate",TRUE
+"numColSixIdeoLibSe",0.07715703063,"0.077","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m6; term=IDEO -> se",TRUE
+"numColSixIdeoLibT",-0.08928028874,"\ensuremath{-}0.09","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m6; term=IDEO -> t",TRUE
+"numColSixIdeoLibP",0.9288955637,"0.929","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m6; term=IDEO -> p",TRUE
+"numColSevenBetaLib",-0.1890673649,"\ensuremath{-}0.189","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m7; term=populism_overall -> estimate",TRUE
+"numColSevenBetaLibSe",0.02125032943,"0.021","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m7; term=populism_overall -> se",TRUE
+"numColSevenBetaLibT",-8.897149834,"\ensuremath{-}8.90","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m7; term=populism_overall -> t",TRUE
+"numColSevenBetaLibP",1.104239864e-17,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m7; term=populism_overall -> p",TRUE
+"numColSevenInterLib",-0.03714089703,"\ensuremath{-}0.037","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m7; term=populism_overall:IDEO -> estimate",TRUE
+"numColSevenInterLibSe",0.03561487864,"0.036","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m7; term=populism_overall:IDEO -> se",TRUE
+"numColSevenInterLibT",-1.042847778,"\ensuremath{-}1.04","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m7; term=populism_overall:IDEO -> t",TRUE
+"numColSevenInterLibP",0.2975319808,"0.298","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m7; term=populism_overall:IDEO -> p",TRUE
+"numColOneNLib",3340,"3{,}340","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m1; term=populism_overall -> nobs",TRUE
+"numColFourNLib",3192,"3{,}192","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m4; term=IDEO -> nobs",TRUE
+"numColSixNLib",2716,"2{,}716","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m6; term=IDEO -> nobs",TRUE
+"numColSevenNLib",2716,"2{,}716","csv/41_tab4_8_regressions_long.csv","dv=liberalism_overall; vcov=clparty; model=m7; term=IDEO -> nobs",TRUE
+"numColOneBetaLibPol",-0.3418465618,"\ensuremath{-}0.342","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m1; term=populism_overall -> estimate",TRUE
+"numColOneBetaLibPolSe",0.02065213646,"0.021","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m1; term=populism_overall -> se",TRUE
+"numColOneBetaLibPolT",-16.55260038,"\ensuremath{-}16.55","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m1; term=populism_overall -> t",TRUE
+"numColOneBetaLibPolP",1.718785972e-54,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m1; term=populism_overall -> p",TRUE
+"numColFourBetaLibPol",-0.3641789732,"\ensuremath{-}0.364","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m4; term=populism_overall -> estimate",TRUE
+"numColFourBetaLibPolSe",0.01972246249,"0.020","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m4; term=populism_overall -> se",TRUE
+"numColFourBetaLibPolT",-18.46518777,"\ensuremath{-}18.47","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m4; term=populism_overall -> t",TRUE
+"numColFourBetaLibPolP",1.903561592e-65,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m4; term=populism_overall -> p",TRUE
+"numColFourIdeoLibPol",-0.5937096059,"\ensuremath{-}0.594","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m4; term=IDEO -> estimate",TRUE
+"numColFourIdeoLibPolSe",0.07760353738,"0.078","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m4; term=IDEO -> se",TRUE
+"numColFourIdeoLibPolT",-7.650548235,"\ensuremath{-}7.65","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m4; term=IDEO -> t",TRUE
+"numColFourIdeoLibPolP",4.82797205e-14,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m4; term=IDEO -> p",TRUE
+"numColFiveInterLibPol",-0.136519084,"\ensuremath{-}0.137","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m5; term=populism_overall:IDEO -> estimate",TRUE
+"numColFiveInterLibPolSe",0.04756821462,"0.048","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m5; term=populism_overall:IDEO -> se",TRUE
+"numColFiveInterLibPolT",-2.869964431,"\ensuremath{-}2.87","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m5; term=populism_overall:IDEO -> t",TRUE
+"numColFiveInterLibPolP",0.004194635236,"0.004","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m5; term=populism_overall:IDEO -> p",TRUE
+"numColSixBetaLibPol",-0.1134537548,"\ensuremath{-}0.113","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m6; term=populism_overall -> estimate",TRUE
+"numColSixBetaLibPolSe",0.01661107156,"0.017","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m6; term=populism_overall -> se",TRUE
+"numColSixBetaLibPolT",-6.830008189,"\ensuremath{-}6.83","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m6; term=populism_overall -> t",TRUE
+"numColSixBetaLibPolP",2.513714206e-11,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m6; term=populism_overall -> p",TRUE
+"numColSixIdeoLibPol",-0.2666729892,"\ensuremath{-}0.267","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m6; term=IDEO -> estimate",TRUE
+"numColSixIdeoLibPolSe",0.08847462447,"0.088","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m6; term=IDEO -> se",TRUE
+"numColSixIdeoLibPolT",-3.014118351,"\ensuremath{-}3.01","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m6; term=IDEO -> t",TRUE
+"numColSixIdeoLibPolP",0.002710275164,"0.003","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m6; term=IDEO -> p",TRUE
+"numColSevenBetaLibPol",-0.136843636,"\ensuremath{-}0.137","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m7; term=populism_overall -> estimate",TRUE
+"numColSevenBetaLibPolSe",0.0208917542,"0.021","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m7; term=populism_overall -> se",TRUE
+"numColSevenBetaLibPolT",-6.550126654,"\ensuremath{-}6.55","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m7; term=populism_overall -> t",TRUE
+"numColSevenBetaLibPolP",1.450755752e-10,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m7; term=populism_overall -> p",TRUE
+"numColSevenInterLibPol",-0.1127882134,"\ensuremath{-}0.113","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m7; term=populism_overall:IDEO -> estimate",TRUE
+"numColSevenInterLibPolSe",0.03834202753,"0.038","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m7; term=populism_overall:IDEO -> se",TRUE
+"numColSevenInterLibPolT",-2.941634042,"\ensuremath{-}2.94","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m7; term=populism_overall:IDEO -> t",TRUE
+"numColSevenInterLibPolP",0.003418794172,"0.003","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m7; term=populism_overall:IDEO -> p",TRUE
+"numColOneNLibPol",3340,"3{,}340","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m1; term=populism_overall -> nobs",TRUE
+"numColFourNLibPol",3192,"3{,}192","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m4; term=IDEO -> nobs",TRUE
+"numColSixNLibPol",2717,"2{,}717","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m6; term=IDEO -> nobs",TRUE
+"numColSevenNLibPol",2717,"2{,}717","csv/41_tab4_8_regressions_long.csv","dv=lib_political; vcov=clparty; model=m7; term=IDEO -> nobs",TRUE
+"numColOneBetaLibSoc",-0.2568781376,"\ensuremath{-}0.257","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m1; term=populism_overall -> estimate",TRUE
+"numColOneBetaLibSocSe",0.03151280248,"0.032","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m1; term=populism_overall -> se",TRUE
+"numColOneBetaLibSocT",-8.151548495,"\ensuremath{-}8.15","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m1; term=populism_overall -> t",TRUE
+"numColOneBetaLibSocP",1.083700604e-15,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m1; term=populism_overall -> p",TRUE
+"numColFourBetaLibSoc",-0.33539147,"\ensuremath{-}0.335","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m4; term=populism_overall -> estimate",TRUE
+"numColFourBetaLibSocSe",0.02138104088,"0.021","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m4; term=populism_overall -> se",TRUE
+"numColFourBetaLibSocT",-15.68639581,"\ensuremath{-}15.69","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m4; term=populism_overall -> t",TRUE
+"numColFourBetaLibSocP",1.412161192e-49,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m4; term=populism_overall -> p",TRUE
+"numColFourIdeoLibSoc",-2.352449775,"\ensuremath{-}2.352","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m4; term=IDEO -> estimate",TRUE
+"numColFourIdeoLibSocSe",0.1027188002,"0.103","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m4; term=IDEO -> se",TRUE
+"numColFourIdeoLibSocT",-22.90184242,"\ensuremath{-}22.90","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m4; term=IDEO -> t",TRUE
+"numColFourIdeoLibSocP",4.394181161e-93,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m4; term=IDEO -> p",TRUE
+"numColFiveInterLibSoc",-0.3680825701,"\ensuremath{-}0.368","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m5; term=populism_overall:IDEO -> estimate",TRUE
+"numColFiveInterLibSocSe",0.05000627233,"0.050","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m5; term=populism_overall:IDEO -> se",TRUE
+"numColFiveInterLibSocT",-7.360728024,"\ensuremath{-}7.36","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m5; term=populism_overall:IDEO -> t",TRUE
+"numColFiveInterLibSocP",3.906218122e-13,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m5; term=populism_overall:IDEO -> p",TRUE
+"numColSixBetaLibSoc",-0.159210228,"\ensuremath{-}0.159","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m6; term=populism_overall -> estimate",TRUE
+"numColSixBetaLibSocSe",0.02809571673,"0.028","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m6; term=populism_overall -> se",TRUE
+"numColSixBetaLibSocT",-5.666708185,"\ensuremath{-}5.67","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m6; term=populism_overall -> t",TRUE
+"numColSixBetaLibSocP",2.484166716e-08,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m6; term=populism_overall -> p",TRUE
+"numColSixIdeoLibSoc",-1.077764318,"\ensuremath{-}1.078","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m6; term=IDEO -> estimate",TRUE
+"numColSixIdeoLibSocSe",0.1301028983,"0.130","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m6; term=IDEO -> se",TRUE
+"numColSixIdeoLibSocT",-8.283937805,"\ensuremath{-}8.28","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m6; term=IDEO -> t",TRUE
+"numColSixIdeoLibSocP",1.142424783e-15,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m6; term=IDEO -> p",TRUE
+"numColSevenBetaLibSoc",-0.213105565,"\ensuremath{-}0.213","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m7; term=populism_overall -> estimate",TRUE
+"numColSevenBetaLibSocSe",0.03245882758,"0.032","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m7; term=populism_overall -> se",TRUE
+"numColSevenBetaLibSocT",-6.565411659,"\ensuremath{-}6.57","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m7; term=populism_overall -> t",TRUE
+"numColSevenBetaLibSocP",1.322679206e-10,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m7; term=populism_overall -> p",TRUE
+"numColSevenInterLibSoc",-0.2583548378,"\ensuremath{-}0.258","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m7; term=populism_overall:IDEO -> estimate",TRUE
+"numColSevenInterLibSocSe",0.05540749061,"0.055","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m7; term=populism_overall:IDEO -> se",TRUE
+"numColSevenInterLibSocT",-4.662814269,"\ensuremath{-}4.66","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m7; term=populism_overall:IDEO -> t",TRUE
+"numColSevenInterLibSocP",4.025546324e-06,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m7; term=populism_overall:IDEO -> p",TRUE
+"numColOneNLibSoc",3316,"3{,}316","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m1; term=populism_overall -> nobs",TRUE
+"numColFourNLibSoc",3176,"3{,}176","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m4; term=IDEO -> nobs",TRUE
+"numColSixNLibSoc",2700,"2{,}700","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m6; term=IDEO -> nobs",TRUE
+"numColSevenNLibSoc",2700,"2{,}700","csv/41_tab4_8_regressions_long.csv","dv=lib_social; vcov=clparty; model=m7; term=IDEO -> nobs",TRUE
+"numColOneBetaLibEcon",-0.6131645449,"\ensuremath{-}0.613","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m1; term=populism_overall -> estimate",TRUE
+"numColOneBetaLibEconSe",0.03071507789,"0.031","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m1; term=populism_overall -> se",TRUE
+"numColOneBetaLibEconT",-19.96298193,"\ensuremath{-}19.96","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m1; term=populism_overall -> t",TRUE
+"numColOneBetaLibEconP",9.630969158e-75,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m1; term=populism_overall -> p",TRUE
+"numColFourBetaLibEcon",-0.5539584262,"\ensuremath{-}0.554","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m4; term=populism_overall -> estimate",TRUE
+"numColFourBetaLibEconSe",0.02208627633,"0.022","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m4; term=populism_overall -> se",TRUE
+"numColFourBetaLibEconT",-25.0815673,"\ensuremath{-}25.08","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m4; term=populism_overall -> t",TRUE
+"numColFourBetaLibEconP",2.436215261e-107,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m4; term=populism_overall -> p",TRUE
+"numColFourIdeoLibEcon",1.842433189,"1.842","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m4; term=IDEO -> estimate",TRUE
+"numColFourIdeoLibEconSe",0.09679183659,"0.097","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m4; term=IDEO -> se",TRUE
+"numColFourIdeoLibEconT",19.03500599,"19.04","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m4; term=IDEO -> t",TRUE
+"numColFourIdeoLibEconP",7.365448096e-69,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m4; term=IDEO -> p",TRUE
+"numColFiveInterLibEcon",0.170306928,"0.170","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m5; term=populism_overall:IDEO -> estimate",TRUE
+"numColFiveInterLibEconSe",0.0515050987,"0.052","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m5; term=populism_overall:IDEO -> se",TRUE
+"numColFiveInterLibEconT",3.306603273,"3.31","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m5; term=populism_overall:IDEO -> t",TRUE
+"numColFiveInterLibEconP",0.0009791092774,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m5; term=populism_overall:IDEO -> p",TRUE
+"numColSixBetaLibEcon",-0.1882352342,"\ensuremath{-}0.188","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m6; term=populism_overall -> estimate",TRUE
+"numColSixBetaLibEconSe",0.02201959778,"0.022","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m6; term=populism_overall -> se",TRUE
+"numColSixBetaLibEconT",-8.548531907,"\ensuremath{-}8.55","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m6; term=populism_overall -> t",TRUE
+"numColSixBetaLibEconP",1.588845062e-16,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m6; term=populism_overall -> p",TRUE
+"numColSixIdeoLibEcon",0.6776367186,"0.678","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m6; term=IDEO -> estimate",TRUE
+"numColSixIdeoLibEconSe",0.1015998741,"0.102","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m6; term=IDEO -> se",TRUE
+"numColSixIdeoLibEconT",6.669661007,"6.67","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m6; term=IDEO -> t",TRUE
+"numColSixIdeoLibEconP",6.924370736e-11,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m6; term=IDEO -> p",TRUE
+"numColSevenBetaLibEcon",-0.1675817802,"\ensuremath{-}0.168","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m7; term=populism_overall -> estimate",TRUE
+"numColSevenBetaLibEconSe",0.02484940833,"0.025","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m7; term=populism_overall -> se",TRUE
+"numColSevenBetaLibEconT",-6.743894181,"\ensuremath{-}6.74","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m7; term=populism_overall -> t",TRUE
+"numColSevenBetaLibEconP",4.346056144e-11,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m7; term=populism_overall -> p",TRUE
+"numColSevenInterLibEcon",0.09981591419,"0.100","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m7; term=populism_overall:IDEO -> estimate",TRUE
+"numColSevenInterLibEconSe",0.04363973279,"0.044","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m7; term=populism_overall:IDEO -> se",TRUE
+"numColSevenInterLibEconT",2.287271434,"2.29","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m7; term=populism_overall:IDEO -> t",TRUE
+"numColSevenInterLibEconP",0.02260451975,"0.023","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m7; term=populism_overall:IDEO -> p",TRUE
+"numColOneNLibEcon",3325,"3{,}325","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m1; term=populism_overall -> nobs",TRUE
+"numColFourNLibEcon",3183,"3{,}183","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m4; term=IDEO -> nobs",TRUE
+"numColSixNLibEcon",2707,"2{,}707","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m6; term=IDEO -> nobs",TRUE
+"numColSevenNLibEcon",2707,"2{,}707","csv/41_tab4_8_regressions_long.csv","dv=lib_economic; vcov=clparty; model=m7; term=IDEO -> nobs",TRUE
+"numColOneBetaLibFin",-0.6593641377,"\ensuremath{-}0.659","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m1; term=populism_overall -> estimate",TRUE
+"numColOneBetaLibFinSe",0.02431337126,"0.024","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m1; term=populism_overall -> se",TRUE
+"numColOneBetaLibFinT",-27.11940399,"\ensuremath{-}27.12","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m1; term=populism_overall -> t",TRUE
+"numColOneBetaLibFinP",2.236230753e-120,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m1; term=populism_overall -> p",TRUE
+"numColFourBetaLibFin",-0.5996250367,"\ensuremath{-}0.600","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m4; term=populism_overall -> estimate",TRUE
+"numColFourBetaLibFinSe",0.01784027517,"0.018","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m4; term=populism_overall -> se",TRUE
+"numColFourBetaLibFinT",-33.61075045,"\ensuremath{-}33.61","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m4; term=populism_overall -> t",TRUE
+"numColFourBetaLibFinP",5.765964366e-163,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m4; term=populism_overall -> p",TRUE
+"numColFourIdeoLibFin",1.61118451,"1.611","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m4; term=IDEO -> estimate",TRUE
+"numColFourIdeoLibFinSe",0.09127178579,"0.091","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m4; term=IDEO -> se",TRUE
+"numColFourIdeoLibFinT",17.65260202,"17.65","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m4; term=IDEO -> t",TRUE
+"numColFourIdeoLibFinP",2.108633264e-60,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m4; term=IDEO -> p",TRUE
+"numColFiveInterLibFin",0.06028942258,"0.060","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m5; term=populism_overall:IDEO -> estimate",TRUE
+"numColFiveInterLibFinSe",0.04342394789,"0.043","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m5; term=populism_overall:IDEO -> se",TRUE
+"numColFiveInterLibFinT",1.388391096,"1.39","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m5; term=populism_overall:IDEO -> t",TRUE
+"numColFiveInterLibFinP",0.1653490169,"0.165","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m5; term=populism_overall:IDEO -> p",TRUE
+"numColSixBetaLibFin",-0.2560474728,"\ensuremath{-}0.256","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m6; term=populism_overall -> estimate",TRUE
+"numColSixBetaLibFinSe",0.02205455988,"0.022","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m6; term=populism_overall -> se",TRUE
+"numColSixBetaLibFinT",-11.60972943,"\ensuremath{-}11.61","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m6; term=populism_overall -> t",TRUE
+"numColSixBetaLibFinP",1.450707354e-27,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m6; term=populism_overall -> p",TRUE
+"numColSixIdeoLibFin",0.5278077282,"0.528","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m6; term=IDEO -> estimate",TRUE
+"numColSixIdeoLibFinSe",0.1319102911,"0.132","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m6; term=IDEO -> se",TRUE
+"numColSixIdeoLibFinT",4.001262706,"4.00","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m6; term=IDEO -> t",TRUE
+"numColSixIdeoLibFinP",7.320418308e-05,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m6; term=IDEO -> p",TRUE
+"numColSevenBetaLibFin",-0.2379551184,"\ensuremath{-}0.238","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m7; term=populism_overall -> estimate",TRUE
+"numColSevenBetaLibFinSe",0.02335797587,"0.023","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m7; term=populism_overall -> se",TRUE
+"numColSevenBetaLibFinT",-10.18731758,"\ensuremath{-}10.19","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m7; term=populism_overall -> t",TRUE
+"numColSevenBetaLibFinP",3.755008103e-22,"<0.001","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m7; term=populism_overall -> p",TRUE
+"numColSevenInterLibFin",0.07862555838,"0.079","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m7; term=populism_overall:IDEO -> estimate",TRUE
+"numColSevenInterLibFinSe",0.03743399739,"0.037","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m7; term=populism_overall:IDEO -> se",TRUE
+"numColSevenInterLibFinT",2.100378369,"2.10","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m7; term=populism_overall:IDEO -> t",TRUE
+"numColSevenInterLibFinP",0.03622896236,"0.036","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m7; term=populism_overall:IDEO -> p",TRUE
+"numColOneNLibFin",3118,"3{,}118","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m1; term=populism_overall -> nobs",TRUE
+"numColFourNLibFin",2999,"2{,}999","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m4; term=IDEO -> nobs",TRUE
+"numColSixNLibFin",2534,"2{,}534","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m6; term=IDEO -> nobs",TRUE
+"numColSevenNLibFin",2534,"2{,}534","csv/41_tab4_8_regressions_long.csv","dv=lib_financial_market; vcov=clparty; model=m7; term=IDEO -> nobs",TRUE
+"numMeOverallLeft",-0.421637969,"\ensuremath{-}0.422","csv/41_fig_me_points.csv","var=liberalism_overall; at=Left (p10) -> me",TRUE
+"numMeOverallLeftSe",0.02803402199,"0.028","csv/41_fig_me_points.csv","var=liberalism_overall; at=Left (p10) -> se",TRUE
+"numMeOverallCentre",-0.4539925339,"\ensuremath{-}0.454","csv/41_fig_me_points.csv","var=liberalism_overall; at=Centre (median) -> me",TRUE
+"numMeOverallCentreSe",0.017773883,"0.018","csv/41_fig_me_points.csv","var=liberalism_overall; at=Centre (median) -> se",TRUE
+"numMeOverallRight",-0.5069098191,"\ensuremath{-}0.507","csv/41_fig_me_points.csv","var=liberalism_overall; at=Right (p90) -> me",TRUE
+"numMeOverallRightSe",0.03404942373,"0.034","csv/41_fig_me_points.csv","var=liberalism_overall; at=Right (p90) -> se",TRUE
+"numInterPOverall",0.09464851811,"0.095","csv/41_fig_me_points.csv","var=liberalism_overall; at=Centre (median) -> p_inter",TRUE
+"numMeNOverall",3192,"3{,}192","csv/41_fig_me_points.csv","var=liberalism_overall; at=Centre (median) -> n",TRUE
+"numMeRefColOneOverall",-0.4592887247,"\ensuremath{-}0.459","csv/41_fig_me_points.csv","var=liberalism_overall; at=Centre (median) -> ref_m1",TRUE
+"numMePoliticalLeft",-0.2932429736,"\ensuremath{-}0.293","csv/41_fig_me_points.csv","var=lib_political; at=Left (p10) -> me",TRUE
+"numMePoliticalLeftSe",0.03366328297,"0.034","csv/41_fig_me_points.csv","var=lib_political; at=Left (p10) -> se",TRUE
+"numMePoliticalCentre",-0.3544905767,"\ensuremath{-}0.354","csv/41_fig_me_points.csv","var=lib_political; at=Centre (median) -> me",TRUE
+"numMePoliticalCentreSe",0.02029601613,"0.020","csv/41_fig_me_points.csv","var=lib_political; at=Centre (median) -> se",TRUE
+"numMePoliticalRight",-0.4546636708,"\ensuremath{-}0.455","csv/41_fig_me_points.csv","var=lib_political; at=Right (p90) -> me",TRUE
+"numMePoliticalRightSe",0.03457451727,"0.035","csv/41_fig_me_points.csv","var=lib_political; at=Right (p90) -> se",TRUE
+"numInterPPolitical",0.004194635236,"0.004","csv/41_fig_me_points.csv","var=lib_political; at=Centre (median) -> p_inter",TRUE
+"numMeNPolitical",3192,"3{,}192","csv/41_fig_me_points.csv","var=lib_political; at=Centre (median) -> n",TRUE
+"numMeRefColOnePolitical",-0.3418465618,"\ensuremath{-}0.342","csv/41_fig_me_points.csv","var=lib_political; at=Centre (median) -> ref_m1",TRUE
+"numMeSocialLeft",-0.1438604319,"\ensuremath{-}0.144","csv/41_fig_me_points.csv","var=lib_social; at=Left (p10) -> me",TRUE
+"numMeSocialLeftSe",0.03177380448,"0.032","csv/41_fig_me_points.csv","var=lib_social; at=Left (p10) -> se",TRUE
+"numMeSocialCentre",-0.3089961367,"\ensuremath{-}0.309","csv/41_fig_me_points.csv","var=lib_social; at=Centre (median) -> me",TRUE
+"numMeSocialCentreSe",0.01953705749,"0.020","csv/41_fig_me_points.csv","var=lib_social; at=Centre (median) -> se",TRUE
+"numMeSocialRight",-0.5790826979,"\ensuremath{-}0.579","csv/41_fig_me_points.csv","var=lib_social; at=Right (p90) -> me",TRUE
+"numMeSocialRightSe",0.03904278931,"0.039","csv/41_fig_me_points.csv","var=lib_social; at=Right (p90) -> se",TRUE
+"numInterPSocial",3.906218122e-13,"<0.001","csv/41_fig_me_points.csv","var=lib_social; at=Centre (median) -> p_inter",TRUE
+"numMeNSocial",3176,"3{,}176","csv/41_fig_me_points.csv","var=lib_social; at=Centre (median) -> n",TRUE
+"numMeRefColOneSocial",-0.2568781376,"\ensuremath{-}0.257","csv/41_fig_me_points.csv","var=lib_social; at=Centre (median) -> ref_m1",TRUE
+"numMeEconomicLeft",-0.6424890622,"\ensuremath{-}0.642","csv/41_fig_me_points.csv","var=lib_economic; at=Left (p10) -> me",TRUE
+"numMeEconomicLeftSe",0.02972687685,"0.030","csv/41_fig_me_points.csv","var=lib_economic; at=Left (p10) -> se",TRUE
+"numMeEconomicCentre",-0.5660829597,"\ensuremath{-}0.566","csv/41_fig_me_points.csv","var=lib_economic; at=Centre (median) -> me",TRUE
+"numMeEconomicCentreSe",0.020683737,"0.021","csv/41_fig_me_points.csv","var=lib_economic; at=Centre (median) -> se",TRUE
+"numMeEconomicRight",-0.4411174865,"\ensuremath{-}0.441","csv/41_fig_me_points.csv","var=lib_economic; at=Right (p90) -> me",TRUE
+"numMeEconomicRightSe",0.04453976533,"0.045","csv/41_fig_me_points.csv","var=lib_economic; at=Right (p90) -> se",TRUE
+"numInterPEconomic",0.0009791092774,"<0.001","csv/41_fig_me_points.csv","var=lib_economic; at=Centre (median) -> p_inter",TRUE
+"numMeNEconomic",3183,"3{,}183","csv/41_fig_me_points.csv","var=lib_economic; at=Centre (median) -> n",TRUE
+"numMeRefColOneEconomic",-0.6131645449,"\ensuremath{-}0.613","csv/41_fig_me_points.csv","var=lib_economic; at=Centre (median) -> ref_m1",TRUE
+"numMeFinLeft",-0.6299337607,"\ensuremath{-}0.630","csv/41_fig_me_points.csv","var=lib_financial_market; at=Left (p10) -> me",TRUE
+"numMeFinLeftSe",0.02547314396,"0.025","csv/41_fig_me_points.csv","var=lib_financial_market; at=Left (p10) -> se",TRUE
+"numMeFinCentre",-0.6028856549,"\ensuremath{-}0.603","csv/41_fig_me_points.csv","var=lib_financial_market; at=Centre (median) -> me",TRUE
+"numMeFinCentreSe",0.0173453332,"0.017","csv/41_fig_me_points.csv","var=lib_financial_market; at=Centre (median) -> se",TRUE
+"numMeFinRight",-0.5586473123,"\ensuremath{-}0.559","csv/41_fig_me_points.csv","var=lib_financial_market; at=Right (p90) -> me",TRUE
+"numMeFinRightSe",0.03698180493,"0.037","csv/41_fig_me_points.csv","var=lib_financial_market; at=Right (p90) -> se",TRUE
+"numInterPFin",0.1653490169,"0.165","csv/41_fig_me_points.csv","var=lib_financial_market; at=Centre (median) -> p_inter",TRUE
+"numMeNFin",2999,"2{,}999","csv/41_fig_me_points.csv","var=lib_financial_market; at=Centre (median) -> n",TRUE
+"numMeRefColOneFin",-0.6593641377,"\ensuremath{-}0.659","csv/41_fig_me_points.csv","var=lib_financial_market; at=Centre (median) -> ref_m1",TRUE
+"numMeIdeoAtLeft",-0.7278584443,"\ensuremath{-}0.73","csv/41_fig_me_points.csv","var=liberalism_overall; at=Left (p10) -> ideo_at",TRUE
+"numMeIdeoAtCentre",-0.2792207792,"\ensuremath{-}0.28","csv/41_fig_me_points.csv","var=liberalism_overall; at=Centre (median) -> ideo_at",TRUE
+"numMeIdeoAtRight",0.4545454545,"0.45","csv/41_fig_me_points.csv","var=liberalism_overall; at=Right (p90) -> ideo_at",TRUE
+"numSpecPopN",20592,"20{,}592","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=pop -> n",TRUE
+"numSpecPopShareSigNegPct",0.979020979,"97.9","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=pop -> share_sig_neg",TRUE
+"numSpecPopShareSigPosPct",0,"0.0","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=pop -> share_sig_pos",TRUE
+"numSpecPopCountSigPos",0,"0","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=pop -> share_sig_pos * n",TRUE
+"numSpecPopCountPos",28,"28","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=pop -> share_pos * n",TRUE
+"numSpecPopSharePosPct",0.00135975136,"0.1","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=pop -> share_pos",TRUE
+"numSpecPopMedian",-0.3099683317,"\ensuremath{-}0.310","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=pop -> median",TRUE
+"numSpecPopMean",-0.3473087021,"\ensuremath{-}0.347","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=pop -> mean",TRUE
+"numSpecPopPctTwentyFive",-0.5243172351,"\ensuremath{-}0.524","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=pop -> p25",TRUE
+"numSpecPopPctSeventyFive",-0.1844071118,"\ensuremath{-}0.184","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=pop -> p75",TRUE
+"numSpecPopPctTwoFive",-0.6829364871,"\ensuremath{-}0.683","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=pop -> p2.5",TRUE
+"numSpecPopPctNinetySevenFive",-0.04596633508,"\ensuremath{-}0.046","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=pop -> p97.5",TRUE
+"numSpecInterN",18212,"18{,}212","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=inter -> n",TRUE
+"numSpecInterShareSigNegPct",0.4251592357,"42.5","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=inter -> share_sig_neg",TRUE
+"numSpecInterShareSigPosPct",0.1031737316,"10.3","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=inter -> share_sig_pos",TRUE
+"numSpecInterCountSigPos",1879,"1{,}879","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=inter -> share_sig_pos * n",TRUE
+"numSpecInterCountPos",5110,"5{,}110","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=inter -> share_pos * n",TRUE
+"numSpecInterSharePosPct",0.2805842302,"28.1","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=inter -> share_pos",TRUE
+"numSpecInterMedian",-0.09343912242,"\ensuremath{-}0.093","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=inter -> median",TRUE
+"numSpecInterMean",-0.1096140049,"\ensuremath{-}0.110","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=inter -> mean",TRUE
+"numSpecInterPctTwentyFive",-0.2106843707,"\ensuremath{-}0.211","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=inter -> p25",TRUE
+"numSpecInterPctSeventyFive",0.01852058133,"0.019","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=inter -> p75",TRUE
+"numSpecInterPctTwoFive",-0.4850688606,"\ensuremath{-}0.485","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=inter -> p2.5",TRUE
+"numSpecInterPctNinetySevenFive",0.1889180621,"0.189","csv/42_headline_distribution.csv","set=distinct specs, party SE; estimand=inter -> p97.5",TRUE
+"numSpecGridCells",110160,"110{,}160","csv/42_grid_accounting.csv","estimand=pop -> cells",TRUE
+"numSpecInterCellsFailed",3240,"3{,}240","csv/42_grid_accounting.csv","estimand=inter -> cells_failed",TRUE
+"numSpecRegressions",21600,"21{,}600","csv/42_grid_accounting.csv","estimand=pop -> regressions_run",TRUE
+"numNseMeasurePopSpecs",276,"276","csv/43_nse_rules.csv","pool=measure; estimand=pop -> n_specs",TRUE
+"numNseMeasurePop",0.04471618392,"0.045","csv/43_nse_rules.csv","pool=measure; estimand=pop -> nse_sd",TRUE
+"numNseMeasurePopSeTotal",0.04821781115,"0.048","csv/43_nse_rules.csv","pool=measure; estimand=pop -> se_total",TRUE
+"numNseMeasurePopTTotal",-9.525291873,"\ensuremath{-}9.53","csv/43_nse_rules.csv","pool=measure; estimand=pop -> t_total",TRUE
+"numNseMeasurePopMedian",-0.443301953,"\ensuremath{-}0.443","csv/43_nse_rules.csv","pool=measure; estimand=pop -> median",TRUE
+"numNseMeasurePopRatioSe",2.478805633,"2.48","csv/43_nse_rules.csv","pool=measure; estimand=pop -> nse_over_se",TRUE
+"numNseMeasureInterSpecs",260,"260","csv/43_nse_rules.csv","pool=measure; estimand=inter -> n_specs",TRUE
+"numNseMeasureInter",0.04417774375,"0.044","csv/43_nse_rules.csv","pool=measure; estimand=inter -> nse_sd",TRUE
+"numNseMeasureInterSeTotal",0.06172380394,"0.062","csv/43_nse_rules.csv","pool=measure; estimand=inter -> se_total",TRUE
+"numNseMeasureInterTTotal",-1.168388166,"\ensuremath{-}1.17","csv/43_nse_rules.csv","pool=measure; estimand=inter -> t_total",TRUE
+"numNseMeasureInterMedian",-0.07167003487,"\ensuremath{-}0.072","csv/43_nse_rules.csv","pool=measure; estimand=inter -> median",TRUE
+"numNseMeasureInterRatioSe",1.024855346,"1.02","csv/43_nse_rules.csv","pool=measure; estimand=inter -> nse_over_se",TRUE
+"numNseOutcomePopSpecs",3312,"3{,}312","csv/43_nse_rules.csv","pool=outcome; estimand=pop -> n_specs",TRUE
+"numNseOutcomePop",0.1520079693,"0.152","csv/43_nse_rules.csv","pool=outcome; estimand=pop -> nse_sd",TRUE
+"numNseOutcomePopSeTotal",0.1530746319,"0.153","csv/43_nse_rules.csv","pool=outcome; estimand=pop -> se_total",TRUE
+"numNseOutcomePopTTotal",-3.000423512,"\ensuremath{-}3.00","csv/43_nse_rules.csv","pool=outcome; estimand=pop -> t_total",TRUE
+"numNseOutcomePopMedian",-0.4408754756,"\ensuremath{-}0.441","csv/43_nse_rules.csv","pool=outcome; estimand=pop -> median",TRUE
+"numNseOutcomePopRatioSe",8.426439323,"8.43","csv/43_nse_rules.csv","pool=outcome; estimand=pop -> nse_over_se",TRUE
+"numNseOutcomeInterSpecs",3032,"3{,}032","csv/43_nse_rules.csv","pool=outcome; estimand=inter -> n_specs",TRUE
+"numNseOutcomeInter",0.06357201935,"0.064","csv/43_nse_rules.csv","pool=outcome; estimand=inter -> nse_sd",TRUE
+"numNseOutcomeInterSeTotal",0.07680857097,"0.077","csv/43_nse_rules.csv","pool=outcome; estimand=inter -> se_total",TRUE
+"numNseOutcomeInterTTotal",-0.9389233676,"\ensuremath{-}0.94","csv/43_nse_rules.csv","pool=outcome; estimand=inter -> t_total",TRUE
+"numNseOutcomeInterMedian",-0.09641739408,"\ensuremath{-}0.096","csv/43_nse_rules.csv","pool=outcome; estimand=inter -> median",TRUE
+"numNseOutcomeInterRatioSe",1.474772551,"1.47","csv/43_nse_rules.csv","pool=outcome; estimand=inter -> nse_over_se",TRUE
+"numNseAllPopSpecs",20592,"20{,}592","csv/43_nse_rules.csv","pool=all; estimand=pop -> n_specs",TRUE
+"numNseAllPop",0.1969318124,"0.197","csv/43_nse_rules.csv","pool=all; estimand=pop -> nse_sd",TRUE
+"numNseAllPopSeTotal",0.197756312,"0.198","csv/43_nse_rules.csv","pool=all; estimand=pop -> se_total",TRUE
+"numNseAllPopTTotal",-2.322498433,"\ensuremath{-}2.32","csv/43_nse_rules.csv","pool=all; estimand=pop -> t_total",TRUE
+"numNseAllPopMedian",-0.3099683317,"\ensuremath{-}0.310","csv/43_nse_rules.csv","pool=all; estimand=pop -> median",TRUE
+"numNseAllPopRatioSe",10.91675637,"10.92","csv/43_nse_rules.csv","pool=all; estimand=pop -> nse_over_se",TRUE
+"numNseAllInterSpecs",18212,"18{,}212","csv/43_nse_rules.csv","pool=all; estimand=inter -> n_specs",TRUE
+"numNseAllInter",0.1824799613,"0.182","csv/43_nse_rules.csv","pool=all; estimand=inter -> nse_sd",TRUE
+"numNseAllInterSeTotal",0.1875022432,"0.188","csv/43_nse_rules.csv","pool=all; estimand=inter -> se_total",TRUE
+"numNseAllInterTTotal",-0.3846213298,"\ensuremath{-}0.38","csv/43_nse_rules.csv","pool=all; estimand=inter -> t_total",TRUE
+"numNseAllInterMedian",-0.09343912242,"\ensuremath{-}0.093","csv/43_nse_rules.csv","pool=all; estimand=inter -> median",TRUE
+"numNseAllInterRatioSe",4.233252944,"4.23","csv/43_nse_rules.csv","pool=all; estimand=inter -> nse_over_se",TRUE
+"numIdeoRRile",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoRhoRile",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoNRile",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoRRileLogit",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoRhoRileLogit",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoNRileLogit",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoRChesLrgen",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoRhoChesLrgen",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoNChesLrgen",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoRChesLrecon",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoRhoChesLrecon",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoNChesLrecon",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoRChesGaltan",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoRhoChesGaltan",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoNChesGaltan",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoRParlgov",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoRhoParlgov",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numIdeoNParlgov",,"\textit{n/a (restricted)}","csv/44_external_validity.csv","",FALSE
+"numPopulistAuc",0.8002317833,"0.80","validation/independence/tables/t4_populist_validity.csv","pl_populist=1 -> AUC_llm_pop",TRUE
+"numPopulistN",295,"295","validation/independence/tables/t4_populist_validity.csv","pl_populist=1 -> n",TRUE
+"numNonPopulistN",1287,"1{,}287","validation/independence/tables/t4_populist_validity.csv","pl_populist=0 -> n",TRUE
+"numPopulistMeanPop",5.926135927,"5.93","validation/independence/tables/t4_populist_validity.csv","pl_populist=1 -> mean_llm_pop",TRUE
+"numNonPopulistMeanPop",3.744403846,"3.74","validation/independence/tables/t4_populist_validity.csv","pl_populist=0 -> mean_llm_pop",TRUE
+"numDetChunkExactSonnetPct",,"\textit{n/a (restricted)}","validation/a13/csv/chunk_level_determinism.csv","",FALSE
+"numDetChunkMadSonnet",,"\textit{n/a (restricted)}","validation/a13/csv/chunk_level_determinism.csv","",FALSE
+"numDetChunkRSonnet",,"\textit{n/a (restricted)}","validation/a13/csv/chunk_level_determinism.csv","",FALSE
+"numDetChunkExactGptPct",,"\textit{n/a (restricted)}","validation/a13/csv/chunk_level_determinism.csv","",FALSE
+"numDetChunkMadGpt",,"\textit{n/a (restricted)}","validation/a13/csv/chunk_level_determinism.csv","",FALSE
+"numDetChunkRGpt",,"\textit{n/a (restricted)}","validation/a13/csv/chunk_level_determinism.csv","",FALSE
+"numDetChunkExactGeminiPct",,"\textit{n/a (restricted)}","validation/a13/csv/chunk_level_determinism.csv","",FALSE
+"numDetChunkMadGemini",,"\textit{n/a (restricted)}","validation/a13/csv/chunk_level_determinism.csv","",FALSE
+"numDetChunkRGemini",,"\textit{n/a (restricted)}","validation/a13/csv/chunk_level_determinism.csv","",FALSE
+"numDetChunkExactPooledPct",,"\textit{n/a (restricted)}","validation/a13/csv/chunk_level_determinism.csv","",FALSE
+"numDetChunkMadPooled",,"\textit{n/a (restricted)}","validation/a13/csv/chunk_level_determinism.csv","",FALSE
+"numDetChunkRPooled",,"\textit{n/a (restricted)}","validation/a13/csv/chunk_level_determinism.csv","",FALSE
+"numDetManifPopMad",,"\textit{n/a (restricted)}","validation/a13/csv/manifesto_level_determinism.csv","",FALSE
+"numDetManifPopR",,"\textit{n/a (restricted)}","validation/a13/csv/manifesto_level_determinism.csv","",FALSE
+"numDetManifLibMad",,"\textit{n/a (restricted)}","validation/a13/csv/manifesto_level_determinism.csv","",FALSE
+"numDetManifLibR",,"\textit{n/a (restricted)}","validation/a13/csv/manifesto_level_determinism.csv","",FALSE
+"numAgreePopIccAll",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreePopRSonnetGpt",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreePopRSonnetGemini",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreePopRGptGemini",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreeLibIccAll",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreeLibRSonnetGpt",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreeLibRSonnetGemini",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreeLibRGptGemini",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreeLibEconIccAll",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreeLibEconRSonnetGpt",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreeLibEconRSonnetGemini",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreeLibEconRGptGemini",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreeLibSocIccAll",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreeLibSocRSonnetGpt",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreeLibSocRSonnetGemini",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numAgreeLibSocRGptGemini",,"\textit{n/a (restricted)}","validation/a13/csv/crossfamily_agreement_fullcorpus.csv","",FALSE
+"numProvSonnetLoggedPct",0.1606209882,"16.1","csv/40_model_provenance.csv","model=sonnet; resolved_status=logged -> share_chunks",TRUE
+"numProvGptLoggedPct",0.1133681852,"11.3","csv/40_model_provenance.csv","model=gpt41mini; resolved_status=logged -> share_chunks",TRUE
+"numProvGeminiInferredPct",0.8920258297,"89.2","csv/40_model_provenance.csv","model=gemini; resolved_status=inferred -> share_chunks",TRUE
+"numProvGeminiLoggedPct",0.1079741703,"10.8","csv/40_model_provenance.csv","model=gemini; resolved_status=logged -> sum(share_chunks) over endpoints",TRUE
+"numTrendPopSlope",0.1083634253,"0.108","csv/41_fig4_5_trend_slopes.csv","series=populism_overall; group=all -> slope_manifesto_per_decade",TRUE
+"numTrendPopT",4.382520511,"4.38","csv/41_fig4_5_trend_slopes.csv","series=populism_overall; group=all -> t_cl_year",TRUE
+"numTrendPopSlopeYearMeans",0.1010671936,"0.101","csv/41_fig4_5_trend_slopes.csv","series=populism_overall; group=all -> slope_per_decade",TRUE
+"numTrendPopEightySlope",0.1858009602,"0.186","csv/41_fig4_5_trend_slopes.csv","series=populism_overall; group=all, 1980+ -> slope_manifesto_per_decade",TRUE
+"numTrendPopEightyT",6.58383775,"6.58","csv/41_fig4_5_trend_slopes.csv","series=populism_overall; group=all, 1980+ -> t_cl_year",TRUE
+"numTrendPopEightySlopeYearMeans",0.1660386593,"0.166","csv/41_fig4_5_trend_slopes.csv","series=populism_overall; group=all, 1980+ -> slope_per_decade",TRUE
+"numTrendLibSlope",0.01304793261,"0.013","csv/41_fig4_5_trend_slopes.csv","series=liberalism_overall; group=all -> slope_manifesto_per_decade",TRUE
+"numTrendLibT",0.7813788274,"0.78","csv/41_fig4_5_trend_slopes.csv","series=liberalism_overall; group=all -> t_cl_year",TRUE
+"numTrendLibSlopeYearMeans",0.02346807684,"0.023","csv/41_fig4_5_trend_slopes.csv","series=liberalism_overall; group=all -> slope_per_decade",TRUE
+"numTrendLibLeftSlope",0.08106377731,"0.081","csv/41_fig4_5_trend_slopes.csv","series=liberalism_overall; group=Left -> slope_manifesto_per_decade",TRUE
+"numTrendLibLeftT",3.644539079,"3.64","csv/41_fig4_5_trend_slopes.csv","series=liberalism_overall; group=Left -> t_cl_year",TRUE
+"numTrendLibLeftSlopeYearMeans",0.08530852324,"0.085","csv/41_fig4_5_trend_slopes.csv","series=liberalism_overall; group=Left -> slope_per_decade",TRUE
+"numTrendLibRightSlope",-0.1577303785,"\ensuremath{-}0.158","csv/41_fig4_5_trend_slopes.csv","series=liberalism_overall; group=Right -> slope_manifesto_per_decade",TRUE
+"numTrendLibRightT",-6.890265785,"\ensuremath{-}6.89","csv/41_fig4_5_trend_slopes.csv","series=liberalism_overall; group=Right -> t_cl_year",TRUE
+"numTrendLibRightSlopeYearMeans",-0.1613280609,"\ensuremath{-}0.161","csv/41_fig4_5_trend_slopes.csv","series=liberalism_overall; group=Right -> slope_per_decade",TRUE
+"numCentristRPop",0.02944938961,"0.03","csv/45_centrist_cor_by_model.csv","model=cross_model -> r_C_POP",TRUE
+"numCentristRAbsRl",-0.3570909183,"\ensuremath{-}0.36","csv/45_centrist_cor_by_model.csv","model=cross_model -> r_C_absRL",TRUE
+"numCentristRPc",0.1169128207,"0.12","csv/45_centrist_cor_by_model.csv","model=cross_model -> r_C_PC",TRUE
+"numCentristRPopGemini",0.4329339998,"0.43","csv/45_centrist_cor_by_model.csv","model=gemini -> r_C_POP",TRUE
+"numCentristMean",4.142092195,"4.142","csv/45_centrist_desc.csv","var=C -> mean",TRUE
+"numCentristSharePct",0.3507711257,"35.1","csv/45_centrist_desc.csv","var=C_share -> mean",TRUE
+"numShrinkMean",0.6492288743,"0.65","csv/45_ideo_vs_ideo_c.csv","mean_shrink",TRUE
+"numIdeoCCor",0.988875917,"0.99","csv/45_ideo_vs_ideo_c.csv","r_IDEO_IDEOc",TRUE
+"numIdeoCSignChanges",0,"0","csv/45_ideo_vs_ideo_c.csv","sign_changes",TRUE
+"numIdeoCSameClassPct",0.8515502662,"85.2","csv/45_ideo_vs_ideo_c.csv","share_class_same_pm0.2",TRUE
+"numRileIdeoR",0.6465879831,"0.65","csv/45_ideo_alt_validity.csv","measure=IDEO -> r_rile",TRUE
+"numRileIdeoCR",0.6571389235,"0.66","csv/45_ideo_alt_validity.csv","measure=IDEO_c -> r_rile",TRUE
+"numRileIdeoDiffR",0.6574545004,"0.66","csv/45_ideo_alt_validity.csv","measure=IDEO_diff -> r_rile",TRUE
+"numRileCentristR",0.06480312445,"0.06","csv/45_ideo_alt_validity.csv","measure=C -> r_rile",TRUE
+"numIdeoPlusCBetaCLib",0.3155162209,"0.316","csv/45_ideo_alt_regs.csv","dv=liberalism_overall; iv=IDEO + C -> b_C_m4",TRUE
+"numIdeoPlusCBetaIdeoLib",0.02518887122,"0.025","csv/45_ideo_alt_regs.csv","dv=liberalism_overall; iv=IDEO + C -> b_ideo_m4",TRUE
+"numIdeoPlusCInterLib",-0.1384637751,"\ensuremath{-}0.138","csv/45_ideo_alt_regs.csv","dv=liberalism_overall; iv=IDEO + C -> b_inter_m5",TRUE
+"numIdeoPlusCInterPLib",4.098512525e-05,"<0.001","csv/45_ideo_alt_regs.csv","dv=liberalism_overall; iv=IDEO + C -> p_inter_m5",TRUE
+"numIdeoCInterLib",-0.07720528347,"\ensuremath{-}0.077","csv/45_ideo_alt_regs.csv","dv=liberalism_overall; iv=IDEO_c -> b_inter_m5",TRUE
+"numIdeoDiffInterLib",-0.07930810682,"\ensuremath{-}0.079","csv/45_ideo_alt_regs.csv","dv=liberalism_overall; iv=IDEO_diff -> b_inter_m5",TRUE
+"numIdeoStdBetaLib",0.02643069943,"0.026","csv/45_ideo_alt_regs.csv","dv=liberalism_overall; iv=IDEO -> b_ideo_m4_std",TRUE
+"numIdeoPlusCBetaCLibPol",0.2776832478,"0.278","csv/45_ideo_alt_regs.csv","dv=lib_political; iv=IDEO + C -> b_C_m4",TRUE
+"numIdeoPlusCBetaIdeoLibPol",-0.6279169199,"\ensuremath{-}0.628","csv/45_ideo_alt_regs.csv","dv=lib_political; iv=IDEO + C -> b_ideo_m4",TRUE
+"numIdeoPlusCInterLibPol",-0.1959818637,"\ensuremath{-}0.196","csv/45_ideo_alt_regs.csv","dv=lib_political; iv=IDEO + C -> b_inter_m5",TRUE
+"numIdeoPlusCInterPLibPol",3.324245949e-07,"<0.001","csv/45_ideo_alt_regs.csv","dv=lib_political; iv=IDEO + C -> p_inter_m5",TRUE
+"numIdeoCInterLibPol",-0.1204159525,"\ensuremath{-}0.120","csv/45_ideo_alt_regs.csv","dv=lib_political; iv=IDEO_c -> b_inter_m5",TRUE
+"numIdeoDiffInterLibPol",-0.07722088379,"\ensuremath{-}0.077","csv/45_ideo_alt_regs.csv","dv=lib_political; iv=IDEO_diff -> b_inter_m5",TRUE
+"numIdeoStdBetaLibPol",-0.2613834287,"\ensuremath{-}0.261","csv/45_ideo_alt_regs.csv","dv=lib_political; iv=IDEO -> b_ideo_m4_std",TRUE
+"numIdeoPlusCBetaCLibSoc",0.2431104057,"0.243","csv/45_ideo_alt_regs.csv","dv=lib_social; iv=IDEO + C -> b_C_m4",TRUE
+"numIdeoPlusCBetaIdeoLibSoc",-2.376444201,"\ensuremath{-}2.376","csv/45_ideo_alt_regs.csv","dv=lib_social; iv=IDEO + C -> b_ideo_m4",TRUE
+"numIdeoPlusCInterLibSoc",-0.4270993672,"\ensuremath{-}0.427","csv/45_ideo_alt_regs.csv","dv=lib_social; iv=IDEO + C -> b_inter_m5",TRUE
+"numIdeoPlusCInterPLibSoc",5.57815628e-24,"<0.001","csv/45_ideo_alt_regs.csv","dv=lib_social; iv=IDEO + C -> p_inter_m5",TRUE
+"numIdeoCInterLibSoc",-0.3427469059,"\ensuremath{-}0.343","csv/45_ideo_alt_regs.csv","dv=lib_social; iv=IDEO_c -> b_inter_m5",TRUE
+"numIdeoDiffInterLibSoc",-0.1608219588,"\ensuremath{-}0.161","csv/45_ideo_alt_regs.csv","dv=lib_social; iv=IDEO_diff -> b_inter_m5",TRUE
+"numIdeoStdBetaLibSoc",-1.035677008,"\ensuremath{-}1.036","csv/45_ideo_alt_regs.csv","dv=lib_social; iv=IDEO -> b_ideo_m4_std",TRUE
+"numIdeoPlusCBetaCLibEcon",0.4074477894,"0.407","csv/45_ideo_alt_regs.csv","dv=lib_economic; iv=IDEO + C -> b_C_m4",TRUE
+"numIdeoPlusCBetaIdeoLibEcon",1.794540885,"1.795","csv/45_ideo_alt_regs.csv","dv=lib_economic; iv=IDEO + C -> b_ideo_m4",TRUE
+"numIdeoPlusCInterLibEcon",0.09264308779,"0.093","csv/45_ideo_alt_regs.csv","dv=lib_economic; iv=IDEO + C -> b_inter_m5",TRUE
+"numIdeoPlusCInterPLibEcon",0.0423325345,"0.042","csv/45_ideo_alt_regs.csv","dv=lib_economic; iv=IDEO + C -> p_inter_m5",TRUE
+"numIdeoCInterLibEcon",0.1510828062,"0.151","csv/45_ideo_alt_regs.csv","dv=lib_economic; iv=IDEO_c -> b_inter_m5",TRUE
+"numIdeoDiffInterLibEcon",0.008699957732,"0.009","csv/45_ideo_alt_regs.csv","dv=lib_economic; iv=IDEO_diff -> b_inter_m5",TRUE
+"numIdeoStdBetaLibEcon",0.8111398221,"0.811","csv/45_ideo_alt_regs.csv","dv=lib_economic; iv=IDEO -> b_ideo_m4_std",TRUE
+"numIdeoPlusCBetaCLibFin",0.312059815,"0.312","csv/45_ideo_alt_regs.csv","dv=lib_financial_market; iv=IDEO + C -> b_C_m4",TRUE
+"numIdeoPlusCBetaIdeoLibFin",1.575112033,"1.575","csv/45_ideo_alt_regs.csv","dv=lib_financial_market; iv=IDEO + C -> b_ideo_m4",TRUE
+"numIdeoPlusCInterLibFin",-0.006436889536,"\ensuremath{-}0.006","csv/45_ideo_alt_regs.csv","dv=lib_financial_market; iv=IDEO + C -> b_inter_m5",TRUE
+"numIdeoPlusCInterPLibFin",0.8700711779,"0.870","csv/45_ideo_alt_regs.csv","dv=lib_financial_market; iv=IDEO + C -> p_inter_m5",TRUE
+"numIdeoCInterLibFin",-0.002742245318,"\ensuremath{-}0.003","csv/45_ideo_alt_regs.csv","dv=lib_financial_market; iv=IDEO_c -> b_inter_m5",TRUE
+"numIdeoDiffInterLibFin",-0.1139385633,"\ensuremath{-}0.114","csv/45_ideo_alt_regs.csv","dv=lib_financial_market; iv=IDEO_diff -> b_inter_m5",TRUE
+"numIdeoStdBetaLibFin",0.7093315102,"0.709","csv/45_ideo_alt_regs.csv","dv=lib_financial_market; iv=IDEO -> b_ideo_m4_std",TRUE
+"numRightLibEconR",0.1455655056,"0.15","csv/45_right_vs_lib.csv","lib=lib_economic -> r_R_pooled",TRUE
+"numRightLibEconRWithin",0.1758975307,"0.18","csv/45_right_vs_lib.csv","lib=lib_economic -> r_R_within_cy",TRUE
+"numRightLibEconRPartialPop",0.3871584786,"0.39","csv/45_right_vs_lib.csv","lib=lib_economic -> r_R_partial_POP",TRUE
+"numRightLibEconRPartialPopL",-0.1382257423,"\ensuremath{-}0.14","csv/45_right_vs_lib.csv","lib=lib_economic -> r_R_partial_POP_L",TRUE
+"numRightLibSocR",-0.722460017,"\ensuremath{-}0.72","csv/45_right_vs_lib.csv","lib=lib_social -> r_R_pooled",TRUE
+"numLeftLibEconR",-0.7643012416,"\ensuremath{-}0.76","csv/45_right_vs_lib.csv","lib=lib_economic -> r_L_pooled",TRUE
+"numRightRegBetaR",-0.1196655036,"\ensuremath{-}0.120","csv/45_right_regs.csv","model=a; term=R -> estimate",TRUE
+"numRightRegBetaRCmpId",-0.08806153808,"\ensuremath{-}0.088","csv/45_right_regs.csv","model=b; term=R -> estimate",TRUE
+"numRightRegBetaRCmpEcon",-0.09381185269,"\ensuremath{-}0.094","csv/45_right_regs.csv","model=c; term=R -> estimate",TRUE
+"numRightRegProtOnR",0.1620950024,"0.162","csv/45_right_regs.csv","model=d; term=per406 -> estimate",TRUE
+"numRightRegMultiOnR",0.3754689592,"0.375","csv/45_right_regs.csv","model=d; term=per608 -> estimate",TRUE
+"numRightQuoteIdentityPct",,"\textit{n/a (restricted)}","csv/45_right_quote_classes.csv","",FALSE
+"numRightQuoteEconPct",,"\textit{n/a (restricted)}","csv/45_right_quote_classes.csv","",FALSE
+"numRightQuoteBothPct",,"\textit{n/a (restricted)}","csv/45_right_quote_classes.csv","",FALSE
+"numRightQuoteNeitherPct",,"\textit{n/a (restricted)}","csv/45_right_quote_classes.csv","",FALSE
+"numRightQuoteCtxIdentityPct",,"\textit{n/a (restricted)}","csv/45_right_quote_classes.csv","",FALSE
+"numRightQuoteCtxEconPct",,"\textit{n/a (restricted)}","csv/45_right_quote_classes.csv","",FALSE
+"numRightQuoteN",,"\textit{n/a (restricted)}","csv/45_right_quote_classes.csv","",FALSE
+"numRightQuoteProtectN",,"\textit{n/a (restricted)}","csv/45_right_protect_quotes.csv","",FALSE
+"numRightQuoteProtectPct",,"\textit{n/a (restricted)}","csv/45_right_protect_quotes.csv","",FALSE
+"numRightQuoteCtxBothPct",,"\textit{n/a (restricted)}","csv/45_right_quote_classes.csv","",FALSE
+"numRightQuoteCtxNeitherPct",,"\textit{n/a (restricted)}","csv/45_right_quote_classes.csv","",FALSE
+"numRightCorPerSixOhOne",0.5088852301,"0.51","csv/45_cmp_category_cor.csv","cat=per601 -> r_R",TRUE
+"numLibEconCorPerSixOhOne",0.01347925633,"0.01","csv/45_cmp_category_cor.csv","cat=per601 -> r_libecon",TRUE
+"numRightCorPerSixOhEight",0.3459695836,"0.35","csv/45_cmp_category_cor.csv","cat=per608 -> r_R",TRUE
+"numLibEconCorPerSixOhEight",0.0278341485,"0.03","csv/45_cmp_category_cor.csv","cat=per608 -> r_libecon",TRUE
+"numRightCorPerFourOhSix",0.1847591369,"0.18","csv/45_cmp_category_cor.csv","cat=per406 -> r_R",TRUE
+"numLibEconCorPerFourOhSix",-0.1552985039,"\ensuremath{-}0.16","csv/45_cmp_category_cor.csv","cat=per406 -> r_libecon",TRUE
+"numRightCorPerFourOhSeven",0.01516350585,"0.02","csv/45_cmp_category_cor.csv","cat=per407 -> r_R",TRUE
+"numLibEconCorPerFourOhSeven",0.2011525062,"0.20","csv/45_cmp_category_cor.csv","cat=per407 -> r_libecon",TRUE
+"numRightCorPerFourOhOne",0.1893853867,"0.19","csv/45_cmp_category_cor.csv","cat=per401 -> r_R",TRUE
+"numLibEconCorPerFourOhOne",0.4498806746,"0.45","csv/45_cmp_category_cor.csv","cat=per401 -> r_libecon",TRUE
+"numRightCorPerOneOhNine",0.1860744232,"0.19","csv/45_cmp_category_cor.csv","cat=per109 -> r_R",TRUE
+"numLibEconCorPerOneOhNine",-0.09855709349,"\ensuremath{-}0.10","csv/45_cmp_category_cor.csv","cat=per109 -> r_libecon",TRUE
+"numRightCorPerOneTen",0.2109232268,"0.21","csv/45_cmp_category_cor.csv","cat=per110 -> r_R",TRUE
+"numLibEconCorPerOneTen",-0.1746807025,"\ensuremath{-}0.17","csv/45_cmp_category_cor.csv","cat=per110 -> r_libecon",TRUE
+"numAbsIdeoRPop",0.2592816657,"0.26","csv/45_abs_ideo_cor.csv","block=pooled r(|IDEO|, var); var=POP -> value",TRUE
+"numAbsIdeoRIdeo",-0.4712722319,"\ensuremath{-}0.47","csv/45_abs_ideo_cor.csv","block=pooled r(|IDEO|, var); var=IDEO -> value",TRUE
+"numAbsIdeoRPopWithin",0.3269894461,"0.33","csv/45_abs_ideo_cor.csv","block=within country-year r(|IDEO|, var); var=POP -> value",TRUE
+"numAbsIdeoBetaPopLib",-0.4380375472,"\ensuremath{-}0.438","csv/45_abs_ideo_regs.csv","dv=liberalism_overall; model=c4_abs; term=POP -> estimate",TRUE
+"numAbsIdeoBetaIdeoLib",-0.1097689414,"\ensuremath{-}0.110","csv/45_abs_ideo_regs.csv","dv=liberalism_overall; model=c4_abs; term=IDEO -> estimate",TRUE
+"numAbsIdeoBetaLib",-0.6984735407,"\ensuremath{-}0.698","csv/45_abs_ideo_regs.csv","dv=liberalism_overall; model=c4_abs; term=ABS -> estimate",TRUE
+"numAbsIdeoBetaSeLib",0.1366440471,"0.137","csv/45_abs_ideo_regs.csv","dv=liberalism_overall; model=c4_abs; term=ABS -> se",TRUE
+"numAbsIdeoInterLib",-0.07338979773,"\ensuremath{-}0.073","csv/45_abs_ideo_regs.csv","dv=liberalism_overall; model=c5_abs; term=POP:IDEO -> estimate",TRUE
+"numAbsIdeoInterPLib",0.07736733082,"0.077","csv/45_abs_ideo_regs.csv","dv=liberalism_overall; model=c5_abs; term=POP:IDEO -> p",TRUE
+"numAbsIdeoLeftExtLib",-0.5887045993,"\ensuremath{-}0.589","csv/45_abs_ideo_regs.csv","dv=liberalism_overall; model=sym; term=L_ext -> estimate",TRUE
+"numAbsIdeoLeftExtPLib",2.301734947e-07,"<0.001","csv/45_abs_ideo_regs.csv","dv=liberalism_overall; model=sym; term=L_ext -> p",TRUE
+"numAbsIdeoRightExtLib",-0.8082424821,"\ensuremath{-}0.808","csv/45_abs_ideo_regs.csv","dv=liberalism_overall; model=sym; term=R_ext -> estimate",TRUE
+"numAbsIdeoRightExtPLib",6.679682557e-05,"<0.001","csv/45_abs_ideo_regs.csv","dv=liberalism_overall; model=sym; term=R_ext -> p",TRUE
+"numAbsIdeoBetaPopLibPol",-0.3510103713,"\ensuremath{-}0.351","csv/45_abs_ideo_regs.csv","dv=lib_political; model=c4_abs; term=POP -> estimate",TRUE
+"numAbsIdeoBetaIdeoLibPol",-0.700494412,"\ensuremath{-}0.700","csv/45_abs_ideo_regs.csv","dv=lib_political; model=c4_abs; term=IDEO -> estimate",TRUE
+"numAbsIdeoBetaLibPol",-0.4380815081,"\ensuremath{-}0.438","csv/45_abs_ideo_regs.csv","dv=lib_political; model=c4_abs; term=ABS -> estimate",TRUE
+"numAbsIdeoBetaSeLibPol",0.1310096274,"0.131","csv/45_abs_ideo_regs.csv","dv=lib_political; model=c4_abs; term=ABS -> se",TRUE
+"numAbsIdeoInterLibPol",-0.1374425841,"\ensuremath{-}0.137","csv/45_abs_ideo_regs.csv","dv=lib_political; model=c5_abs; term=POP:IDEO -> estimate",TRUE
+"numAbsIdeoInterPLibPol",0.003174061128,"0.003","csv/45_abs_ideo_regs.csv","dv=lib_political; model=c5_abs; term=POP:IDEO -> p",TRUE
+"numAbsIdeoLeftExtLibPol",0.262412904,"0.262","csv/45_abs_ideo_regs.csv","dv=lib_political; model=sym; term=L_ext -> estimate",TRUE
+"numAbsIdeoLeftExtPLibPol",0.01472541036,"0.015","csv/45_abs_ideo_regs.csv","dv=lib_political; model=sym; term=L_ext -> p",TRUE
+"numAbsIdeoRightExtLibPol",-1.13857592,"\ensuremath{-}1.139","csv/45_abs_ideo_regs.csv","dv=lib_political; model=sym; term=R_ext -> estimate",TRUE
+"numAbsIdeoRightExtPLibPol",1.391669357e-08,"<0.001","csv/45_abs_ideo_regs.csv","dv=lib_political; model=sym; term=R_ext -> p",TRUE
+"numAbsIdeoBetaPopLibSoc",-0.3108880799,"\ensuremath{-}0.311","csv/45_abs_ideo_regs.csv","dv=lib_social; model=c4_abs; term=POP -> estimate",TRUE
+"numAbsIdeoBetaIdeoLibSoc",-2.549645823,"\ensuremath{-}2.550","csv/45_abs_ideo_regs.csv","dv=lib_social; model=c4_abs; term=IDEO -> estimate",TRUE
+"numAbsIdeoBetaLibSoc",-0.8047402499,"\ensuremath{-}0.805","csv/45_abs_ideo_regs.csv","dv=lib_social; model=c4_abs; term=ABS -> estimate",TRUE
+"numAbsIdeoBetaSeLibSoc",0.165792224,"0.166","csv/45_abs_ideo_regs.csv","dv=lib_social; model=c4_abs; term=ABS -> se",TRUE
+"numAbsIdeoInterLibSoc",-0.3687695159,"\ensuremath{-}0.369","csv/45_abs_ideo_regs.csv","dv=lib_social; model=c5_abs; term=POP:IDEO -> estimate",TRUE
+"numAbsIdeoInterPLibSoc",7.736150544e-14,"<0.001","csv/45_abs_ideo_regs.csv","dv=lib_social; model=c5_abs; term=POP:IDEO -> p",TRUE
+"numAbsIdeoLeftExtLibSoc",1.744905573,"1.745","csv/45_abs_ideo_regs.csv","dv=lib_social; model=sym; term=L_ext -> estimate",TRUE
+"numAbsIdeoLeftExtPLibSoc",5.971753069e-38,"<0.001","csv/45_abs_ideo_regs.csv","dv=lib_social; model=sym; term=L_ext -> p",TRUE
+"numAbsIdeoRightExtLibSoc",-3.354386073,"\ensuremath{-}3.354","csv/45_abs_ideo_regs.csv","dv=lib_social; model=sym; term=R_ext -> estimate",TRUE
+"numAbsIdeoRightExtPLibSoc",4.296302337e-35,"<0.001","csv/45_abs_ideo_regs.csv","dv=lib_social; model=sym; term=R_ext -> p",TRUE
+"numAbsIdeoBetaPopLibEcon",-0.5313535339,"\ensuremath{-}0.531","csv/45_abs_ideo_regs.csv","dv=lib_economic; model=c4_abs; term=POP -> estimate",TRUE
+"numAbsIdeoBetaIdeoLibEcon",1.660509182,"1.661","csv/45_abs_ideo_regs.csv","dv=lib_economic; model=c4_abs; term=IDEO -> estimate",TRUE
+"numAbsIdeoBetaLibEcon",-0.7478474619,"\ensuremath{-}0.748","csv/45_abs_ideo_regs.csv","dv=lib_economic; model=c4_abs; term=ABS -> estimate",TRUE
+"numAbsIdeoBetaSeLibEcon",0.1766852289,"0.177","csv/45_abs_ideo_regs.csv","dv=lib_economic; model=c4_abs; term=ABS -> se",TRUE
+"numAbsIdeoInterLibEcon",0.1690976335,"0.169","csv/45_abs_ideo_regs.csv","dv=lib_economic; model=c5_abs; term=POP:IDEO -> estimate",TRUE
+"numAbsIdeoInterPLibEcon",0.000802081636,"<0.001","csv/45_abs_ideo_regs.csv","dv=lib_economic; model=c5_abs; term=POP:IDEO -> p",TRUE
+"numAbsIdeoLeftExtLibEcon",-2.408356644,"\ensuremath{-}2.408","csv/45_abs_ideo_regs.csv","dv=lib_economic; model=sym; term=L_ext -> estimate",TRUE
+"numAbsIdeoLeftExtPLibEcon",1.778811011e-49,"<0.001","csv/45_abs_ideo_regs.csv","dv=lib_economic; model=sym; term=L_ext -> p",TRUE
+"numAbsIdeoRightExtLibEcon",0.91266172,"0.913","csv/45_abs_ideo_regs.csv","dv=lib_economic; model=sym; term=R_ext -> estimate",TRUE
+"numAbsIdeoRightExtPLibEcon",0.0003045428906,"<0.001","csv/45_abs_ideo_regs.csv","dv=lib_economic; model=sym; term=R_ext -> p",TRUE
+"numAbsIdeoBetaPopLibFin",-0.5782840284,"\ensuremath{-}0.578","csv/45_abs_ideo_regs.csv","dv=lib_financial_market; model=c4_abs; term=POP -> estimate",TRUE
+"numAbsIdeoBetaIdeoLibFin",1.427863299,"1.428","csv/45_abs_ideo_regs.csv","dv=lib_financial_market; model=c4_abs; term=IDEO -> estimate",TRUE
+"numAbsIdeoBetaLibFin",-0.7217126978,"\ensuremath{-}0.722","csv/45_abs_ideo_regs.csv","dv=lib_financial_market; model=c4_abs; term=ABS -> estimate",TRUE
+"numAbsIdeoBetaSeLibFin",0.1754929711,"0.175","csv/45_abs_ideo_regs.csv","dv=lib_financial_market; model=c4_abs; term=ABS -> se",TRUE
+"numAbsIdeoInterLibFin",0.05651435156,"0.057","csv/45_abs_ideo_regs.csv","dv=lib_financial_market; model=c5_abs; term=POP:IDEO -> estimate",TRUE
+"numAbsIdeoInterPLibFin",0.1870905697,"0.187","csv/45_abs_ideo_regs.csv","dv=lib_financial_market; model=c5_abs; term=POP:IDEO -> p",TRUE
+"numAbsIdeoLeftExtLibFin",-2.149575997,"\ensuremath{-}2.150","csv/45_abs_ideo_regs.csv","dv=lib_financial_market; model=sym; term=L_ext -> estimate",TRUE
+"numAbsIdeoLeftExtPLibFin",3.709835181e-44,"<0.001","csv/45_abs_ideo_regs.csv","dv=lib_financial_market; model=sym; term=L_ext -> p",TRUE
+"numAbsIdeoRightExtLibFin",0.7061506013,"0.706","csv/45_abs_ideo_regs.csv","dv=lib_financial_market; model=sym; term=R_ext -> estimate",TRUE
+"numAbsIdeoRightExtPLibFin",0.005398623666,"0.005","csv/45_abs_ideo_regs.csv","dv=lib_financial_market; model=sym; term=R_ext -> p",TRUE
+"numPopRRile",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNRile",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopRRileLogit",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNRileLogit",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopRChesLrgen",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNChesLrgen",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopRChesLrecon",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNChesLrecon",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopRChesGaltan",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNChesGaltan",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopRParlgov",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNParlgov",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoAucFarRight",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoAucFarRightN",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopAucPopulistN",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numHaloGptJoint",-0.2393978203,"\ensuremath{-}0.239","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=gpt41mini; spec=OLS; stat=bj -> estimate",TRUE
+"numHaloGptSeparate",-0.3397794798,"\ensuremath{-}0.340","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=gpt41mini; spec=OLS; stat=bs -> estimate",TRUE
+"numHaloGptRatio",1.419308995,"1.42","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=gpt41mini; spec=OLS; stat=ratio -> estimate",TRUE
+"numHaloGptRatioLo",1.041221554,"1.04","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=gpt41mini; spec=OLS; stat=ratio -> ci_lo",TRUE
+"numHaloGptRatioHi",2.353947759,"2.35","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=gpt41mini; spec=OLS; stat=ratio -> ci_hi",TRUE
+"numHaloGptN",180,"180","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=gpt41mini; spec=OLS; stat=ratio -> n",TRUE
+"numHaloGptFeJoint",-0.1998975501,"\ensuremath{-}0.200","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=gpt41mini; spec=country + decade FE; stat=bj -> estimate",TRUE
+"numHaloGptFeSeparate",-0.3154075674,"\ensuremath{-}0.315","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=gpt41mini; spec=country + decade FE; stat=bs -> estimate",TRUE
+"numHaloGptFeRatio",1.577846088,"1.58","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=gpt41mini; spec=country + decade FE; stat=ratio -> estimate",TRUE
+"numHaloGptFeRatioLo",0.9283548998,"0.93","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=gpt41mini; spec=country + decade FE; stat=ratio -> ci_lo",TRUE
+"numHaloGptFeRatioHi",4.330865159,"4.33","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=gpt41mini; spec=country + decade FE; stat=ratio -> ci_hi",TRUE
+"numHaloGptFeN",180,"180","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=gpt41mini; spec=country + decade FE; stat=ratio -> n",TRUE
+"numHaloSonnetJoint",-0.5568968159,"\ensuremath{-}0.557","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=sonnet; spec=OLS; stat=bj -> estimate",TRUE
+"numHaloSonnetSeparate",-0.6142413805,"\ensuremath{-}0.614","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=sonnet; spec=OLS; stat=bs -> estimate",TRUE
+"numHaloSonnetRatio",1.102971615,"1.10","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=sonnet; spec=OLS; stat=ratio -> estimate",TRUE
+"numHaloSonnetRatioLo",0.92945295,"0.93","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=sonnet; spec=OLS; stat=ratio -> ci_lo",TRUE
+"numHaloSonnetRatioHi",1.263317319,"1.26","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=sonnet; spec=OLS; stat=ratio -> ci_hi",TRUE
+"numHaloSonnetN",47,"47","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=sonnet; spec=OLS; stat=ratio -> n",TRUE
+"numHaloSonnetFeJoint",-0.4105997391,"\ensuremath{-}0.411","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=sonnet; spec=country + decade FE; stat=bj -> estimate",TRUE
+"numHaloSonnetFeSeparate",-0.3603509826,"\ensuremath{-}0.360","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=sonnet; spec=country + decade FE; stat=bs -> estimate",TRUE
+"numHaloSonnetFeRatio",0.8776210706,"0.88","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=sonnet; spec=country + decade FE; stat=ratio -> estimate",TRUE
+"numHaloSonnetFeRatioLo",-8.744355981,"\ensuremath{-}8.74","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=sonnet; spec=country + decade FE; stat=ratio -> ci_lo",TRUE
+"numHaloSonnetFeRatioHi",9.482842219,"9.48","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=sonnet; spec=country + decade FE; stat=ratio -> ci_hi",TRUE
+"numHaloSonnetFeN",47,"47","ROOT/output/independence/tables/t3_slope_bootstrap.csv","model=sonnet; spec=country + decade FE; stat=ratio -> n",TRUE
+"numQlenGtEightSonnetPct",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numQlenMaxSonnet",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numQlenSpansSonnet",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numContextLenMaxSonnet",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numContextLenMedianSonnet",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numContextGtFiftySonnetPct",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numQlenGtEightGptPct",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numQlenMaxGpt",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numQlenSpansGpt",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numContextLenMaxGpt",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numContextLenMedianGpt",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numContextGtFiftyGptPct",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numQlenGtEightGeminiPct",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numQlenMaxGemini",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numQlenSpansGemini",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numContextLenMaxGemini",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numContextLenMedianGemini",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numContextGtFiftyGeminiPct",,"\textit{n/a (restricted)}","csv/36_quote_length_audit.csv","",FALSE
+"numPopRPoppaPopulism",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNPoppaPopulism",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoRPoppaPopulism",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoNPoppaPopulism",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopRPoppaLr",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNPoppaLr",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoRPoppaLr",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoNPoppaLr",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopRPoppaLrecon",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNPoppaLrecon",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoRPoppaLrecon",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoNPoppaLrecon",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopRGpsPopulism",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNGpsPopulism",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoRGpsPopulism",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoNGpsPopulism",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopRGpsEconLr",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNGpsEconLr",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoRGpsEconLr",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoNGpsEconLr",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopRGpsSocial",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNGpsSocial",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoRGpsSocial",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoNGpsSocial",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopRCelicoRhet",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNCelicoRhet",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoRCelicoRhet",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoNCelicoRhet",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopRCelicoIde",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numPopNCelicoIde",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoRCelicoIde",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numIdeoNCelicoIde",,"\textit{n/a (restricted)}","csv/44_external_validity_table.csv","",FALSE
+"numMatchChesParties",,"\textit{n/a (restricted)}","csv/44_external_matches.csv","",FALSE
+"numMatchChesManifestos",,"\textit{n/a (restricted)}","csv/44_external_matches.csv","",FALSE
+"numMatchParlgovParties",,"\textit{n/a (restricted)}","csv/44_external_matches.csv","",FALSE
+"numMatchParlgovManifestos",,"\textit{n/a (restricted)}","csv/44_external_matches.csv","",FALSE
+"numMatchPopulistParties",,"\textit{n/a (restricted)}","csv/44_external_matches.csv","",FALSE
+"numMatchPopulistManifestos",,"\textit{n/a (restricted)}","csv/44_external_matches.csv","",FALSE
+"numMatchPoppaParties",,"\textit{n/a (restricted)}","csv/44_external_matches.csv","",FALSE
+"numMatchPoppaManifestos",,"\textit{n/a (restricted)}","csv/44_external_matches.csv","",FALSE
+"numMatchGpsParties",,"\textit{n/a (restricted)}","csv/44_external_matches.csv","",FALSE
+"numMatchGpsManifestos",,"\textit{n/a (restricted)}","csv/44_external_matches.csv","",FALSE
+"numMatchCelicoParties",,"\textit{n/a (restricted)}","csv/44_external_matches.csv","",FALSE
+"numMatchCelicoManifestos",,"\textit{n/a (restricted)}","csv/44_external_matches.csv","",FALSE
+"numOverlapIdenticalSonnetPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapJaccardSonnetPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapSpanSonnetPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapNearSonnetPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapNearNullSonnetPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapIdenticalGptPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapJaccardGptPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapSpanGptPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapNearGptPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapNearNullGptPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapIdenticalGeminiPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapJaccardGeminiPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapSpanGeminiPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapNearGeminiPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numOverlapNearNullGeminiPct",,"\textit{n/a (restricted)}","validation/independence/tables/t2a_evidence_overlap.csv","",FALSE
+"numAttenLibPct",0.6160594619,"61.6","validation/independence/tables/t1_attenuation_benchmark.csv","cmp=CMP_LIB -> share_of_expected",TRUE
+"numAttenLibSlopeCmp",-0.1439158398,"\ensuremath{-}0.144","validation/independence/tables/t1_attenuation_benchmark.csv","cmp=CMP_LIB -> b_cmp",TRUE
+"numAttenPolPct",-1.757394555,"\ensuremath{-}175.7","validation/independence/tables/t1_attenuation_benchmark.csv","cmp=CMP_POL -> share_of_expected",TRUE
+"numAttenPolSlopeCmp",0.1341704233,"0.134","validation/independence/tables/t1_attenuation_benchmark.csv","cmp=CMP_POL -> b_cmp",TRUE
+"numAttenSocPct",-0.3899797133,"\ensuremath{-}39.0","validation/independence/tables/t1_attenuation_benchmark.csv","cmp=CMP_SOC -> share_of_expected",TRUE
+"numAttenSocSlopeCmp",0.063676354,"0.064","validation/independence/tables/t1_attenuation_benchmark.csv","cmp=CMP_SOC -> b_cmp",TRUE
+"numAttenEconPct",0.9075983204,"90.8","validation/independence/tables/t1_attenuation_benchmark.csv","cmp=CMP_ECON -> share_of_expected",TRUE
+"numAttenEconSlopeCmp",-0.380306315,"\ensuremath{-}0.380","validation/independence/tables/t1_attenuation_benchmark.csv","cmp=CMP_ECON -> b_cmp",TRUE
+"numAttenEconMarketPct",0.9851946563,"98.5","validation/independence/tables/t1_attenuation_benchmark.csv","cmp=CMP_ECON_ordo -> share_of_expected",TRUE
+"numAttenEconMarketSlopeCmp",-0.4323190268,"\ensuremath{-}0.432","validation/independence/tables/t1_attenuation_benchmark.csv","cmp=CMP_ECON_ordo -> b_cmp",TRUE
+"numAttenEconWelfarePct",0.7525376621,"75.3","validation/independence/tables/t1_attenuation_benchmark.csv","cmp=CMP_ECON_welf -> share_of_expected",TRUE
+"numAttenEconWelfareSlopeCmp",-0.3112164253,"\ensuremath{-}0.311","validation/independence/tables/t1_attenuation_benchmark.csv","cmp=CMP_ECON_welf -> b_cmp",TRUE
+"numPopulistDummyLib",-0.9554863388,"\ensuremath{-}0.955","validation/independence/tables/t4_populist_regressions.csv","dv=liberalism_overall; controls=none -> estimate",TRUE
+"numPopulistDummyPLib",1.070924666e-13,"<0.001","validation/independence/tables/t4_populist_regressions.csv","dv=liberalism_overall; controls=none -> p",TRUE
+"numPopulistDummyFarLib",-0.1555108881,"\ensuremath{-}0.156","validation/independence/tables/t4_populist_regressions.csv","dv=liberalism_overall; controls=+ PopuList far-right/far-left -> estimate",TRUE
+"numPopulistDummyFarPLib",0.2226771368,"0.223","validation/independence/tables/t4_populist_regressions.csv","dv=liberalism_overall; controls=+ PopuList far-right/far-left -> p",TRUE
+"numPopulistDummyLibPol",-0.9832082745,"\ensuremath{-}0.983","validation/independence/tables/t4_populist_regressions.csv","dv=lib_political; controls=none -> estimate",TRUE
+"numPopulistDummyPLibPol",4.963732132e-12,"<0.001","validation/independence/tables/t4_populist_regressions.csv","dv=lib_political; controls=none -> p",TRUE
+"numPopulistDummyFarLibPol",-0.1535599747,"\ensuremath{-}0.154","validation/independence/tables/t4_populist_regressions.csv","dv=lib_political; controls=+ PopuList far-right/far-left -> estimate",TRUE
+"numPopulistDummyFarPLibPol",0.2939366222,"0.294","validation/independence/tables/t4_populist_regressions.csv","dv=lib_political; controls=+ PopuList far-right/far-left -> p",TRUE
+"numPopulistDummyLibSoc",-1.220045934,"\ensuremath{-}1.220","validation/independence/tables/t4_populist_regressions.csv","dv=lib_social; controls=none -> estimate",TRUE
+"numPopulistDummyPLibSoc",1.309371318e-16,"<0.001","validation/independence/tables/t4_populist_regressions.csv","dv=lib_social; controls=none -> p",TRUE
+"numPopulistDummyFarLibSoc",-0.3245957067,"\ensuremath{-}0.325","validation/independence/tables/t4_populist_regressions.csv","dv=lib_social; controls=+ PopuList far-right/far-left -> estimate",TRUE
+"numPopulistDummyFarPLibSoc",0.01267851254,"0.013","validation/independence/tables/t4_populist_regressions.csv","dv=lib_social; controls=+ PopuList far-right/far-left -> p",TRUE
+"numPopulistDummyLibEcon",-0.347118758,"\ensuremath{-}0.347","validation/independence/tables/t4_populist_regressions.csv","dv=lib_economic; controls=none -> estimate",TRUE
+"numPopulistDummyPLibEcon",0.008383255195,"0.008","validation/independence/tables/t4_populist_regressions.csv","dv=lib_economic; controls=none -> p",TRUE
+"numPopulistDummyFarLibEcon",-0.001113015333,"\ensuremath{-}0.001","validation/independence/tables/t4_populist_regressions.csv","dv=lib_economic; controls=+ PopuList far-right/far-left -> estimate",TRUE
+"numPopulistDummyFarPLibEcon",0.9930795629,"0.993","validation/independence/tables/t4_populist_regressions.csv","dv=lib_economic; controls=+ PopuList far-right/far-left -> p",TRUE
+"numPopulistDummyLibFin",-0.4872353866,"\ensuremath{-}0.487","validation/independence/tables/t4_populist_regressions.csv","dv=lib_financial_market; controls=none -> estimate",TRUE
+"numPopulistDummyPLibFin",8.550566683e-05,"<0.001","validation/independence/tables/t4_populist_regressions.csv","dv=lib_financial_market; controls=none -> p",TRUE
+"numPopulistDummyFarLibFin",-0.04237783351,"\ensuremath{-}0.042","validation/independence/tables/t4_populist_regressions.csv","dv=lib_financial_market; controls=+ PopuList far-right/far-left -> estimate",TRUE
+"numPopulistDummyFarPLibFin",0.720483968,"0.720","validation/independence/tables/t4_populist_regressions.csv","dv=lib_financial_market; controls=+ PopuList far-right/far-left -> p",TRUE
+"numATenChunkRecords",20053,"20{,}053","csv/41_A10_computational_summary.csv","item=chunk records, all three models -> value",TRUE
+"numATenVerifiedPct",82.96414502,"83.0","csv/41_A10_computational_summary.csv","item=share of dimension judgements with status verified (10 dims, %) -> value",TRUE
+"numATenSpanValidPct",75.4650177,"75.5","csv/41_A10_computational_summary.csv","item=share verified and passing span validation (10 dims, %) -> value",TRUE
+"numATenNoEvidencePct",14.27068269,"14.3","csv/41_A10_computational_summary.csv","item=share no_evidence (%) -> value",TRUE
+"numATenMixedPct",2.765172293,"2.8","csv/41_A10_computational_summary.csv","item=share mixed (%) -> value",TRUE
+"numParseLossChunks",,"\textit{n/a (restricted)}","csv/36_parse_loss_counts.csv","",FALSE
+"numParseLossChunkDims",,"\textit{n/a (restricted)}","csv/36_parse_loss_counts.csv","",FALSE
+"numParseLossChunksAllDims",,"\textit{n/a (restricted)}","csv/36_parse_loss_counts.csv","",FALSE
+"numParseLossLenient",,"\textit{n/a (restricted)}","csv/36_parse_loss_counts.csv","",FALSE
+"numTopicPassLowPct",0.4408102903,"44.1","csv/40_topic_check_diagnostic.csv","score_band=0-2 -> sum(n * topic_pass) / sum(n), all models and dims",TRUE
+"numTopicPassMidLowPct",0.6117719552,"61.2","csv/40_topic_check_diagnostic.csv","score_band=3-4 -> sum(n * topic_pass) / sum(n), all models and dims",TRUE
+"numTopicPassMidHighPct",0.7556459004,"75.6","csv/40_topic_check_diagnostic.csv","score_band=5-6 -> sum(n * topic_pass) / sum(n), all models and dims",TRUE
+"numTopicPassHighPct",0.8881253721,"88.8","csv/40_topic_check_diagnostic.csv","score_band=7-10 -> sum(n * topic_pass) / sum(n), all models and dims",TRUE
+"numRecheckSpans",,"\textit{n/a (restricted)}","csv/36_quote_check_recomputed.csv","",FALSE
+"numRecheckDisagree",,"\textit{n/a (restricted)}","csv/36_quote_check_recomputed.csv","",FALSE
+"numInterRobSigNegLib",,"\textit{n/a (restricted)}","csv/44_interaction_robustness.csv","",FALSE
+"numInterRobSigPosLib",,"\textit{n/a (restricted)}","csv/44_interaction_robustness.csv","",FALSE
+"numInterRobSigNegLibPol",,"\textit{n/a (restricted)}","csv/44_interaction_robustness.csv","",FALSE
+"numInterRobSigPosLibPol",,"\textit{n/a (restricted)}","csv/44_interaction_robustness.csv","",FALSE
+"numInterRobSigNegLibSoc",,"\textit{n/a (restricted)}","csv/44_interaction_robustness.csv","",FALSE
+"numInterRobSigPosLibSoc",,"\textit{n/a (restricted)}","csv/44_interaction_robustness.csv","",FALSE
+"numInterRobSigNegLibEcon",,"\textit{n/a (restricted)}","csv/44_interaction_robustness.csv","",FALSE
+"numInterRobSigPosLibEcon",,"\textit{n/a (restricted)}","csv/44_interaction_robustness.csv","",FALSE
+"numInterRobSigNegLibFin",,"\textit{n/a (restricted)}","csv/44_interaction_robustness.csv","",FALSE
+"numInterRobSigPosLibFin",,"\textit{n/a (restricted)}","csv/44_interaction_robustness.csv","",FALSE
+"numQlenMedianSonnet",,"\textit{n/a (restricted)}","csv/47_quote_length_dist.csv","",FALSE
+"numQlenPNinetySonnet",,"\textit{n/a (restricted)}","csv/47_quote_length_dist.csv","",FALSE
+"numContextLenPNinetySonnet",,"\textit{n/a (restricted)}","csv/47_quote_length_dist.csv","",FALSE
+"numQlenMedianGpt",,"\textit{n/a (restricted)}","csv/47_quote_length_dist.csv","",FALSE
+"numQlenPNinetyGpt",,"\textit{n/a (restricted)}","csv/47_quote_length_dist.csv","",FALSE
+"numContextLenPNinetyGpt",,"\textit{n/a (restricted)}","csv/47_quote_length_dist.csv","",FALSE
+"numQlenMedianGemini",,"\textit{n/a (restricted)}","csv/47_quote_length_dist.csv","",FALSE
+"numQlenPNinetyGemini",,"\textit{n/a (restricted)}","csv/47_quote_length_dist.csv","",FALSE
+"numContextLenPNinetyGemini",,"\textit{n/a (restricted)}","csv/47_quote_length_dist.csv","",FALSE
+"numValidQuoteOkSonnetPct",,"\textit{n/a (restricted)}","csv/47_validation_by_model.csv","",FALSE
+"numValidQuoteOkGptPct",,"\textit{n/a (restricted)}","csv/47_validation_by_model.csv","",FALSE
+"numValidQuoteOkGeminiPct",,"\textit{n/a (restricted)}","csv/47_validation_by_model.csv","",FALSE
+"numPopRRileSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRChesLrgenSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRParlgovSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRPoppaPopulismSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRPoppaLrSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRGpsPopulismSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRGpsEconLrSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRCelicoRhetSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRCelicoIdeSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRRileSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRChesLrgenSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRParlgovSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRPoppaPopulismSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRPoppaLrSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRGpsPopulismSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRGpsEconLrSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRCelicoRhetSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRCelicoIdeSonnet",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRRileGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRChesLrgenGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRParlgovGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRPoppaPopulismGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRPoppaLrGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRGpsPopulismGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRGpsEconLrGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRCelicoRhetGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRCelicoIdeGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRRileGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRChesLrgenGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRParlgovGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRPoppaPopulismGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRPoppaLrGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRGpsPopulismGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRGpsEconLrGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRCelicoRhetGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRCelicoIdeGpt",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRRileGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRChesLrgenGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRParlgovGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRPoppaPopulismGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRPoppaLrGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRGpsPopulismGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRGpsEconLrGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRCelicoRhetGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPopRCelicoIdeGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRRileGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRChesLrgenGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRParlgovGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRPoppaPopulismGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRPoppaLrGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRGpsPopulismGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRGpsEconLrGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRCelicoRhetGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numIdeoRCelicoIdeGemini",,"\textit{n/a (restricted)}","csv/44_external_validity_by_model.csv","",FALSE
+"numPfePartiesTwoPlus",507,"507","csv/45_partyfe_sample.csv","parties_ge2",TRUE
+"numPfeManifestosTwoPlus",2860,"2{,}860","csv/45_partyfe_sample.csv","manifestos_in_parties_ge2",TRUE
+"numPfeWithinSharePopPct",0.2254736401,"22.5","csv/45_partyfe_decomposition.csv","var=populism_overall -> within_share",TRUE
+"numPfeWithinShareLibPct",0.1670404574,"16.7","csv/45_partyfe_decomposition.csv","var=liberalism_overall -> within_share",TRUE
+"numPfeWithinShareLibEconPct",0.1325374558,"13.3","csv/45_partyfe_decomposition.csv","var=lib_economic -> within_share",TRUE
+"numPfeWithinShareIdeoPct",0.1199836766,"12.0","csv/45_partyfe_decomposition.csv","var=IDEO -> within_share",TRUE
+"numPfeBetaWithinLib",-0.1794732106,"\ensuremath{-}0.179","csv/45_partyfe.csv","dv=liberalism_overall -> b6",TRUE
+"numPfeSeWithinLib",0.01667569645,"0.017","csv/45_partyfe.csv","dv=liberalism_overall -> se6",TRUE
+"numPfeSeWithinCountryLib",0.02009665262,"0.020","csv/45_partyfe.csv","dv=liberalism_overall -> se6_country",TRUE
+"numPfeBetaBetweenLib",-0.5477573061,"\ensuremath{-}0.548","csv/45_partyfe.csv","dv=liberalism_overall -> b_between",TRUE
+"numPfeEffectSdTotalLib",-0.8897770298,"\ensuremath{-}0.890","csv/45_partyfe.csv","dv=liberalism_overall -> eff_1sd_total_col1",TRUE
+"numPfeEffectSdWithinLib",-0.1784736421,"\ensuremath{-}0.178","csv/45_partyfe.csv","dv=liberalism_overall -> eff_1sd_within_col6",TRUE
+"numPfeBetaWithinLibPol",-0.1129948043,"\ensuremath{-}0.113","csv/45_partyfe.csv","dv=lib_political -> b6",TRUE
+"numPfeSeWithinLibPol",0.01663656204,"0.017","csv/45_partyfe.csv","dv=lib_political -> se6",TRUE
+"numPfeSeWithinCountryLibPol",0.0206982776,"0.021","csv/45_partyfe.csv","dv=lib_political -> se6_country",TRUE
+"numPfeBetaBetweenLibPol",-0.4156219143,"\ensuremath{-}0.416","csv/45_partyfe.csv","dv=lib_political -> b_between",TRUE
+"numPfeEffectSdTotalLibPol",-0.6628676245,"\ensuremath{-}0.663","csv/45_partyfe.csv","dv=lib_political -> eff_1sd_total_col1",TRUE
+"numPfeEffectSdWithinLibPol",-0.1123205619,"\ensuremath{-}0.112","csv/45_partyfe.csv","dv=lib_political -> eff_1sd_within_col6",TRUE
+"numPfeBetaWithinLibSoc",-0.1663582032,"\ensuremath{-}0.166","csv/45_partyfe.csv","dv=lib_social -> b6",TRUE
+"numPfeSeWithinLibSoc",0.02921889637,"0.029","csv/45_partyfe.csv","dv=lib_social -> se6",TRUE
+"numPfeSeWithinCountryLibSoc",0.03046812154,"0.030","csv/45_partyfe.csv","dv=lib_social -> se6_country",TRUE
+"numPfeBetaBetweenLibSoc",-0.2840207945,"\ensuremath{-}0.284","csv/45_partyfe.csv","dv=lib_social -> b_between",TRUE
+"numPfeEffectSdTotalLibSoc",-0.4984114289,"\ensuremath{-}0.498","csv/45_partyfe.csv","dv=lib_social -> eff_1sd_total_col1",TRUE
+"numPfeEffectSdWithinLibSoc",-0.1650463061,"\ensuremath{-}0.165","csv/45_partyfe.csv","dv=lib_social -> eff_1sd_within_col6",TRUE
+"numPfeBetaWithinLibEcon",-0.1794264669,"\ensuremath{-}0.179","csv/45_partyfe.csv","dv=lib_economic -> b6",TRUE
+"numPfeSeWithinLibEcon",0.02155962268,"0.022","csv/45_partyfe.csv","dv=lib_economic -> se6",TRUE
+"numPfeSeWithinCountryLibEcon",0.02159274448,"0.022","csv/45_partyfe.csv","dv=lib_economic -> se6_country",TRUE
+"numPfeBetaBetweenLibEcon",-0.7484867567,"\ensuremath{-}0.748","csv/45_partyfe.csv","dv=lib_economic -> b_between",TRUE
+"numPfeEffectSdTotalLibEcon",-1.189928286,"\ensuremath{-}1.190","csv/45_partyfe.csv","dv=lib_economic -> eff_1sd_total_col1",TRUE
+"numPfeEffectSdWithinLibEcon",-0.1784160238,"\ensuremath{-}0.178","csv/45_partyfe.csv","dv=lib_economic -> eff_1sd_within_col6",TRUE
+"numPfeBetaWithinLibFin",-0.2506124201,"\ensuremath{-}0.251","csv/45_partyfe.csv","dv=lib_financial_market -> b6",TRUE
+"numPfeSeWithinLibFin",0.02169989122,"0.022","csv/45_partyfe.csv","dv=lib_financial_market -> se6",TRUE
+"numPfeSeWithinCountryLibFin",0.02284375572,"0.023","csv/45_partyfe.csv","dv=lib_financial_market -> se6_country",TRUE
+"numPfeBetaBetweenLibFin",-0.7840752163,"\ensuremath{-}0.784","csv/45_partyfe.csv","dv=lib_financial_market -> b_between",TRUE
+"numPfeEffectSdTotalLibFin",-1.28405764,"\ensuremath{-}1.284","csv/45_partyfe.csv","dv=lib_financial_market -> eff_1sd_total_col1",TRUE
+"numPfeEffectSdWithinLibFin",-0.2446624783,"\ensuremath{-}0.245","csv/45_partyfe.csv","dv=lib_financial_market -> eff_1sd_within_col6",TRUE
+"numPfeSdPopTotal",1.937293432,"1.94","csv/45_partyfe.csv","dv=liberalism_overall -> sd_pop_total",TRUE
+"numPfeSdPopWithin",0.9944305419,"0.99","csv/45_partyfe.csv","dv=liberalism_overall -> sd_pop_within",TRUE
+"numLlaPopTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaIdeoTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibPolTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibSocTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibEconTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibFinTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaPopTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaIdeoTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibPolTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibSocTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibEconTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibFinTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaPopTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaIdeoTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibPolTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibSocTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibEconTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibFinTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaPopTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaIdeoTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibPolTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibSocTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibEconTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibFinTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaPopTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaIdeoTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibPolTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibSocTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibEconTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibFinTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numLlaLibTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numArDocs",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numArDocsIdeo",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numArDocsLla",,"\textit{n/a (restricted)}","argentina/csv/53_argentina_scores.csv","",FALSE
+"numArMeanPopWorldAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArNWorldAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanIdeoWorldAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibPolWorldAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibSocWorldAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibEconWorldAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibFinWorldAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibWorldAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanPopWorldRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArNWorldRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanIdeoWorldRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibPolWorldRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibSocWorldRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibEconWorldRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibFinWorldRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibWorldRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanPopWorldRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArNWorldRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanIdeoWorldRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibPolWorldRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibSocWorldRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibEconWorldRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibFinWorldRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibWorldRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanPopLatAmAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArNLatAmAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanIdeoLatAmAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibPolLatAmAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibSocLatAmAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibEconLatAmAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibFinLatAmAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibLatAmAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanPopLatAmRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArNLatAmRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanIdeoLatAmRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibPolLatAmRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibSocLatAmRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibEconLatAmRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibFinLatAmRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibLatAmRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanPopLatAmRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArNLatAmRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanIdeoLatAmRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibPolLatAmRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibSocLatAmRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibEconLatAmRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibFinLatAmRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibLatAmRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanPopArgAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArNArgAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanIdeoArgAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibPolArgAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibSocArgAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibEconArgAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibFinArgAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArMeanLibArgAll",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArNArgRight",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numArNArgRightPop",,"\textit{n/a (restricted)}","argentina/csv/53_group_means.csv","",FALSE
+"numLlaPredLibPolTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibPolTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibPolTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibSocTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibSocTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibSocTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibEconTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibEconTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibEconTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibFinTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibFinTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibFinTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibTwentyOne",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibPolTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibPolTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibPolTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibSocTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibSocTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibSocTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibEconTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibEconTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibEconTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibFinTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibFinTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibFinTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibTwentyThreeP",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibPolTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibPolTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibPolTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibSocTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibSocTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibSocTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibEconTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibEconTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibEconTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibFinTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibFinTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibFinTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibTwentyThree",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibPolTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibPolTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibPolTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibSocTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibSocTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibSocTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibEconTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibEconTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibEconTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibFinTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibFinTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibFinTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibTwentyFiveBa",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibPolTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibPolTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibPolTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibSocTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibSocTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibSocTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibEconTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibEconTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibEconTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibFinTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibFinTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibFinTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaPredLibTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidLibTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE
+"numLlaResidSdLibTwentyFiveCf",,"\textit{n/a (restricted)}","argentina/csv/53_predicted_liberalism.csv","",FALSE

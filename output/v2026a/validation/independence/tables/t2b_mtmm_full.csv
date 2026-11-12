@@ -1,0 +1,37 @@
+"level","pop_model","lib_model","same_model","n","r"
+"chunk","sonnet","sonnet",TRUE,5805,-0.638487633
+"chunk","sonnet","gpt41mini",FALSE,6362,-0.5482027029
+"chunk","sonnet","gemini",FALSE,6360,-0.6121055629
+"chunk","gpt41mini","sonnet",FALSE,4265,-0.5159969414
+"chunk","gpt41mini","gpt41mini",TRUE,4780,-0.3408420896
+"chunk","gpt41mini","gemini",FALSE,4782,-0.5088608487
+"chunk","gemini","sonnet",FALSE,4328,-0.5220787231
+"chunk","gemini","gpt41mini",FALSE,4864,-0.5014292494
+"chunk","gemini","gemini",TRUE,4897,-0.5109883441
+"chunk, within-manifesto","sonnet","sonnet",TRUE,3441,-0.2031516232
+"chunk, within-manifesto","sonnet","gpt41mini",FALSE,3441,-0.08186815651
+"chunk, within-manifesto","sonnet","gemini",FALSE,3441,-0.1050155822
+"chunk, within-manifesto","gpt41mini","sonnet",FALSE,3441,-0.1251227592
+"chunk, within-manifesto","gpt41mini","gpt41mini",TRUE,3441,0.1035459844
+"chunk, within-manifesto","gpt41mini","gemini",FALSE,3441,-0.06028586456
+"chunk, within-manifesto","gemini","sonnet",FALSE,3441,-0.1532606346
+"chunk, within-manifesto","gemini","gpt41mini",FALSE,3441,-0.06109738577
+"chunk, within-manifesto","gemini","gemini",TRUE,3441,-0.05669794741
+"manifesto","sonnet","sonnet",TRUE,2834,-0.6722571778
+"manifesto","sonnet","gpt41mini",FALSE,2984,-0.592259671
+"manifesto","sonnet","gemini",FALSE,3110,-0.6483992964
+"manifesto","gpt41mini","sonnet",FALSE,2656,-0.5438464166
+"manifesto","gpt41mini","gpt41mini",TRUE,2831,-0.4154885513
+"manifesto","gpt41mini","gemini",FALSE,2930,-0.554773824
+"manifesto","gemini","sonnet",FALSE,2452,-0.5646949017
+"manifesto","gemini","gpt41mini",FALSE,2625,-0.5584128938
+"manifesto","gemini","gemini",TRUE,2731,-0.5513248682
+"manifesto, within country-year","sonnet","sonnet",TRUE,2060,-0.6951943907
+"manifesto, within country-year","sonnet","gpt41mini",FALSE,2060,-0.594921327
+"manifesto, within country-year","sonnet","gemini",FALSE,2060,-0.6685525903
+"manifesto, within country-year","gpt41mini","sonnet",FALSE,2060,-0.5600803602
+"manifesto, within country-year","gpt41mini","gpt41mini",TRUE,2060,-0.3848415466
+"manifesto, within country-year","gpt41mini","gemini",FALSE,2060,-0.546996964
+"manifesto, within country-year","gemini","sonnet",FALSE,2060,-0.6031600772
+"manifesto, within country-year","gemini","gpt41mini",FALSE,2060,-0.5440259137
+"manifesto, within country-year","gemini","gemini",TRUE,2060,-0.5761338433
