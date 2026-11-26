@@ -41,4 +41,5 @@ preferred-citation:
     - given-names: Sebastian
       family-names: Stöckl
   year: 2026
-  notes: "Working paper. Dataset DOI: tba."
+  url: "https://ssrn.com/abstract=7758858"
+  notes: "Working paper, SSRN. Dataset DOI: tba."
