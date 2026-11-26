@@ -13,7 +13,7 @@ authors:
     email: sebastian.stoeckl@uni.li
     website: "http://www.sebastianstoeckl.com"
 repository-code: "https://github.com/sstoeckl/populism-llm-replication"
-url: "https://sstoeckl.github.io/populism-llm/"
+url: "https://populism-llm.org"
 abstract: >
   Replication code for "The Milei question, or: How liberal are right-wing
   populist parties? A measurement approach using large language models." The
