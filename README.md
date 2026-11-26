@@ -11,6 +11,7 @@ The paper's regressions, the 20,592-specification curve with non-standard errors
 construct-independence tests and every table, figure and number come out of **one script chain**
 (`run_all.R`) that is verified byte for byte against `output/v2026a/MANIFEST.md5` (`R/71_Verify.R`).
 
+- Paper (working paper, SSRN): <https://ssrn.com/abstract=7758858>
 - Companion website: <https://populism-llm.org> — every manifesto with its scores and evidence, the
   paper's results ([The Milei question](https://populism-llm.org/analysis/milei-question.html)),
   the specification curve and the downloads; built from this chain and checked against it
